@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-05-29T10:12:29Z",
+  "cycle_id": "moat-continuous-loop-2026-05-29-c2",
+  "names_attempted": 20,
+  "next_action": "Attach PubChem CID/InChIKey/isomeric SMILES + stereo status (C3).",
+  "resolved": 20,
+  "started_at": "2026-05-29T10:12:29Z",
+  "tool_used": "rxnav_api",
+  "unresolved": []
+}

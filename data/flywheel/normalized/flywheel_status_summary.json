@@ -1,0 +1,23 @@
+{
+  "blocked_count": 2,
+  "closed_gaps": 9,
+  "directionality_gaps_remaining": 46,
+  "directionality_gaps_resolved": 16,
+  "evidence": 74,
+  "evidence_verified_against_spl": 74,
+  "fda_invitro_inhibitor_count": 22,
+  "fda_mechanism_assertions_count": 22,
+  "fda_table_records_count": 392,
+  "generated_at": "2026-05-29T23:56:55Z",
+  "identity_mappings": 20,
+  "isomer_counterfactuals": 4,
+  "mechanism_assertions": 2,
+  "open_gap_count": 9,
+  "open_gaps": 9,
+  "pairs": 64,
+  "pk_records": 7,
+  "reviewed_count": 74,
+  "sources": 75,
+  "structure_records": 5,
+  "task_id": "moat-next5-adversarial-2026-05-29"
+}

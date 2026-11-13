@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Goserelin",
+    "smiles": "CC(C)C[C@H](NC(=O)[C@@H](COC(C)(C)C)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=CC=CC=C12)NC(=O)[C@H](CC1=CN=CN1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NNC(N)=O",
+    "half_life_h": 5.0,
+    "vd_l": 13.6,
+    "clearance_lh": 2.544,
+    "fu": 0.727,
+    "bioavailability": null
+  },
+  {
+    "name": "Cetrorelix",
+    "smiles": "CC(C)C[C@H](NC(=O)[C@@H](CCCNC(N)=O)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@@H](CC1=CN=CC=C1)NC(=O)[C@@H](CC1=CC=C(Cl)C=C1)NC(=O)[C@@H](CC1=CC2=CC=CC=C2C=C1)NC(C)=O)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O",
+    "half_life_h": 62.8,
+    "vd_l": 81.19999999999999,
+    "clearance_lh": 0.0768,
+    "fu": 0.14,
+    "bioavailability": null
+  },
+  {
+    "name": "Cyclosporine",
+    "smiles": "CC[C@@H]1NC(=O)[C@H]([C@H](O)[C@H](C)C\\C=C\\C)N(C)C(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](NC(=O)[C@H](CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C",
+    "half_life_h": 19.0,
+    "vd_l": 560.0,
+    "clearance_lh": 22.5,
+    "fu": 0.5,
+    "bioavailability": null
+  },
+  {
+    "name": "Calcitriol",
+    "smiles": "C[C@H](CCCC(C)(C)O)[C@@]1([H])CC[C@@]2([H])\\C(CCC[C@]12C)=C\\C=C1\\C[C@@H](O)C[C@H](O)C1=C",
+    "half_life_h": 8.0,
+    "vd_l": 9.8,
+    "clearance_lh": 0.26039999999999996,
+    "fu": 0.001,
+    "bioavailability": null
+  },
+  {
+    "name": "Valsartan",
+    "smiles": "CCCCC(=O)N(CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)[C@@H](C(C)C)C(O)=O",
+    "half_life_h": 6.0,
+    "vd_l": 17.0,
+    "clearance_lh": 2.0,
+    "fu": 0.05,
+    "bioavailability": null
+  },
+  {
+    "name": "Bortezomib",
+    "smiles": "CC(C)C[C@H](NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C1=CN=CC=N1)B(O)O",
+    "half_life_h": 116.5,
+    "vd_l": 1191.0,
+    "clearance_lh": 112.0,
+    "fu": 0.17,
+    "bioavailability": null
+  },
+  {
+    "name": "Phentermine",
+    "smiles": "CC(C)(N)CC1=CC=CC=C1",
+    "half_life_h": 20.0,
+    "vd_l": 350.0,
+    "clearance_lh": 8.79,
+    "fu": 0.825,
+    "bioavailability": null
+  },
+  {
+    "name": "Tramadol",
+    "smiles": "COC1=CC=CC(=C1)C1(O)CCCCC1CN(C)C",
+    "half_life_h": 6.0,
+    "vd_l": 203.0,
+    "clearance_lh": 0.2238,
+    "fu": 0.8,
+    "bioavailability": null
+  },
+  {
+    "name": "Fluconazole",
+    "smiles": "OC(CN1C=NC=N1)(CN1C=NC=N1)C1=C(F)C=C(F)C=C1",
+    "half_life_h": 30.0,
+    "vd_l": 39.0,
+    "clearance_lh": 0.22,
+    "fu": 0.88,
+    "bioavailability": null
+  },
+  {
+    "name": "Caffeine",
+    "smiles": "CN1C=NC2=C1C(=O)N(C)C(=O)N2C",
+    "half_life_h": 5.0,
+    "vd_l": 63.0,
+    "clearance_lh": 0.078,
+    "fu": 0.9,
+    "bioavailability": null
+  },
+  {
+    "name": "Sildenafil",
+    "smiles": "CCCC1=NN(C)C2=C1N=C(NC2=O)C1=CC(=CC=C1OCC)S(=O)(=O)N1CCN(C)CC1",
+    "half_life_h": 4.0,
+    "vd_l": 105.0,
+    "clearance_lh": 41.0,
+    "fu": 0.04,
+    "bioavailability": null
+  },
+  {
+    "name": "Azithromycin",
+    "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)CN(C)[C@H](C)[C@@H](O)[C@]1(C)O",
+    "half_life_h": 68.0,
+    "vd_l": 2177.0,
+    "clearance_lh": 37.8,
+    "fu": 0.49,
+    "bioavailability": null
+  },
+  {
+    "name": "Trospium",
+    "smiles": "[H][C@]12CC[C@]([H])(C[C@@H](C1)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1)[N+]21CCCC1",
+    "half_life_h": 35.0,
+    "vd_l": 531.0,
+    "clearance_lh": 796.0,
+    "fu": 0.2,
+    "bioavailability": null
+  },
+  {
+    "name": "Pantoprazole",
+    "smiles": "COC1=C(OC)C(CS(=O)C2=NC3=C(N2)C=C(OC(F)F)C=C3)=NC=C1",
+    "half_life_h": 1.0,
+    "vd_l": 23.6,
+    "clearance_lh": 14.0,
+    "fu": 0.02,
+    "bioavailability": null
+  },
+  {
+    "name": "Citalopram",
+    "smiles": "CN(C)CCCC1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1",
+    "half_life_h": 35.0,
+    "vd_l": 840.0,
+    "clearance_lh": 19.8,
+    "fu": 0.2,
+    "bioavailability": null
+  },
+  {
+    "name": "Eletriptan",
+    "smiles": "CN1CCC[C@@H]1CC1=CNC2=C1C=C(CCS(=O)(=O)C1=CC=CC=C1)C=C2",
+    "half_life_h": 4.0,
+    "vd_l": 138.0,
+    "clearance_lh": 3.9,
+    "fu": 0.15,
+    "bioavailability": null
+  },
+  {
+    "name": "Moxifloxacin",
+    "smiles": "[H][C@]12CN(C[C@@]1([H])NCCC2)C1=C(F)C=C2C(=O)C(=CN(C3CC3)C2=C1OC)C(O)=O",
+    "half_life_h": 15.6,
+    "vd_l": 154.0,
+    "clearance_lh": 2.0,
+    "fu": 0.5,
+    "bioavailability": 0.9
+  },
+  {
+    "name": "Nelfinavir",
+    "smiles": "[H][C@@]12CCCC[C@]1([H])CN(C[C@@H](O)[C@H](CSC1=CC=CC=C1)NC(=O)C1=C(C)C(O)=CC=C1)[C@@H](C2)C(=O)NC(C)(C)C",
+    "half_life_h": 4.25,
+    "vd_l": 490.0,
+    "clearance_lh": 33.0,
+    "fu": 0.02,
+    "bioavailability": null
+  },
+  {
+    "name": "Glimepiride",
+    "smiles": "CCC1=C(C)CN(C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)N[C@H]2CC[C@H](C)CC2)C1=O",
+    "half_life_h": 6.5,
+    "vd_l": 8.8,
+    "clearance_lh": 0.96,
+    "fu": 0.005,
+    "bioavailability": null
+  },
+  {
+    "name": "Temazepam",
+    "smiles": "CN1C2=C(C=C(Cl)C=C2)C(=NC(O)C1=O)C1=CC=CC=C1",
+    "half_life_h": 18.0,
+    "vd_l": 105.0,
+    "clearance_lh": 0.06180000000000001,
+    "fu": 0.04,
+    "bioavailability": null
+  },
+  {
+    "name": "Ranolazine",
+    "smiles": "COC1=CC=CC=C1OCC(O)CN1CCN(CC(=O)NC2=C(C)C=CC=C2C)CC1",
+    "half_life_h": 7.0,
+    "vd_l": 53.2,
+    "clearance_lh": 45.0,
+    "fu": 0.38,
+    "bioavailability": null
+  },
+  {
+    "name": "Ziprasidone",
+    "smiles": "ClC1=C(CCN2CCN(CC2)C2=NSC3=CC=CC=C23)C=C2CC(=O)NC2=C1",
+    "half_life_h": 7.0,
+    "vd_l": 105.0,
+    "clearance_lh": 0.45,
+    "fu": 0.01,
+    "bioavailability": 0.6
+  },
+  {
+    "name": "Ropinirole",
+    "smiles": "CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1",
+    "half_life_h": 6.0,
+    "vd_l": 525.0,
+    "clearance_lh": 47.0,
+    "fu": 0.6,
+    "bioavailability": null
+  },
+  {
+    "name": "Topiramate",
+    "smiles": "[H][C@@]12CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@]3([H])[C@]1([H])OC(C)(C)O2",
+    "half_life_h": 23.0,
+    "vd_l": 56.0,
+    "clearance_lh": 2.16,
+    "fu": 0.87,
+    "bioavailability": null
+  },
+  {
+    "name": "Olmesartan",
+    "smiles": "CCCC1=NC(=C(N1CC1=CC=C(C=C1)C1=C(C=CC=C1)C1=NN=NN1)C(O)=O)C(C)(C)O",
+    "half_life_h": 15.0,
+    "vd_l": 17.0,
+    "clearance_lh": 1.3,
+    "fu": 0.01,
+    "bioavailability": null
+  },
+  {
+    "name": "Venlafaxine",
+    "smiles": "COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1",
+    "half_life_h": 2.0,
+    "vd_l": 259.0,
+    "clearance_lh": 0.6,
+    "fu": 0.73,
+    "bioavailability": null
+  },
+  {
+    "name": "Etonogestrel",
+    "smiles": "[H][C@@]12CC[C@@](O)(C#C)[C@@]1(CC)CC(=C)[C@]1([H])[C@@]3([H])CCC(=O)C=C3CC[C@@]21[H]",
+    "half_life_h": 25.0,
+    "vd_l": 201.0,
+    "clearance_lh": 7.5,
+    "fu": 0.025,
+    "bioavailability": null
+  },
+  {
+    "name": "Morphine",
+    "smiles": "[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])C=C[C@@H]2O",
+    "half_life_h": 3.0,
+    "vd_l": 371.7,
+    "clearance_lh": 96.0,
+    "fu": 0.65,
+    "bioavailability": null
+  },
+  {
+    "name": "Ropivacaine",
+    "smiles": "CCCN1CCCC[C@H]1C(=O)NC1=C(C)C=CC=C1C",
+    "half_life_h": 0.7,
+    "vd_l": 7.0,
+    "clearance_lh": 6.42,
+    "fu": 0.06,
+    "bioavailability": null
+  },
+  {
+    "name": "Tenofovir disoproxil",
+    "smiles": "[H][C@@](C)(CN1C=NC2=C(N)N=CN=C12)OCP(=O)(OCOC(=O)OC(C)C)OCOC(=O)OC(C)C",
+    "half_life_h": 17.0,
+    "vd_l": 42.0,
+    "clearance_lh": 18.0,
+    "fu": 0.928,
+    "bioavailability": null
+  },
+  {
+    "name": "Tranexamic acid",
+    "smiles": "NC[C@H]1CC[C@@H](CC1)C(O)=O",
+    "half_life_h": 2.0,
+    "vd_l": 12.6,
+    "clearance_lh": 6.96,
+    "fu": 0.97,
+    "bioavailability": null
+  },
+  {
+    "name": "Ertapenem",
+    "smiles": "[H][C@]12[C@@H](C)C(S[C@]3([H])CN[C@@]([H])(C3)C(=O)NC3=CC=CC(=C3)C(O)=O)=C(N1C(=O)[C@]2([H])[C@@H](C)O)C(O)=O",
+    "half_life_h": 2.5,
+    "vd_l": 8.4,
+    "clearance_lh": 1.8,
+    "fu": 0.05,
+    "bioavailability": null
+  },
+  {
+    "name": "Desogestrel",
+    "smiles": "[H][C@@]12CC[C@@](O)(C#C)[C@@]1(CC)CC(=C)[C@]1([H])[C@@]3([H])CCCC=C3CC[C@@]21[H]",
+    "half_life_h": 30.0,
+    "vd_l": 105.0,
+    "clearance_lh": 0.12,
+    "fu": 0.03,
+    "bioavailability": null
+  },
+  {
+    "name": "Ibutilide",
+    "smiles": "CCCCCCCN(CC)CCCC(O)C1=CC=C(NS(C)(=O)=O)C=C1",
+    "half_life_h": 6.0,
+    "vd_l": 770.0,
+    "clearance_lh": 1.74,
+    "fu": 0.6,
+    "bioavailability": null
+  },
+  {
+    "name": "Zolmitriptan",
+    "smiles": "CN(C)CCC1=CNC2=CC=C(C[C@H]3COC(=O)N3)C=C12",
+    "half_life_h": 3.5,
+    "vd_l": 588.0,
+    "clearance_lh": 1.89,
+    "fu": 0.75,
+    "bioavailability": null
+  },
+  {
+    "name": "Gefitinib",
+    "smiles": "COC1=C(OCCCN2CCOCC2)C=C2C(NC3=CC(Cl)=C(F)C=C3)=NC=NC2=C1",
+    "half_life_h": 48.0,
+    "vd_l": 1400.0,
+    "clearance_lh": 35.7,
+    "fu": 0.1,
+    "bioavailability": null
+  },
+  {
+    "name": "Dihydroergotamine",
+    "smiles": "[H][C@@]12CCCN1C(=O)[C@H](CC1=CC=CC=C1)N1C(=O)[C@](C)(NC(=O)[C@H]3CN(C)[C@]4([H])CC5=CNC6=CC=CC(=C56)[C@@]4([H])C3)O[C@@]21O",
+    "half_life_h": 1.0,
+    "vd_l": 800.0,
+    "clearance_lh": 1.5,
+    "fu": 0.07,
+    "bioavailability": null
+  },
+  {
+    "name": "Amitriptyline",
+    "smiles": "CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12",
+    "half_life_h": 25.0,
+    "vd_l": 210.0,
+    "clearance_lh": 10.18,
+    "fu": 0.05,
+    "bioavailability": 0.45
+  },
+  {
+    "name": "Tolcapone",
+    "smiles": "CC1=CC=C(C=C1)C(=O)C1=CC(=C(O)C(O)=C1)[N+]([O-])=O",
+    "half_life_h": 3.5,
+    "vd_l": 9.0,
+    "clearance_lh": 7.0,
+    "fu": 0.001,
+    "bioavailability": null
+  },
+  {
+    "name": "Hydromorphone",
+    "smiles": "[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])CCC2=O",
+    "half_life_h": 3.0,
+    "vd_l": 280.0,
+    "clearance_lh": 6.342,
+    "fu": 0.865,
+    "bioavailability": null
+  },
+  {
+    "name": "Methadone",
+    "smiles": "CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1",
+    "half_life_h": 207.0,
+    "vd_l": 560.0,
+    "clearance_lh": 13.0,
+    "fu": 0.125,
+    "bioavailability": null
+  },
+  {
+    "name": "Atenolol",
+    "smiles": "CC(C)NCC(O)COC1=CC=C(CC(N)=O)C=C1",
+    "half_life_h": 7.0,
+    "vd_l": 112.5,
+    "clearance_lh": 10.578,
+    "fu": 0.89,
+    "bioavailability": null
+  },
+  {
+    "name": "Diltiazem",
+    "smiles": "COC1=CC=C(C=C1)[C@@H]1SC2=C(C=CC=C2)N(CCN(C)C)C(=O)[C@@H]1OC(C)=O",
+    "half_life_h": 3.75,
+    "vd_l": 305.0,
+    "clearance_lh": 65.0,
+    "fu": 0.25,
+    "bioavailability": null
+  },
+  {
+    "name": "Alfuzosin",
+    "smiles": "COC1=CC2=C(C=C1OC)C(N)=NC(=N2)N(C)CCCNC(=O)C1CCCO1",
+    "half_life_h": 10.0,
+    "vd_l": 224.0,
+    "clearance_lh": 1.8,
+    "fu": 0.18,
+    "bioavailability": null
+  },
+  {
+    "name": "Clobazam",
+    "smiles": "CN1C2=C(C=C(Cl)C=C2)N(C2=CC=CC=C2)C(=O)CC1=O",
+    "half_life_h": 42.0,
+    "vd_l": 100.0,
+    "clearance_lh": 2.3,
+    "fu": 0.15,
+    "bioavailability": null
+  },
+  {
+    "name": "Aztreonam",
+    "smiles": "C[C@H]1[C@H](NC(=O)C(=N/OC(C)(C)C(=O)O)\\C2=CSC([NH3+])=N2)C(=O)N1S([O-])(=O)=O",
+    "half_life_h": 1.7,
+    "vd_l": 12.6,
+    "clearance_lh": 5.46,
+    "fu": 0.44,
+    "bioavailability": null
+  },
+  {
+    "name": "Clozapine",
+    "smiles": "CN1CCN(CC1)C1=NC2=CC(Cl)=CC=C2NC2=CC=CC=C12",
+    "half_life_h": 8.0,
+    "vd_l": 508.0,
+    "clearance_lh": 30.3,
+    "fu": 0.03,
+    "bioavailability": null
+  },
+  {
+    "name": "Levonorgestrel",
+    "smiles": "[H][C@@]12CC[C@@](O)(C#C)[C@@]1(CC)CC[C@]1([H])[C@@]3([H])CCC(=O)C=C3CC[C@@]21[H]",
+    "half_life_h": 60.0,
+    "vd_l": 126.0,
+    "clearance_lh": 4.8,
+    "fu": 0.0175,
+    "bioavailability": null
+  },
+  {
+    "name": "Mirtazapine",
+    "smiles": "CN1CCN2C(C1)C1=CC=CC=C1CC1=C2N=CC=C1",
+    "half_life_h": 40.0,
+    "vd_l": 42.0,
+    "clearance_lh": 31.0,
+    "fu": 0.15,
+    "bioavailability": null
+  },
+  {
+    "name": "Timolol",
+    "smiles": "[H][C@](O)(CNC(C)(C)C)COC1=NSN=C1N1CCOCC1",
+    "half_life_h": 0.3,
+    "vd_l": 119.0,
+    "clearance_lh": 3.66,
+    "fu": 0.9,
+    "bioavailability": null
+  }
+]

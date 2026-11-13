@@ -1,0 +1,10 @@
+{
+  "cycle": "V43-c4",
+  "gaps": [
+    {
+      "drug": "rifampin",
+      "reason": "no explicit AUC/Cmax value in CP/DDI sections (absent)"
+    }
+  ],
+  "generated_at": "2026-05-29T12:09:49Z"
+}

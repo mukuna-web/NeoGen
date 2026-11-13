@@ -1,0 +1,22 @@
+{
+  "completed_at": "2026-05-29T11:24:07Z",
+  "counterfactuals": 4,
+  "cycle_id": "moat-next5-adversarial-2026-05-29-c1",
+  "enantiomer_collapses": [],
+  "gap_013_opened": false,
+  "names_attempted": [
+    "warfarin",
+    "(S)-warfarin",
+    "(R)-warfarin",
+    "ibuprofen",
+    "dexibuprofen",
+    "omeprazole",
+    "esomeprazole",
+    "citalopram",
+    "escitalopram"
+  ],
+  "next_action": "Resolve enantiomer CIDs by direct CID query where name search collapses.",
+  "resolutions": 9,
+  "started_at": "2026-05-29T11:24:07Z",
+  "tool_used": "pubchem+rdkit"
+}

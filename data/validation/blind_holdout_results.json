@@ -1,0 +1,1219 @@
+{
+  "overall": 39.333333333333336,
+  "per_param": {
+    "half_life": {
+      "w2f": 20,
+      "total": 50
+    },
+    "clearance": {
+      "w2f": 12,
+      "total": 50
+    },
+    "vd": {
+      "w2f": 27,
+      "total": 50
+    }
+  },
+  "drug_results": [
+    {
+      "name": "Goserelin",
+      "scores": {
+        "half_life": {
+          "pred": 0.91,
+          "true": 5.0,
+          "fold": 0.18,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 43.03,
+          "true": 2.54,
+          "fold": 16.91,
+          "ok": false
+        },
+        "vd": {
+          "pred": 56.43,
+          "true": 13.6,
+          "fold": 4.15,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Cetrorelix",
+      "scores": {
+        "half_life": {
+          "pred": 2.97,
+          "true": 62.8,
+          "fold": 0.05,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 6.45,
+          "true": 0.08,
+          "fold": 83.98,
+          "ok": false
+        },
+        "vd": {
+          "pred": 27.61,
+          "true": 81.2,
+          "fold": 0.34,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Cyclosporine",
+      "scores": {
+        "half_life": {
+          "pred": 2.22,
+          "true": 19.0,
+          "fold": 0.12,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 32.02,
+          "true": 22.5,
+          "fold": 1.42,
+          "ok": true
+        },
+        "vd": {
+          "pred": 102.45,
+          "true": 560.0,
+          "fold": 0.18,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Calcitriol",
+      "scores": {
+        "half_life": {
+          "pred": 2.4,
+          "true": 8.0,
+          "fold": 0.3,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 24.79,
+          "true": 0.26,
+          "fold": 95.19,
+          "ok": false
+        },
+        "vd": {
+          "pred": 85.95,
+          "true": 9.8,
+          "fold": 8.77,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Valsartan",
+      "scores": {
+        "half_life": {
+          "pred": 4.27,
+          "true": 6.0,
+          "fold": 0.71,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 2.59,
+          "true": 2.0,
+          "fold": 1.29,
+          "ok": true
+        },
+        "vd": {
+          "pred": 15.96,
+          "true": 17.0,
+          "fold": 0.94,
+          "ok": true
+        }
+      },
+      "n_ok": 3
+    },
+    {
+      "name": "Bortezomib",
+      "scores": {
+        "half_life": {
+          "pred": 0.89,
+          "true": 116.5,
+          "fold": 0.01,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 78.31,
+          "true": 112.0,
+          "fold": 0.7,
+          "ok": true
+        },
+        "vd": {
+          "pred": 101.08,
+          "true": 1191.0,
+          "fold": 0.08,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Phentermine",
+      "scores": {
+        "half_life": {
+          "pred": 10.95,
+          "true": 20.0,
+          "fold": 0.55,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 21.86,
+          "true": 8.79,
+          "fold": 2.49,
+          "ok": false
+        },
+        "vd": {
+          "pred": 345.37,
+          "true": 350.0,
+          "fold": 0.99,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Tramadol",
+      "scores": {
+        "half_life": {
+          "pred": 5.76,
+          "true": 6.0,
+          "fold": 0.96,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 24.03,
+          "true": 0.22,
+          "fold": 107.39,
+          "ok": false
+        },
+        "vd": {
+          "pred": 199.65,
+          "true": 203.0,
+          "fold": 0.98,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Fluconazole",
+      "scores": {
+        "half_life": {
+          "pred": 22.92,
+          "true": 30.0,
+          "fold": 0.76,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 1.57,
+          "true": 0.22,
+          "fold": 7.12,
+          "ok": false
+        },
+        "vd": {
+          "pred": 51.78,
+          "true": 39.0,
+          "fold": 1.33,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Caffeine",
+      "scores": {
+        "half_life": {
+          "pred": 3.6,
+          "true": 5.0,
+          "fold": 0.72,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 7.9,
+          "true": 0.08,
+          "fold": 101.24,
+          "ok": false
+        },
+        "vd": {
+          "pred": 41.07,
+          "true": 63.0,
+          "fold": 0.65,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Sildenafil",
+      "scores": {
+        "half_life": {
+          "pred": 0.64,
+          "true": 4.0,
+          "fold": 0.16,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 113.86,
+          "true": 41.0,
+          "fold": 2.78,
+          "ok": false
+        },
+        "vd": {
+          "pred": 104.52,
+          "true": 105.0,
+          "fold": 1.0,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Azithromycin",
+      "scores": {
+        "half_life": {
+          "pred": 4.06,
+          "true": 68.0,
+          "fold": 0.06,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 396.33,
+          "true": 37.8,
+          "fold": 10.49,
+          "ok": false
+        },
+        "vd": {
+          "pred": 2322.43,
+          "true": 2177.0,
+          "fold": 1.07,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Trospium",
+      "scores": {
+        "half_life": {
+          "pred": 2.04,
+          "true": 35.0,
+          "fold": 0.06,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 41.57,
+          "true": 796.0,
+          "fold": 0.05,
+          "ok": false
+        },
+        "vd": {
+          "pred": 122.13,
+          "true": 531.0,
+          "fold": 0.23,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Pantoprazole",
+      "scores": {
+        "half_life": {
+          "pred": 0.42,
+          "true": 1.0,
+          "fold": 0.42,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 18.63,
+          "true": 14.0,
+          "fold": 1.33,
+          "ok": true
+        },
+        "vd": {
+          "pred": 11.33,
+          "true": 23.6,
+          "fold": 0.48,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Citalopram",
+      "scores": {
+        "half_life": {
+          "pred": 191.42,
+          "true": 35.0,
+          "fold": 5.47,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 3.3,
+          "true": 19.8,
+          "fold": 0.17,
+          "ok": false
+        },
+        "vd": {
+          "pred": 911.5,
+          "true": 840.0,
+          "fold": 1.09,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Eletriptan",
+      "scores": {
+        "half_life": {
+          "pred": 2.24,
+          "true": 4.0,
+          "fold": 0.56,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 35.89,
+          "true": 3.9,
+          "fold": 9.2,
+          "ok": false
+        },
+        "vd": {
+          "pred": 116.25,
+          "true": 138.0,
+          "fold": 0.84,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Moxifloxacin",
+      "scores": {
+        "half_life": {
+          "pred": 47.78,
+          "true": 15.6,
+          "fold": 3.06,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 38.16,
+          "true": 2.0,
+          "fold": 19.08,
+          "ok": false
+        },
+        "vd": {
+          "pred": 2631.07,
+          "true": 154.0,
+          "fold": 17.08,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Nelfinavir",
+      "scores": {
+        "half_life": {
+          "pred": 1.0,
+          "true": 4.25,
+          "fold": 0.24,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 126.6,
+          "true": 33.0,
+          "fold": 3.84,
+          "ok": false
+        },
+        "vd": {
+          "pred": 182.75,
+          "true": 490.0,
+          "fold": 0.37,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Glimepiride",
+      "scores": {
+        "half_life": {
+          "pred": 0.74,
+          "true": 6.5,
+          "fold": 0.11,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 12.3,
+          "true": 0.96,
+          "fold": 12.81,
+          "ok": false
+        },
+        "vd": {
+          "pred": 13.11,
+          "true": 8.8,
+          "fold": 1.49,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Temazepam",
+      "scores": {
+        "half_life": {
+          "pred": 0.87,
+          "true": 18.0,
+          "fold": 0.05,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 35.86,
+          "true": 0.06,
+          "fold": 580.3,
+          "ok": false
+        },
+        "vd": {
+          "pred": 44.97,
+          "true": 105.0,
+          "fold": 0.43,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Ranolazine",
+      "scores": {
+        "half_life": {
+          "pred": 1.05,
+          "true": 7.0,
+          "fold": 0.15,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 93.12,
+          "true": 45.0,
+          "fold": 2.07,
+          "ok": false
+        },
+        "vd": {
+          "pred": 141.39,
+          "true": 53.2,
+          "fold": 2.66,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Ziprasidone",
+      "scores": {
+        "half_life": {
+          "pred": 0.5,
+          "true": 7.0,
+          "fold": 0.07,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 101.89,
+          "true": 0.45,
+          "fold": 226.41,
+          "ok": false
+        },
+        "vd": {
+          "pred": 73.85,
+          "true": 105.0,
+          "fold": 0.7,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Ropinirole",
+      "scores": {
+        "half_life": {
+          "pred": 1.64,
+          "true": 6.0,
+          "fold": 0.27,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 87.71,
+          "true": 47.0,
+          "fold": 1.87,
+          "ok": true
+        },
+        "vd": {
+          "pred": 207.32,
+          "true": 525.0,
+          "fold": 0.39,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Topiramate",
+      "scores": {
+        "half_life": {
+          "pred": 2.3,
+          "true": 23.0,
+          "fold": 0.1,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 15.57,
+          "true": 2.16,
+          "fold": 7.21,
+          "ok": false
+        },
+        "vd": {
+          "pred": 51.61,
+          "true": 56.0,
+          "fold": 0.92,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Olmesartan",
+      "scores": {
+        "half_life": {
+          "pred": 3.24,
+          "true": 15.0,
+          "fold": 0.22,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 8.14,
+          "true": 1.3,
+          "fold": 6.26,
+          "ok": false
+        },
+        "vd": {
+          "pred": 38.0,
+          "true": 17.0,
+          "fold": 2.24,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Venlafaxine",
+      "scores": {
+        "half_life": {
+          "pred": 7.92,
+          "true": 2.0,
+          "fold": 3.96,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 30.29,
+          "true": 0.6,
+          "fold": 50.49,
+          "ok": false
+        },
+        "vd": {
+          "pred": 346.15,
+          "true": 259.0,
+          "fold": 1.34,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Etonogestrel",
+      "scores": {
+        "half_life": {
+          "pred": 5.92,
+          "true": 25.0,
+          "fold": 0.24,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 26.01,
+          "true": 7.5,
+          "fold": 3.47,
+          "ok": false
+        },
+        "vd": {
+          "pred": 222.33,
+          "true": 201.0,
+          "fold": 1.11,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Morphine",
+      "scores": {
+        "half_life": {
+          "pred": 1.29,
+          "true": 3.0,
+          "fold": 0.43,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 114.73,
+          "true": 96.0,
+          "fold": 1.2,
+          "ok": true
+        },
+        "vd": {
+          "pred": 213.28,
+          "true": 371.7,
+          "fold": 0.57,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Ropivacaine",
+      "scores": {
+        "half_life": {
+          "pred": 0.66,
+          "true": 0.7,
+          "fold": 0.95,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 47.76,
+          "true": 6.42,
+          "fold": 7.44,
+          "ok": false
+        },
+        "vd": {
+          "pred": 45.67,
+          "true": 7.0,
+          "fold": 6.52,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Tenofovir disoproxil",
+      "scores": {
+        "half_life": {
+          "pred": 10.97,
+          "true": 17.0,
+          "fold": 0.65,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 64.52,
+          "true": 18.0,
+          "fold": 3.58,
+          "ok": false
+        },
+        "vd": {
+          "pred": 1021.8,
+          "true": 42.0,
+          "fold": 24.33,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Tranexamic acid",
+      "scores": {
+        "half_life": {
+          "pred": 2.3,
+          "true": 2.0,
+          "fold": 1.15,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 8.71,
+          "true": 6.96,
+          "fold": 1.25,
+          "ok": true
+        },
+        "vd": {
+          "pred": 28.9,
+          "true": 12.6,
+          "fold": 2.29,
+          "ok": false
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Ertapenem",
+      "scores": {
+        "half_life": {
+          "pred": 22.67,
+          "true": 2.5,
+          "fold": 9.07,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 16.38,
+          "true": 1.8,
+          "fold": 9.1,
+          "ok": false
+        },
+        "vd": {
+          "pred": 536.01,
+          "true": 8.4,
+          "fold": 63.81,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Desogestrel",
+      "scores": {
+        "half_life": {
+          "pred": 5.54,
+          "true": 30.0,
+          "fold": 0.18,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 64.14,
+          "true": 0.12,
+          "fold": 534.49,
+          "ok": false
+        },
+        "vd": {
+          "pred": 513.13,
+          "true": 105.0,
+          "fold": 4.89,
+          "ok": false
+        }
+      },
+      "n_ok": 0
+    },
+    {
+      "name": "Ibutilide",
+      "scores": {
+        "half_life": {
+          "pred": 6.75,
+          "true": 6.0,
+          "fold": 1.13,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 83.73,
+          "true": 1.74,
+          "fold": 48.12,
+          "ok": false
+        },
+        "vd": {
+          "pred": 815.64,
+          "true": 770.0,
+          "fold": 1.06,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Zolmitriptan",
+      "scores": {
+        "half_life": {
+          "pred": 3.23,
+          "true": 3.5,
+          "fold": 0.92,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 27.86,
+          "true": 1.89,
+          "fold": 14.74,
+          "ok": false
+        },
+        "vd": {
+          "pred": 129.96,
+          "true": 588.0,
+          "fold": 0.22,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Gefitinib",
+      "scores": {
+        "half_life": {
+          "pred": 4.4,
+          "true": 48.0,
+          "fold": 0.09,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 149.8,
+          "true": 35.7,
+          "fold": 4.2,
+          "ok": false
+        },
+        "vd": {
+          "pred": 951.1,
+          "true": 1400.0,
+          "fold": 0.68,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Dihydroergotamine",
+      "scores": {
+        "half_life": {
+          "pred": 1.02,
+          "true": 1.0,
+          "fold": 1.02,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 78.52,
+          "true": 1.5,
+          "fold": 52.35,
+          "ok": false
+        },
+        "vd": {
+          "pred": 116.08,
+          "true": 800.0,
+          "fold": 0.15,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Amitriptyline",
+      "scores": {
+        "half_life": {
+          "pred": 20.5,
+          "true": 25.0,
+          "fold": 0.82,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 32.18,
+          "true": 10.18,
+          "fold": 3.16,
+          "ok": false
+        },
+        "vd": {
+          "pred": 951.68,
+          "true": 210.0,
+          "fold": 4.53,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Tolcapone",
+      "scores": {
+        "half_life": {
+          "pred": 3.4,
+          "true": 3.5,
+          "fold": 0.97,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 12.31,
+          "true": 7.0,
+          "fold": 1.76,
+          "ok": true
+        },
+        "vd": {
+          "pred": 60.38,
+          "true": 9.0,
+          "fold": 6.71,
+          "ok": false
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Hydromorphone",
+      "scores": {
+        "half_life": {
+          "pred": 1.97,
+          "true": 3.0,
+          "fold": 0.66,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 102.89,
+          "true": 6.34,
+          "fold": 16.22,
+          "ok": false
+        },
+        "vd": {
+          "pred": 292.83,
+          "true": 280.0,
+          "fold": 1.05,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Methadone",
+      "scores": {
+        "half_life": {
+          "pred": 8.29,
+          "true": 207.0,
+          "fold": 0.04,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 35.21,
+          "true": 13.0,
+          "fold": 2.71,
+          "ok": false
+        },
+        "vd": {
+          "pred": 421.34,
+          "true": 560.0,
+          "fold": 0.75,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Atenolol",
+      "scores": {
+        "half_life": {
+          "pred": 4.33,
+          "true": 7.0,
+          "fold": 0.62,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 11.11,
+          "true": 10.58,
+          "fold": 1.05,
+          "ok": true
+        },
+        "vd": {
+          "pred": 69.42,
+          "true": 112.5,
+          "fold": 0.62,
+          "ok": true
+        }
+      },
+      "n_ok": 3
+    },
+    {
+      "name": "Diltiazem",
+      "scores": {
+        "half_life": {
+          "pred": 2.45,
+          "true": 3.75,
+          "fold": 0.65,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 56.6,
+          "true": 65.0,
+          "fold": 0.87,
+          "ok": true
+        },
+        "vd": {
+          "pred": 200.23,
+          "true": 305.0,
+          "fold": 0.66,
+          "ok": true
+        }
+      },
+      "n_ok": 3
+    },
+    {
+      "name": "Alfuzosin",
+      "scores": {
+        "half_life": {
+          "pred": 2.74,
+          "true": 10.0,
+          "fold": 0.27,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 28.54,
+          "true": 1.8,
+          "fold": 15.86,
+          "ok": false
+        },
+        "vd": {
+          "pred": 113.04,
+          "true": 224.0,
+          "fold": 0.5,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Clobazam",
+      "scores": {
+        "half_life": {
+          "pred": 58.26,
+          "true": 42.0,
+          "fold": 1.39,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 1.14,
+          "true": 2.3,
+          "fold": 0.5,
+          "ok": false
+        },
+        "vd": {
+          "pred": 96.17,
+          "true": 100.0,
+          "fold": 0.96,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Aztreonam",
+      "scores": {
+        "half_life": {
+          "pred": 0.82,
+          "true": 1.7,
+          "fold": 0.48,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 16.75,
+          "true": 5.46,
+          "fold": 3.07,
+          "ok": false
+        },
+        "vd": {
+          "pred": 19.73,
+          "true": 12.6,
+          "fold": 1.57,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Clozapine",
+      "scores": {
+        "half_life": {
+          "pred": 9.84,
+          "true": 8.0,
+          "fold": 1.23,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 30.44,
+          "true": 30.3,
+          "fold": 1.0,
+          "ok": true
+        },
+        "vd": {
+          "pred": 432.14,
+          "true": 508.0,
+          "fold": 0.85,
+          "ok": true
+        }
+      },
+      "n_ok": 3
+    },
+    {
+      "name": "Levonorgestrel",
+      "scores": {
+        "half_life": {
+          "pred": 7.85,
+          "true": 60.0,
+          "fold": 0.13,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 9.04,
+          "true": 4.8,
+          "fold": 1.88,
+          "ok": true
+        },
+        "vd": {
+          "pred": 102.33,
+          "true": 126.0,
+          "fold": 0.81,
+          "ok": true
+        }
+      },
+      "n_ok": 2
+    },
+    {
+      "name": "Mirtazapine",
+      "scores": {
+        "half_life": {
+          "pred": 26.08,
+          "true": 40.0,
+          "fold": 0.65,
+          "ok": true
+        },
+        "clearance": {
+          "pred": 8.91,
+          "true": 31.0,
+          "fold": 0.29,
+          "ok": false
+        },
+        "vd": {
+          "pred": 335.26,
+          "true": 42.0,
+          "fold": 7.98,
+          "ok": false
+        }
+      },
+      "n_ok": 1
+    },
+    {
+      "name": "Timolol",
+      "scores": {
+        "half_life": {
+          "pred": 5.91,
+          "true": 0.3,
+          "fold": 19.71,
+          "ok": false
+        },
+        "clearance": {
+          "pred": 19.49,
+          "true": 3.66,
+          "fold": 5.32,
+          "ok": false
+        },
+        "vd": {
+          "pred": 166.25,
+          "true": 119.0,
+          "fold": 1.4,
+          "ok": true
+        }
+      },
+      "n_ok": 1
+    }
+  ]
+}

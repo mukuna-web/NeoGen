@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS drug_product_mapping;
+DROP TABLE IF EXISTS stereo_relationship;
+DROP TABLE IF EXISTS stereo_mixture;
+DROP INDEX IF EXISTS ux_stereo_parent_hash;
+DROP TABLE IF EXISTS stereoisomer;
+DROP INDEX IF EXISTS ix_identity_inchikey;
+DROP TABLE IF EXISTS molecular_identity;
+DROP INDEX IF EXISTS ix_parent_inchikey;
+DROP TABLE IF EXISTS molecule_parent;

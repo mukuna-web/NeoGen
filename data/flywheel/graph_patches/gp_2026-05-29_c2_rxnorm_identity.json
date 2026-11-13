@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "drug": "warfarin",
+      "rxnorm_rxcui": "11289",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "amiodarone",
+      "rxnorm_rxcui": "703",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "ketoconazole",
+      "rxnorm_rxcui": "6135",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "rifampin",
+      "rxnorm_rxcui": "9384",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "clarithromycin",
+      "rxnorm_rxcui": "21212",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "cyclosporine",
+      "rxnorm_rxcui": "3008",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "fluconazole",
+      "rxnorm_rxcui": "4450",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "itraconazole",
+      "rxnorm_rxcui": "28031",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "phenytoin",
+      "rxnorm_rxcui": "8183",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "carbamazepine",
+      "rxnorm_rxcui": "2002",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "erythromycin",
+      "rxnorm_rxcui": "4053",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "atorvastatin",
+      "rxnorm_rxcui": "83367",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "verapamil",
+      "rxnorm_rxcui": "11170",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "diltiazem",
+      "rxnorm_rxcui": "3443",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "grapefruit",
+      "rxnorm_rxcui": "124323",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "simvastatin",
+      "rxnorm_rxcui": "36567",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "digoxin",
+      "rxnorm_rxcui": "3407",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "tacrolimus",
+      "rxnorm_rxcui": "42316",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "rifampicin",
+      "rxnorm_rxcui": "9384",
+      "source": "rxnorm"
+    },
+    {
+      "drug": "midazolam",
+      "rxnorm_rxcui": "6960",
+      "source": "rxnorm"
+    }
+  ],
+  "note": "drug->RxCUI identity edges from RxNorm; needs_review.",
+  "patch_id": "gp-2026-05-29-c2",
+  "proposed_at": "2026-05-29T10:12:29Z",
+  "status": "proposed"
+}

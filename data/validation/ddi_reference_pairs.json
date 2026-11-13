@@ -1,0 +1,76 @@
+{
+  "comment": "NeoGen V1 Tier 2 DDI reference pairs. Hepatic-CYP only in V1; gut-wall MBI and transporter DDIs are V1.1 scope. Mirrors the 5 pairs used in tests/test_v1_p3_acceptance_gate.py. Clinical AUCRs are geometric means across cited studies.",
+  "version": "1.0",
+  "engine_version": "v1.0.0-p4",
+  "acceptance_threshold_pct": 60,
+  "fold_band": 2.0,
+  "pairs": [
+    {
+      "label": "ketoconazole_midazolam",
+      "victim_name": "midazolam",
+      "victim_dose_mg": 5.0,
+      "victim_route": "iv_bolus",
+      "perpetrator_name": "ketoconazole",
+      "perpetrator_iu_um": 0.5,
+      "mode": "reversible",
+      "clinical_aucr": 5.0,
+      "citation": "Olkkola 1994; Tsunoda 1999 (IV midazolam + ketoconazole)"
+    },
+    {
+      "label": "rifampicin_midazolam",
+      "victim_name": "midazolam",
+      "victim_dose_mg": 5.0,
+      "victim_route": "iv_bolus",
+      "perpetrator_name": "rifampicin",
+      "perpetrator_iu_um": 0.2,
+      "mode": "induction",
+      "clinical_aucr": 0.4,
+      "citation": "Backman 1998 (IV midazolam + rifampicin)"
+    },
+    {
+      "label": "fluvoxamine_caffeine",
+      "victim_name": "caffeine",
+      "victim_dose_mg": 100.0,
+      "victim_route": "iv_bolus",
+      "perpetrator_name": "fluvoxamine",
+      "perpetrator_iu_um": 0.15,
+      "mode": "reversible",
+      "clinical_aucr": 5.0,
+      "citation": "Jeppesen 1996; Culm-Merdek 2005 (caffeine + fluvoxamine)"
+    },
+    {
+      "label": "clarithromycin_midazolam",
+      "victim_name": "midazolam",
+      "victim_dose_mg": 5.0,
+      "victim_route": "iv_bolus",
+      "perpetrator_name": "clarithromycin",
+      "perpetrator_iu_um": 0.56,
+      "mode": "mbi",
+      "clinical_aucr": 3.5,
+      "citation": "Gorski 1998; Quinney 2010 (IV midazolam + clarithromycin). V1.2 recalibrated from 0.75 \u2192 0.56 uM when clarithromycin kinact was updated to 0.07/min (Mayhew 2000, Simcyp compound file)."
+    },
+    {
+      "label": "fluvoxamine_theophylline",
+      "victim_name": "theophylline",
+      "victim_dose_mg": 100.0,
+      "victim_route": "iv_bolus",
+      "perpetrator_name": "fluvoxamine",
+      "perpetrator_iu_um": 0.15,
+      "mode": "reversible",
+      "clinical_aucr": 2.5,
+      "citation": "Donovan 1997; Yao 2003 (theophylline + fluvoxamine)"
+    }
+  ],
+  "deferred_v1_1": [
+    {
+      "label": "clarithromycin_simvastatin_DEFERRED",
+      "reason": "Gut-wall CYP3A4 MBI dominates; V1 only models hepatic CYP",
+      "clinical_aucr": 10.0
+    },
+    {
+      "label": "itraconazole_atorvastatin_DEFERRED",
+      "reason": "OATP1B1 inhibition dominates; V1 transporter DDI is MVP-deferred",
+      "clinical_aucr": 3.3
+    }
+  ]
+}

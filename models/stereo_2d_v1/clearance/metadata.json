@@ -1,0 +1,14 @@
+{
+  "augmentation": "TDC isomeric SMILES consumed as given; flat SMILES represented as unknown/achiral stereo records.",
+  "endpoint": "clearance",
+  "feature_dimensions": 1054,
+  "feature_schema_version": "stereo_2d_v1",
+  "metrics": {
+    "test_mae": 28.846386546438392,
+    "test_r2": 0.309922208228143,
+    "train_r2": 0.681163945022367
+  },
+  "n_rows": 2310,
+  "random_state": 42,
+  "training_hash": "04bf06b96551767cbd2f82aeb68dc62c"
+}

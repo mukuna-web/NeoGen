@@ -1,0 +1,70 @@
+{
+  "edges": [
+    {
+      "from_drug": "warfarin",
+      "set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against": "spl"
+    },
+    {
+      "from_drug": "amiodarone",
+      "set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against": "spl"
+    },
+    {
+      "from_drug": "ketoconazole",
+      "set_id": "00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+      "verified_against": "spl"
+    },
+    {
+      "from_drug": "rifampin",
+      "set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against": "spl"
+    },
+    {
+      "from_drug": "clarithromycin",
+      "set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against": "spl"
+    }
+  ],
+  "nodes": [
+    {
+      "set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_version": "20",
+      "title": "WARFARIN SODIUM TABLET [TEVA PHARMACEUTICALS USA, INC.]",
+      "type": "spl",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+    },
+    {
+      "set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_version": "1",
+      "title": "PACERONE (AMIODARONE HYDROCHLORIDE) TABLET [APHENA PHARMA SOLUTIONS - TENNESSEE, LLC]",
+      "type": "spl",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+    },
+    {
+      "set_id": "00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+      "spl_version": "2",
+      "title": "KETOCONAZOLE SHAMPOO [ANI PHARMACEUTICALS, INC.]",
+      "type": "spl",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c1cac8-a865-4583-aaba-3a0f21fb31e6"
+    },
+    {
+      "set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_version": "51",
+      "title": "RIFADIN IV (RIFAMPIN) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION [SANOFI-AVENTIS U.S. LLC]",
+      "type": "spl",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+    },
+    {
+      "set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_version": "29",
+      "title": "CLARITHROMYCIN TABLET [PD-RX PHARMACEUTICALS, INC.]",
+      "type": "spl",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+    }
+  ],
+  "note": "SPL-verification provenance; cited, needs_review, not auto-applied.",
+  "patch_id": "gp-2026-05-29-c1",
+  "proposed_at": "2026-05-29T10:02:48Z",
+  "status": "proposed"
+}

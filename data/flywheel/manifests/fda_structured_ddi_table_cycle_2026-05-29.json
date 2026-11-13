@@ -1,0 +1,111 @@
+{
+  "adversarial_all_pass": true,
+  "adversarial_checks": [
+    {
+      "check": "pair_order_trap",
+      "detail": "orig=22 swapped=22 identical=True",
+      "passed": true
+    },
+    {
+      "check": "table_context_marker_reaction_trap",
+      "detail": "leaked_header_drugs=none marker_records=0",
+      "passed": true
+    },
+    {
+      "check": "backwards_direction_trap",
+      "detail": "victim_only_drugs=97 emitted_as_perpetrator=none",
+      "passed": true
+    },
+    {
+      "check": "in_vitro_vs_clinical_trap",
+      "detail": "invitro_drugs=21 leaked_into_clinical=none",
+      "passed": true
+    },
+    {
+      "check": "stereo_trap",
+      "detail": "assertions_claiming_stereospecificity=0",
+      "passed": true
+    },
+    {
+      "check": "transporter_trap",
+      "detail": "mechanism_system_mismatches=none",
+      "passed": true
+    },
+    {
+      "check": "strength_severity_trap",
+      "detail": "assertions_with_severity=0 (strength stays classification text)",
+      "passed": true
+    },
+    {
+      "check": "duplicate_trap",
+      "detail": "assertions=22 unique_hashes=22 unique_keys=22",
+      "passed": true
+    },
+    {
+      "check": "citation_trap",
+      "detail": "assertions=22 ungrounded=none",
+      "passed": true
+    }
+  ],
+  "assertions_created": 22,
+  "clinical_records": 392,
+  "completed_at": "2026-05-29T23:56:43Z",
+  "cycle_id": "fda-structured-ddi-table-cycle-2026-05-29",
+  "input_gaps": 62,
+  "invitro_records": 22,
+  "join_stats": {
+    "assertions_created": 22,
+    "fda_drugs_indexed": 237,
+    "input_gaps": 62,
+    "pairs_resolved": 16,
+    "reason_counts": {
+      "no_complement": 46
+    },
+    "residual_gaps": 46
+  },
+  "next_action": "Human review of fda_table assertions; pair PK values to these victims (GAP-015); extend matrix beyond pilot drugs.",
+  "note": "FDA tables = mechanistic classification, not severity. No FDA approval/clearance/clinical-validity claim. Engine untouched.",
+  "pairs_resolved": 16,
+  "residual_gaps": 46,
+  "rxcui_coverage": {
+    "amiodarone": "703",
+    "atorvastatin": "83367",
+    "carbamazepine": "2002",
+    "clarithromycin": "21212",
+    "digoxin": "3407",
+    "fluconazole": "4450",
+    "midazolam": "6960",
+    "phenytoin": "8183",
+    "rifampin": "9384",
+    "simvastatin": "36567",
+    "tacrolimus": "42316",
+    "warfarin": "11289"
+  },
+  "sources": [
+    {
+      "byte_count": 108228,
+      "content_sha256": "ba8c2f07871fe65bf395bff16fd1f3040161d40035d7a1307cd3bdff7771393d",
+      "http_status": 200,
+      "license_status": "open-us-gov-data",
+      "page_title": "Healthcare Professionals: FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems",
+      "retrieved_at": "2026-05-29T23:56:43Z",
+      "source_id": "fda_clinical_examples_matrix",
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "table_name": "CYP/Transporter Clinical Substrates, Inhibitors, or Inducers"
+    },
+    {
+      "byte_count": 55125,
+      "content_sha256": "cdbe08983dad5ec96f376786ca62bfa0a2af4a27690378ec2f5e2b8e5f48135e",
+      "http_status": 200,
+      "license_status": "open-us-gov-data",
+      "page_title": "Drug Development and Drug Interactions | Table of Substrates, Inhibitors and Inducers | FDA",
+      "retrieved_at": "2026-05-29T23:56:43Z",
+      "source_id": "fda_design_substrate_inhibitor_inducer_tables",
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers",
+      "table_name": "In vitro selective inhibitors for CYP-mediated metabolism"
+    }
+  ],
+  "started_at": "2026-05-29T23:56:43Z",
+  "tool_used": "fda_ddi_table_sources+parser+joiner",
+  "vortext_endpoint": "/api/vortext/flywheel"
+}

@@ -1,0 +1,119 @@
+{
+  "comment": "NeoGen V1 Tier 3 bioavailability validation cohort. Each case pairs a drug with its published oral F from FDA labels or Goodman & Gilman. Tier 3 acceptance is case-by-case (±20 percent of observed F). fa/fg/fh decomposition is optional and only included when published PBPK models report it.",
+  "version": "1.0",
+  "engine_version": "v1.0.0-p4",
+  "acceptance_band_pct": 20.0,
+  "cases": [
+    {
+      "drug_name": "midazolam",
+      "oral_dose_mg": 7.5,
+      "iv_dose_mg": 5.0,
+      "observed_f_oral": 0.44,
+      "observed_fa": 0.95,
+      "observed_fg": 0.57,
+      "observed_fh": 0.82,
+      "citation": "FDA label; Paine 1997 (gut + hepatic first-pass)"
+    },
+    {
+      "drug_name": "simvastatin",
+      "oral_dose_mg": 40.0,
+      "iv_dose_mg": 10.0,
+      "observed_f_oral": 0.05,
+      "observed_fa": 0.85,
+      "observed_fg": 0.35,
+      "observed_fh": 0.17,
+      "citation": "Mauro 1993; Simcyp compound file"
+    },
+    {
+      "drug_name": "atorvastatin",
+      "oral_dose_mg": 40.0,
+      "iv_dose_mg": 10.0,
+      "observed_f_oral": 0.12,
+      "citation": "Lennernas 2003 (PMID 12605400)"
+    },
+    {
+      "drug_name": "nifedipine",
+      "oral_dose_mg": 10.0,
+      "iv_dose_mg": 10.0,
+      "observed_f_oral": 0.5,
+      "citation": "FDA label; Foster 1983"
+    },
+    {
+      "drug_name": "metoprolol",
+      "oral_dose_mg": 100.0,
+      "iv_dose_mg": 10.0,
+      "observed_f_oral": 0.4,
+      "citation": "FDA label; Regardh 1980 (extensive metabolizers)"
+    },
+    {
+      "drug_name": "propranolol",
+      "oral_dose_mg": 80.0,
+      "iv_dose_mg": 10.0,
+      "observed_f_oral": 0.25,
+      "citation": "Goodman and Gilman 14th ed; Pond 1984"
+    },
+    {
+      "drug_name": "warfarin",
+      "oral_dose_mg": 5.0,
+      "iv_dose_mg": 5.0,
+      "observed_f_oral": 0.99,
+      "citation": "FDA label; Breckenridge 1974"
+    },
+    {
+      "drug_name": "omeprazole",
+      "oral_dose_mg": 20.0,
+      "iv_dose_mg": 20.0,
+      "observed_f_oral": 0.4,
+      "citation": "FDA label (single dose; rises with repeated dosing)"
+    },
+    {
+      "drug_name": "caffeine",
+      "oral_dose_mg": 100.0,
+      "iv_dose_mg": 100.0,
+      "observed_f_oral": 0.99,
+      "citation": "Blanchard 1983; Goodman and Gilman 14th ed"
+    },
+    {
+      "drug_name": "theophylline",
+      "oral_dose_mg": 200.0,
+      "iv_dose_mg": 200.0,
+      "observed_f_oral": 0.96,
+      "citation": "FDA label; Hendeles 1983"
+    },
+    {
+      "drug_name": "diazepam",
+      "oral_dose_mg": 10.0,
+      "iv_dose_mg": 10.0,
+      "observed_f_oral": 0.93,
+      "citation": "FDA label; Greenblatt 1980"
+    },
+    {
+      "drug_name": "ibuprofen",
+      "oral_dose_mg": 400.0,
+      "iv_dose_mg": 400.0,
+      "observed_f_oral": 0.85,
+      "citation": "FDA label; Mills 1973"
+    },
+    {
+      "drug_name": "paracetamol",
+      "oral_dose_mg": 500.0,
+      "iv_dose_mg": 500.0,
+      "observed_f_oral": 0.63,
+      "citation": "Rawlins 1977; Forrest 1982"
+    },
+    {
+      "drug_name": "metformin",
+      "oral_dose_mg": 500.0,
+      "iv_dose_mg": 500.0,
+      "observed_f_oral": 0.55,
+      "citation": "Graham 2011 (permeation-limited, BCS III)"
+    },
+    {
+      "drug_name": "digoxin",
+      "oral_dose_mg": 0.25,
+      "iv_dose_mg": 0.25,
+      "observed_f_oral": 0.7,
+      "citation": "FDA label; Ochs 1978"
+    }
+  ]
+}

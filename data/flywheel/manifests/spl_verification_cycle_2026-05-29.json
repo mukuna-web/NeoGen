@@ -1,0 +1,22 @@
+{
+  "completed_at": "2026-05-29T10:02:48Z",
+  "cycle_id": "moat-continuous-loop-2026-05-29-c1",
+  "evidence_annotated": 74,
+  "next_action": "Resolve drug names to RxCUIs (C2).",
+  "set_ids_attempted": [
+    "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+    "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+    "00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+    "036ab68e-5085-4edc-bd83-784b43d64eab",
+    "0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+  ],
+  "set_ids_verified": [
+    "00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+    "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+    "036ab68e-5085-4edc-bd83-784b43d64eab",
+    "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+    "0cbce382-9c88-4f58-ae0f-532a841e8f95"
+  ],
+  "started_at": "2026-05-29T10:02:48Z",
+  "tool_used": "dailymed_v2_api"
+}

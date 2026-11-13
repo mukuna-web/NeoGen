@@ -1,0 +1,15 @@
+{
+  "completed_at": "2026-05-29T11:34:53Z",
+  "cycle_id": "moat-next5-adversarial-2026-05-29-c2",
+  "drugs": [
+    "ketoconazole",
+    "warfarin",
+    "amiodarone",
+    "rifampin",
+    "clarithromycin"
+  ],
+  "gaps": [],
+  "next_action": "Re-ingest selected systemic labels for DDI evidence (supersede topical).",
+  "started_at": "2026-05-29T11:34:53Z",
+  "tool_used": "openfda_label_api"
+}

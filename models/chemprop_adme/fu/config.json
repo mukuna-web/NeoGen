@@ -1,0 +1,10 @@
+{
+  "param": "fu",
+  "r2": 0.5066239933364526,
+  "d_h": 300,
+  "depth": 4,
+  "epochs": 40,
+  "train_size": 5570,
+  "test_size": 759,
+  "time_seconds": 269.72767424583435
+}

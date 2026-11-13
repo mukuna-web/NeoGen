@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local databases and logs
+*.db
+*.sqlite3
+logs/
+catboost_info/
+
+# Fetched third-party datasets (see DATA.md)
+data/tdc/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

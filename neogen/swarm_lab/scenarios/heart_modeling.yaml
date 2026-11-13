@@ -1,0 +1,150 @@
+# Flagship Scenario: Mathematical Modeling of Heart Function
+# =========================================================
+
+scenario_id: heart_modeling_v1
+title: "Mathematical Modeling of Human Heart Function"
+domain: cardiac_physiology
+difficulty: research_frontier
+
+question: >
+  How can the exact functions of the human heart be modeled in mathematical form?
+  Develop a comprehensive yet tractable mathematical framework that captures
+  the essential mechanisms of cardiac function: electrophysiology, mechanical
+  contraction, hemodynamics, valve dynamics, and regulation.
+
+description: >
+  The human heart is a complex electromechanical pump. To model it mathematically,
+  we need to capture: (1) electrical conduction from SA node through the conduction
+  system, (2) calcium handling and excitation-contraction coupling, (3) mechanical
+  contraction of cardiac muscle, (4) pressure-volume relationships in each chamber,
+  (5) valve opening/closing dynamics, (6) blood flow through the four chambers and
+  great vessels, (7) autonomic nervous system regulation. The goal is NOT to
+  reproduce a full Navier-Stokes CFD simulation, but to find the right level of
+  mathematical abstraction — reduced-order models that capture essential behavior
+  with tractable equations.
+
+constraints:
+  - Models must be expressible as ordinary differential equations (ODEs) or algebraic equations
+  - Must respect conservation of mass (blood volume) and energy
+  - Must capture the four phases of the cardiac cycle
+  - Must be parameterizable (not just descriptive)
+  - Must be computationally tractable (solvable in seconds, not hours)
+
+target_outputs:
+  - System of ODEs describing cardiac electromechanical function
+  - Subsystem decomposition (electrical, mechanical, hemodynamic, regulatory)
+  - Variable definitions with physiological units
+  - Parameter table with typical values
+  - State-space representation if possible
+  - Reduced-order model suitable for PBPK integration
+
+success_criteria:
+  - Equations must be dimensionally consistent
+  - Model should reproduce qualitative cardiac cycle behavior
+  - Pressure-volume loops should be physiologically realistic
+  - Conduction timing should match known values (PR interval ~120-200ms)
+  - Ejection fraction should be computable (~55-70% for healthy heart)
+
+suggested_specialties:
+  - cardiac electrophysiologist
+  - hemodynamics modeler
+  - mathematical physiologist
+  - control systems theorist
+  - biophysicist
+  - cardiac imaging specialist
+  - dynamical systems expert
+  - computational anatomist
+  - scientific skeptic
+  - model simplification critic
+  - systems biologist
+  - biomedical signal analyst
+
+num_specialties: 12
+
+background_knowledge: >
+  The heart has four chambers: right atrium (RA), right ventricle (RV), left atrium (LA),
+  left ventricle (LV). Blood flows: vena cava → RA → RV → pulmonary artery → lungs →
+  pulmonary veins → LA → LV → aorta → systemic circulation.
+
+  Electrical conduction: SA node (60-100 bpm pacemaker) → atrial depolarization →
+  AV node (120-200ms delay) → Bundle of His → bundle branches → Purkinje fibers →
+  ventricular depolarization.
+
+  Cardiac cycle phases: (1) Isovolumetric contraction, (2) Ejection,
+  (3) Isovolumetric relaxation, (4) Filling.
+
+  Key relationships:
+  - Cardiac output = Heart rate × Stroke volume
+  - Stroke volume = End-diastolic volume - End-systolic volume
+  - Ejection fraction = Stroke volume / End-diastolic volume
+  - Mean arterial pressure ≈ Diastolic + (1/3)(Systolic - Diastolic)
+  - Frank-Starling mechanism: increased preload → increased contractility
+
+known_equations:
+  - "CO = HR × SV (cardiac output)"
+  - "SV = EDV - ESV (stroke volume)"
+  - "EF = SV / EDV (ejection fraction)"
+  - "MAP ≈ DBP + (1/3)(SBP - DBP)"
+  - "dV/dt = Q_in - Q_out (conservation of blood volume)"
+  - "P = E(t) × (V - V0) (time-varying elastance)"
+  - "Q = (P1 - P2) / R (flow = pressure difference / resistance)"
+  - "Hodgkin-Huxley: C_m dV/dt = -sum(I_ion) + I_stim"
+  - "E(t) = E_min + (E_max - E_min) × e_n(t) (normalized elastance)"
+
+known_variables:
+  - "V: chamber volume (mL)"
+  - "P: chamber pressure (mmHg)"
+  - "Q: blood flow rate (mL/s)"
+  - "R: vascular resistance (mmHg·s/mL)"
+  - "C: vascular compliance (mL/mmHg)"
+  - "E(t): time-varying elastance (mmHg/mL)"
+  - "HR: heart rate (beats/min)"
+  - "CO: cardiac output (L/min)"
+  - "SV: stroke volume (mL)"
+  - "EDV: end-diastolic volume (mL)"
+  - "ESV: end-systolic volume (mL)"
+  - "EF: ejection fraction (dimensionless)"
+
+known_subsystems:
+  - "Electrical conduction system (SA node, AV node, His-Purkinje)"
+  - "Excitation-contraction coupling (Ca2+ handling)"
+  - "Mechanical contraction (sarcomere dynamics)"
+  - "Hemodynamics (pressure-volume-flow)"
+  - "Valve dynamics (opening/closing)"
+  - "Pulmonary circulation"
+  - "Systemic circulation"
+  - "Autonomic regulation (sympathetic/parasympathetic)"
+  - "Coronary circulation"
+  - "Baroreceptor reflex"
+
+ground_truth:
+  normal_physiology:
+    heart_rate: "60-100 bpm"
+    cardiac_output: "4-8 L/min"
+    stroke_volume: "60-100 mL"
+    ejection_fraction: "55-70%"
+    systolic_pressure: "90-140 mmHg"
+    diastolic_pressure: "60-90 mmHg"
+    pr_interval: "120-200 ms"
+    qrs_duration: "80-120 ms"
+    qt_interval: "350-450 ms"
+    edv: "120-150 mL"
+    esv: "40-60 mL"
+    lv_peak_pressure: "120 mmHg"
+    rv_peak_pressure: "25 mmHg"
+    aortic_valve_area: "3-4 cm²"
+    mitral_valve_area: "4-6 cm²"
+
+  reference_models:
+    windkessel: "Arterial compliance model: C dP/dt = Q_in - P/R"
+    elastance: "Time-varying elastance: P(t) = E(t)(V(t) - V0)"
+    hodgkin_huxley: "Ion channel kinetics: I = g_max × m^a × h^b × (V - E_rev)"
+    frank_starling: "Force ∝ sarcomere length (ascending limb)"
+
+tags:
+  - cardiac
+  - electrophysiology
+  - hemodynamics
+  - mathematical_modeling
+  - reduced_order_model
+  - ODE_systems

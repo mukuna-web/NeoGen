@@ -1,0 +1,15 @@
+{
+  "completed_at": "2026-05-29T12:09:49Z",
+  "cycle_id": "moat-next5-adversarial-2026-05-29-c4",
+  "drugs": ["clarithromycin", "rifampin"],
+  "gaps": [
+    {
+      "drug": "rifampin",
+      "reason": "no explicit AUC/Cmax value in CP/DDI sections (absent)"
+    }
+  ],
+  "next_action": "Pair PK effects to specific victim drugs via co-mention parsing; add dose/population context.",
+  "pk_records": 7,
+  "started_at": "2026-05-29T12:09:49Z",
+  "tool_used": "pk_extractor"
+}

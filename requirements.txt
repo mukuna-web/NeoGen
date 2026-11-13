@@ -1,0 +1,29 @@
+# ===== NeoGen Requirements =====
+# Core API
+fastapi>=0.104
+uvicorn[standard]>=0.24
+pydantic>=2.5
+
+# Data handling
+pandas>=2.1
+numpy>=1.24
+joblib>=1.3
+
+# Chemistry
+# Frozen by STANDARDIZATION_VERSION = stdz_v2_rdkit_2026.03.1.
+rdkit==2026.03.1
+
+# ML
+scikit-learn>=1.3
+xgboost>=2.0
+
+# PBPK simulation (ODE solver)
+scipy>=1.11
+
+# Utilities
+python-dotenv>=1.0
+tqdm>=4.66
+requests>=2.31
+
+# Note: torch, chemprop, lightning are NOT required
+# Chemprop gracefully falls back to XGBoost if unavailable

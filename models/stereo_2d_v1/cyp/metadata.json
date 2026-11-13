@@ -1,0 +1,12 @@
+{
+  "classes": ["CYP1A2", "CYP2C9", "CYP2C19", "CYP2D6", "CYP3A4"],
+  "endpoint": "cyp",
+  "feature_dimensions": 1054,
+  "feature_schema_version": "stereo_2d_v1",
+  "metrics": {
+    "macro_f1": 0.4782791763639917
+  },
+  "n_rows": 380,
+  "random_state": 42,
+  "training_hash": "96c9982f817c901679cf83c3465bf36c"
+}

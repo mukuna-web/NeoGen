@@ -1,0 +1,16 @@
+{
+  "completed_at": "2026-05-29T10:20:19Z",
+  "cycle_id": "moat-continuous-loop-2026-05-29-c3",
+  "drugs_attempted": [
+    "warfarin",
+    "amiodarone",
+    "ketoconazole",
+    "rifampin",
+    "clarithromycin"
+  ],
+  "errors": [],
+  "next_action": "Extend structure cache to resolved partners; flag conformer_3d candidates for docking.",
+  "records": 5,
+  "started_at": "2026-05-29T10:20:19Z",
+  "tool_used": "pubchem_pugrest+rdkit_local_cpu"
+}

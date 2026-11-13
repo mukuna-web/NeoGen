@@ -1,0 +1,462 @@
+# Source registry group 2 — mechanism/target, PK/PBPK, safety signals, RWE/clinical
+sources:
+  # ── 4. CYP / TRANSPORTER / TARGET / MECHANISM ─────────────────────────────
+  - source_id: pubchem_bioassay
+    name: PubChem BioAssay
+    category: mechanism_target
+    source_url: https://pubchem.ncbi.nlm.nih.gov/docs/bioassays
+    access_method: api
+    license_status: open
+    robots_tos_status: open
+    update_frequency: continuous
+    expected_data_types: [assay_results, cyp_inhibition_assays, ic50]
+    key_identifiers: [aid, cid]
+    joins_to_identity_spine: cid_join
+    value_for_moat: assay-level CYP inhibition evidence
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Targeted CYP assay subsets.
+    first_ingestion_status: not_started
+
+  - source_id: bindingdb
+    name: BindingDB
+    category: mechanism_target
+    source_url: https://www.bindingdb.org/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-BY; verify
+    update_frequency: periodic
+    expected_data_types: [binding_affinities, ki, ic50, targets]
+    key_identifiers: [inchikey, uniprot]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: quantitative binding for mechanism modeling
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: GBs
+    notes: Pairs with ChEMBL for affinity coverage.
+    first_ingestion_status: not_started
+
+  - source_id: gtopdb
+    name: IUPHAR/BPS Guide to Pharmacology
+    category: mechanism_target
+    source_url: https://www.guidetopharmacology.org/download.jsp
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-BY-SA 4.0
+    update_frequency: periodic
+    expected_data_types: [ligand_target_interactions, enzyme_data]
+    key_identifiers: [ligand_id, uniprot]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: expert-curated pharmacology mechanism
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: Curated target/mechanism reference.
+    first_ingestion_status: not_started
+
+  - source_id: uniprot
+    name: UniProt
+    category: mechanism_target
+    source_url: https://www.uniprot.org/help/downloads
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-BY 4.0
+    update_frequency: 8 releases/yr
+    expected_data_types:
+      [protein_sequences, function, cyp_transporter_annotations]
+    key_identifiers: [uniprot_accession]
+    joins_to_identity_spine: target_protein_join
+    value_for_moat: canonical protein/enzyme reference (CYP, OATP, etc.)
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: GBs
+    notes: Targeted CYP/transporter accession set first.
+    first_ingestion_status: not_started
+
+  - source_id: rcsb_pdb
+    name: RCSB Protein Data Bank
+    category: mechanism_target
+    source_url: https://www.rcsb.org/
+    access_method: api
+    license_status: open
+    robots_tos_status: open (CC0 for coordinates)
+    update_frequency: weekly
+    expected_data_types: [experimental_structures, ligand_binding_poses]
+    key_identifiers: [pdb_id, uniprot]
+    joins_to_identity_spine: target_protein_join
+    value_for_moat: experimental binding poses for docking tier
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Targeted CYP/transporter structures for docking.
+    first_ingestion_status: not_started
+
+  - source_id: alphafold_db
+    name: AlphaFold Protein Structure DB
+    category: mechanism_target
+    source_url: https://alphafold.ebi.ac.uk/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-BY 4.0
+    update_frequency: periodic
+    expected_data_types: [predicted_structures, pLDDT]
+    key_identifiers: [uniprot]
+    joins_to_identity_spine: target_protein_join
+    value_for_moat: predicted structures where no experimental pose exists
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Predicted only; flag confidence (pLDDT) in provenance.
+    first_ingestion_status: not_started
+
+  # ── 5. PK / PBPK ──────────────────────────────────────────────────────────
+  - source_id: pk_db
+    name: PK-DB
+    category: pk_pbpk
+    source_url: https://pk-db.com/
+    access_method: api
+    license_status: open
+    robots_tos_status: CC-BY; verify
+    update_frequency: periodic
+    expected_data_types: [pk_parameters, study_designs, timecourses]
+    key_identifiers: [pkdb_id, inchikey]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: curated human PK parameters (citable)
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: High-value curated PK; cite study IDs.
+    first_ingestion_status: not_started
+
+  - source_id: dailymed_pk_tables
+    name: DailyMed Label PK Tables
+    category: pk_pbpk
+    source_url: https://dailymed.nlm.nih.gov/dailymed/spl-resources.cfm
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: daily
+    expected_data_types: [pk_parameter_tables, cmax_auc_thalf]
+    key_identifiers: [set_id]
+    joins_to_identity_spine: set_id_join
+    value_for_moat: label-stated PK params (citable)
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: subset
+    notes: Extract structured PK tables from SPL clin-pharm sections.
+    first_ingestion_status: not_started
+
+  - source_id: fda_clin_pharm_reviews
+    name: FDA Clinical Pharmacology Reviews (PDFs)
+    category: pk_pbpk
+    source_url: https://www.accessdata.fda.gov/scripts/cder/daf/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: periodic
+    expected_data_types: [clin_pharm_review_pdf, ddi_study_summaries]
+    key_identifiers: [appl_no]
+    joins_to_identity_spine: appl_to_product
+    value_for_moat: detailed DDI/PBPK study narratives (citable)
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: GBs of PDFs
+    notes: PDF parsing; store citation page spans.
+    first_ingestion_status: not_started
+
+  - source_id: osp_pksim
+    name: Open Systems Pharmacology / PK-Sim + Model Library
+    category: pk_pbpk
+    source_url: https://www.open-systems-pharmacology.org/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: GPL/permissive; verify per asset
+    update_frequency: periodic
+    expected_data_types: [pbpk_models, parameterizations]
+    key_identifiers: [model_name, inchikey]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: open PBPK models to validate NeoGen engine
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: Cross-check NeoGen PBPK outputs vs OSP reference models.
+    first_ingestion_status: not_started
+
+  - source_id: pmc_pk_tables
+    name: PubMed/PMC PK Literature Tables
+    category: pk_pbpk
+    source_url: https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
+    access_method: bulk_download
+    license_status: requires_review
+    robots_tos_status: PMC OA subset only (licenses vary)
+    update_frequency: daily
+    expected_data_types: [article_xml, pk_tables]
+    key_identifiers: [pmid, pmcid]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: literature PK params with citations
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Only PMC Open Access subset; honor per-article license.
+    first_ingestion_status: not_started
+
+  # ── 6. SAFETY + REAL-WORLD SIGNALS ────────────────────────────────────────
+  - source_id: openfda_faers
+    name: openFDA FAERS (adverse events API)
+    category: safety_signals
+    source_url: https://open.fda.gov/apis/drug/event/
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: quarterly
+    expected_data_types: [adverse_event_reports, drug_reaction_pairs]
+    key_identifiers: [rxnorm, unii, meddra_pt]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: real-world adverse signal mining (statistical)
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: GBs
+    notes: Disproportionality signals only; never clinical claims.
+    first_ingestion_status: not_started
+
+  - source_id: faers_quarterly
+    name: FAERS Quarterly Data Files
+    category: safety_signals
+    source_url: https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: quarterly
+    expected_data_types: [demo, drug, reaction, outcome]
+    key_identifiers: [primaryid, drugname]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: raw FAERS for custom signal analysis
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "10s GB"
+    notes: Bulk files for reproducible signal computation.
+    first_ingestion_status: not_started
+
+  - source_id: sider
+    name: SIDER (side effect resource)
+    category: safety_signals
+    source_url: http://sideeffects.embl.de/
+    access_method: bulk_download
+    license_status: requires_review
+    robots_tos_status: CC-BY-NC-SA; non-commercial
+    update_frequency: static
+    expected_data_types: [drug_side_effects, frequencies]
+    key_identifiers: [stitch_id, meddra]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: labeled side-effect baseline
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: NC license restricts commercial use; review.
+    first_ingestion_status: not_started
+
+  - source_id: offsides
+    name: OFFSIDES
+    category: safety_signals
+    source_url: https://tatonettilab.org/resources/nsides/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: academic; verify
+    update_frequency: static
+    expected_data_types: [single_drug_ae_associations]
+    key_identifiers: [rxnorm, meddra]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: single-drug AE baseline for DDI contrast
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: GBs
+    notes: Pairs with TwoSIDES.
+    first_ingestion_status: not_started
+
+  - source_id: eudravigilance
+    name: EudraVigilance
+    category: safety_signals
+    source_url: https://www.adrreports.eu/
+    access_method: manual
+    license_status: requires_review
+    robots_tos_status: EMA terms; restricted reuse
+    update_frequency: periodic
+    expected_data_types: [eu_adverse_events]
+    key_identifiers: [substance_name]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: EU pharmacovigilance signal
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: false
+    estimated_size: portal
+    notes: Reuse restricted; human review.
+    first_ingestion_status: blocked
+
+  - source_id: jader
+    name: JADER (Japan AE database)
+    category: safety_signals
+    source_url: https://www.pmda.go.jp/
+    access_method: manual
+    license_status: requires_review
+    robots_tos_status: PMDA terms
+    update_frequency: periodic
+    expected_data_types: [jp_adverse_events]
+    key_identifiers: [substance_name]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: Japan pharmacovigilance signal
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: false
+    estimated_size: portal
+    notes: Review reuse terms.
+    first_ingestion_status: blocked
+
+  - source_id: vigibase
+    name: WHO VigiBase
+    category: safety_signals
+    source_url: https://www.who-umc.org/vigibase/vigibase/
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: UMC license required
+    update_frequency: continuous
+    expected_data_types: [global_adverse_events]
+    key_identifiers: [who_drug]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: global pharmacovigilance (if licensed)
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: vendor
+    notes: Licensed; do not scrape.
+    first_ingestion_status: blocked
+
+  - source_id: ohdsi_omop_datasets
+    name: OHDSI / OMOP public datasets
+    category: safety_signals
+    source_url: https://www.ohdsi.org/data-standardization/
+    access_method: bulk_download
+    license_status: requires_review
+    robots_tos_status: varies per dataset
+    update_frequency: periodic
+    expected_data_types: [standardized_observational_data]
+    key_identifiers: [omop_concept_id]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: standardized RWE substrate
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: varies
+    notes: Public OMOP samples only; full sets need governance.
+    first_ingestion_status: not_started
+
+  # ── 7. RWE / CLINICAL / CLAIMS ────────────────────────────────────────────
+  - source_id: omop_cdm
+    name: OMOP Common Data Model (spec)
+    category: rwe_clinical
+    source_url: https://ohdsi.github.io/CommonDataModel/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: Apache-2.0 (spec)
+    update_frequency: periodic
+    expected_data_types: [cdm_schema, vocabularies]
+    key_identifiers: [omop_concept_id]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: target schema to map any RWE into
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: small (spec)
+    notes: Adopt CDM as RWE normalization target.
+    first_ingestion_status: not_started
+
+  - source_id: mimic_iv
+    name: MIMIC-IV
+    category: rwe_clinical
+    source_url: https://physionet.org/content/mimiciv/
+    access_method: licensed
+    license_status: restricted
+    robots_tos_status: PhysioNet credentialed + DUA
+    update_frequency: periodic
+    expected_data_types: [icu_ehr, meds, labs]
+    key_identifiers: [subject_id, rxnorm]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: real prescribing + outcomes (if credentialed)
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: large
+    notes: Credentialing + DUA required; human governance.
+    first_ingestion_status: blocked
+
+  - source_id: all_of_us
+    name: All of Us Research Program
+    category: rwe_clinical
+    source_url: https://www.researchallofus.org/
+    access_method: licensed
+    license_status: restricted
+    robots_tos_status: workbench access + approval
+    update_frequency: periodic
+    expected_data_types: [ehr, genomics, surveys]
+    key_identifiers: [participant_id]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: diverse RWE + genomics (if approved)
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: very large
+    notes: Controlled workbench; cannot export raw.
+    first_ingestion_status: blocked
+
+  - source_id: uk_biobank
+    name: UK Biobank
+    category: rwe_clinical
+    source_url: https://www.ukbiobank.ac.uk/
+    access_method: licensed
+    license_status: restricted
+    robots_tos_status: application + approval required
+    update_frequency: periodic
+    expected_data_types: [ehr, genomics, phenotypes]
+    key_identifiers: [participant_id]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: deep phenotype + genomics (if approved)
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: very large
+    notes: Application required.
+    first_ingestion_status: blocked
+
+  - source_id: claims_rwe_vendors
+    name: MarketScan / Optum / TriNetX (claims/RWE)
+    category: rwe_clinical
+    source_url: https://www.trinetx.com/
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: commercial license required
+    update_frequency: vendor
+    expected_data_types: [claims, ehr_networks]
+    key_identifiers: [ndc, rxnorm]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: large-scale RWE (if licensed)
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: vendor
+    notes: Commercial; future/optional.
+    first_ingestion_status: blocked

@@ -1,0 +1,191 @@
+{
+  "registry_version": "0.1.0",
+  "created_at": "2026-05-29",
+  "task_id": "moat-continuous-loop-2026-05-29",
+  "note": "data_gap_registry: known unknowns that drive flywheel cycles. status in {open, in_progress, closed, blocked}.",
+  "gaps": [
+    {
+      "gap_id": "GAP-001",
+      "title": "openFDA evidence not verified against authoritative DailyMed SPL XML",
+      "category": "ddi_evidence",
+      "priority": "P0",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "verified_against_spl flag on LabelDDIEvidence + dailymed_spl.py",
+      "addressed_by": "V39 cycle 1"
+    },
+    {
+      "gap_id": "GAP-002",
+      "title": "Drug names not resolved to canonical identifiers (RxCUI)",
+      "category": "drug_identity_spine",
+      "priority": "P0",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "IdentitySpineRecord with rxnorm_rxcui + identity_resolution.py",
+      "addressed_by": "V39 cycle 2"
+    },
+    {
+      "gap_id": "GAP-003",
+      "title": "No structure/isomerism cache for pilot drugs (CID/InChIKey/isomeric SMILES + stereo status)",
+      "category": "structure_isomerism",
+      "priority": "P1",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "structure_stereo_cache records + structure_cache.py",
+      "addressed_by": "V39 cycle 3"
+    },
+    {
+      "gap_id": "GAP-004",
+      "title": "Perpetrator/victim direction unresolved on label-derived pair records",
+      "category": "ddi_pair_record",
+      "priority": "P1",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "role resolution from label mechanism language",
+      "addressed_by": "V42 next5 cycle 3 (explicit-only extractor + 2 assertions + 62 gaps; guard proven)"
+    },
+    {
+      "gap_id": "GAP-005",
+      "title": "No reviewer promotion path (needs_review -> human_reviewed)",
+      "category": "ddi_evidence",
+      "priority": "P1",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "reviewer workflow + reviewer_status transitions",
+      "addressed_by": "V44 next5 cycle 5 (review_workflow: cited-only promotion, append-only, no fake human review)"
+    },
+    {
+      "gap_id": "GAP-006",
+      "title": "No negative_control_pairs (curated no-interaction pairs)",
+      "category": "negative_control_pairs",
+      "priority": "P2",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "negative_control_pairs table + cited rationale",
+      "addressed_by": null
+    },
+    {
+      "gap_id": "GAP-007",
+      "title": "No isomer_counterfactuals (enantiomer/E-Z paired examples)",
+      "category": "isomer_counterfactuals",
+      "priority": "P2",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "isomer_counterfactuals table",
+      "addressed_by": null
+    },
+    {
+      "gap_id": "GAP-008",
+      "title": "No PK AUC/Cmax effect extraction from label clinical-pharmacology",
+      "category": "pk_effect_record",
+      "priority": "P2",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "pk_effect_record from FDA clin-pharm DDI study results",
+      "addressed_by": "V43 next5 cycle 4 (7 cited AUC/Cmax values; rifampin absent-gap; victim-pairing follow-on)"
+    },
+    {
+      "gap_id": "GAP-009",
+      "title": "No model_prediction_audit table (prediction vs reviewer correction)",
+      "category": "model_prediction_audit",
+      "priority": "P2",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "model_prediction_audit schema",
+      "addressed_by": null
+    },
+    {
+      "gap_id": "GAP-010",
+      "title": "No dedicated VORTEXT Data Flywheel terminal pane",
+      "category": "observability",
+      "priority": "P3",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "terminal Data Flywheel pane (registry counts, crawl/cycle status)",
+      "addressed_by": "V44: /api/vortext/flywheel endpoint + flywheel_status_summary.json (terminal pane still pending -> GAP-016)"
+    },
+    {
+      "gap_id": "GAP-011",
+      "title": "Drug name resolves to stereo-UNSPECIFIED PubChem parent (e.g. warfarin); specific enantiomer CID not captured",
+      "category": "structure_isomerism",
+      "priority": "P1",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "resolve (S)-/(R)- enantiomer CIDs + InChIKeys for chiral drugs flagged unspecified",
+      "addressed_by": "V40 next5 cycle 1 (enantiomer CIDs resolved; counterfactuals seeded)"
+    },
+    {
+      "gap_id": "GAP-012",
+      "title": "openFDA first-result formulation bias (ketoconazole -> topical shampoo) reduces systemic DDI coverage",
+      "category": "ddi_evidence",
+      "priority": "P2",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "prefer oral/systemic label route when selecting openFDA results",
+      "addressed_by": "V41 next5 cycle 2 (systemic label selector; ketoconazole -> oral label, 10 partners)"
+    },
+    {
+      "gap_id": "GAP-014",
+      "title": "Label-prose directionality unreliable; need structured FDA CYP/transporter substrate/inhibitor/inducer tables",
+      "category": "mechanism_target",
+      "priority": "P1",
+      "status": "closed",
+      "opened_at": "2026-05-29",
+      "target_artifact": "directionality from FDA substrate/inhibitor/inducer table columns",
+      "addressed_by": "V46 fda-structured-ddi-table-cycle (392 FDA clinical records + 22 in-vitro inhibitors parsed; 22 cited fda_table mechanism assertions; 16 pairs directionally resolved; 9/9 adversarial checks pass; engine untouched). Residual prose-only pairs tracked as follow-ups."
+    },
+    {
+      "gap_id": "GAP-015",
+      "title": "PK effects not yet paired to specific victim drugs (placeholder victim); metric/victim precision needs_review",
+      "category": "pk_effect_record",
+      "priority": "P2",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "co-mention parsing to bind each AUC/Cmax value to its victim + dose/population context",
+      "addressed_by": null
+    },
+    {
+      "gap_id": "GAP-016",
+      "title": "Dedicated VORTEXT terminal Data Flywheel pane (UI) not yet built",
+      "category": "observability",
+      "priority": "P3",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "terminal pane consuming /api/vortext/flywheel",
+      "addressed_by": null
+    },
+    {
+      "gap_id": "GAP-017",
+      "title": "FDA clinical matrix has 237 drugs but identity spine resolves only ~20; full-matrix RxCUI mapping incomplete",
+      "category": "drug_identity_spine",
+      "priority": "P2",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "RxCUI mapping for all 237 FDA-matrix drugs; multi-RxCUI names flagged needs_review",
+      "addressed_by": null,
+      "note": "Opened by V46. Assertion drugs (12) are 100% resolved; the unresolved remainder blocks pair expansion beyond pilot drugs."
+    },
+    {
+      "gap_id": "GAP-018",
+      "title": "Clinical index-drug tables (design page Tables 1-3) and in-vitro/clinical confidence calibration not yet ingested",
+      "category": "mechanism_target",
+      "priority": "P2",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "parse clinical index substrate/inhibitor/inducer tables; calibrate confidence (clinical_index > clinical_example > in_vitro)",
+      "addressed_by": null,
+      "note": "Opened by V46. In-vitro selective inhibitors are captured but deliberately excluded from clinical assertions; index-drug tables would raise confidence."
+    },
+    {
+      "gap_id": "GAP-019",
+      "title": "No FDA table refresh monitoring; content-hash drift not detected on re-fetch",
+      "category": "observability",
+      "priority": "P3",
+      "status": "open",
+      "opened_at": "2026-05-29",
+      "target_artifact": "scheduled content-hash compare against stored fda_ddi_tables_meta.json to detect FDA table updates",
+      "addressed_by": null,
+      "note": "Opened by V46. Content hashes are stored per page; a periodic diff would surface upstream FDA edits."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "assertions": [
+    {
+      "canonical_pair_id": "amiodarone|digoxin",
+      "confidence": "explicit_label",
+      "drug_a": "amiodarone",
+      "drug_b": "digoxin",
+      "enzyme_or_transporter": null,
+      "evidence_text": "Amiodarone taken concomitantly with digoxin increases the serum digoxin concentration by 70% after one day",
+      "mechanism": "unknown",
+      "perpetrator": "amiodarone",
+      "provenance_hash": "ebb9a2de7341dc134b0dd74210b63a9ae3f57ebc0d80820ae86155e94d5235bf",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "victim": "digoxin"
+    },
+    {
+      "canonical_pair_id": "clarithromycin|midazolam",
+      "confidence": "explicit_label",
+      "drug_a": "clarithromycin",
+      "drug_b": "midazolam",
+      "enzyme_or_transporter": null,
+      "evidence_text": "Midazolam When a single dose of midazolam was co-administered with clarithromycin tablets (500 mg twice daily for 7 days), midazolam AUC increased 174% after intravenous administration of midazolam and 600% after oral administration",
+      "mechanism": "unknown",
+      "perpetrator": "clarithromycin",
+      "provenance_hash": "17d5457efc57891bc820085ed2d27fabf1d65851d6942b1730bc8b6672a278d1",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "victim": "midazolam"
+    }
+  ],
+  "cycle": "V42-c3",
+  "generated_at": "2026-05-29T11:57:41Z",
+  "note": "label-prose directionality; treat as needs_review; authoritative fix = structured FDA tables (GAP-014)"
+}

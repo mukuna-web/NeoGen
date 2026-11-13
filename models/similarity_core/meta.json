@@ -1,0 +1,16 @@
+{
+  "n_drugs": 4219,
+  "embed_dim": 768,
+  "morgan_bits": 2048,
+  "holdouts_removed": 44,
+  "tdc_files": [
+    "Clearance_Hepatocyte_AZ.json",
+    "Clearance_Microsome_AZ.json",
+    "Half_Life_Obach.json",
+    "VDss_Lombardo.json",
+    "Bioavailability_Ma.json",
+    "PPBR_AZ.json"
+  ],
+  "clinical_file": "gold_standard_pk.json",
+  "chemberta_model": "seyonec/ChemBERTa-zinc-base-v1"
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "drug": "warfarin",
+      "inchikey": "PJVWKTKQMONHTI-UHFFFAOYSA-N",
+      "pubchem_cid": "54678486",
+      "required_feature_schema": "stereo_2d_v1",
+      "requires_conformers": false,
+      "stereo_relevance": "enantiomer_sensitive"
+    },
+    {
+      "drug": "amiodarone",
+      "inchikey": "IYIKLHRQXLHMJQ-UHFFFAOYSA-N",
+      "pubchem_cid": "2157",
+      "required_feature_schema": "legacy_2d_v1",
+      "requires_conformers": false,
+      "stereo_relevance": "none"
+    },
+    {
+      "drug": "ketoconazole",
+      "inchikey": "XMAYWYJOQHXEEK-ZEQKJWHPSA-N",
+      "pubchem_cid": "47576",
+      "required_feature_schema": "stereo_2d_v1",
+      "requires_conformers": false,
+      "stereo_relevance": "enantiomer_sensitive"
+    },
+    {
+      "drug": "rifampin",
+      "inchikey": "JQXXHWHPUNPDRT-WLSIYKJHSA-N",
+      "pubchem_cid": "135398735",
+      "required_feature_schema": "stereo_2d_v1",
+      "requires_conformers": true,
+      "stereo_relevance": "enantiomer_sensitive"
+    },
+    {
+      "drug": "clarithromycin",
+      "inchikey": "AGOYDEPGAOXOCK-KCBOHYOISA-N",
+      "pubchem_cid": "84029",
+      "required_feature_schema": "stereo_2d_v1",
+      "requires_conformers": true,
+      "stereo_relevance": "enantiomer_sensitive"
+    }
+  ],
+  "note": "drug->structure+stereo edges; needs_review.",
+  "patch_id": "gp-2026-05-29-c3",
+  "proposed_at": "2026-05-29T10:25:20Z",
+  "status": "proposed"
+}

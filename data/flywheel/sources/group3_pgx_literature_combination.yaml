@@ -1,0 +1,403 @@
+# Source registry group 3 — pharmacogenomics, literature/trials/patents, drug combination/synergy
+sources:
+  # ── 8. PHARMACOGENOMICS ───────────────────────────────────────────────────
+  - source_id: pharmgkb
+    name: PharmGKB
+    category: pharmacogenomics
+    source_url: https://www.pharmgkb.org/downloads
+    access_method: bulk_download
+    license_status: requires_review
+    robots_tos_status: CC-BY-SA-4.0 with attribution + restrictions
+    update_frequency: periodic
+    expected_data_types: [gene_drug, clinical_annotations, pathways]
+    key_identifiers: [rsid, gene, rxnorm]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: PGx mechanism modifiers for DDI context
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: Attribution + reuse terms; review before redistribution.
+    first_ingestion_status: not_started
+
+  - source_id: cpic
+    name: CPIC Guidelines
+    category: pharmacogenomics
+    source_url: https://cpicpgx.org/guidelines/
+    access_method: api
+    license_status: open
+    robots_tos_status: CC-style; verify
+    update_frequency: periodic
+    expected_data_types: [gene_drug_guidelines, dosing_implications]
+    key_identifiers: [gene, drug]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: actionable PGx guidance (citable, NOT auto-dosing)
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: small
+    notes: Guidance only; never auto-generate dosing.
+    first_ingestion_status: not_started
+
+  - source_id: pharmvar
+    name: PharmVar
+    category: pharmacogenomics
+    source_url: https://www.pharmvar.org/
+    access_method: api
+    license_status: open
+    robots_tos_status: open; verify
+    update_frequency: periodic
+    expected_data_types: [star_alleles, cyp_haplotypes]
+    key_identifiers: [gene, allele]
+    joins_to_identity_spine: enzyme_join
+    value_for_moat: CYP allele definitions for metabolizer phenotypes
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: small
+    notes: Ties enzyme genotype to CYP activity.
+    first_ingestion_status: not_started
+
+  - source_id: clinvar
+    name: ClinVar (NCBI)
+    category: pharmacogenomics
+    source_url: https://www.ncbi.nlm.nih.gov/clinvar/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: weekly
+    expected_data_types: [variant_clinical_significance]
+    key_identifiers: [rsid, variant_id]
+    joins_to_identity_spine: gene_join
+    value_for_moat: variant significance context
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: GBs
+    notes: Variant annotation reference.
+    first_ingestion_status: not_started
+
+  - source_id: gnomad
+    name: gnomAD
+    category: pharmacogenomics
+    source_url: https://gnomad.broadinstitute.org/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open (CC0-ish); verify
+    update_frequency: periodic
+    expected_data_types: [allele_frequencies]
+    key_identifiers: [variant]
+    joins_to_identity_spine: gene_join
+    value_for_moat: population allele frequencies for PGx
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: very large
+    notes: Targeted CYP/transporter loci only.
+    first_ingestion_status: not_started
+
+  - source_id: thousand_genomes
+    name: 1000 Genomes
+    category: pharmacogenomics
+    source_url: https://www.internationalgenome.org/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open (Fort Lauderdale); verify
+    update_frequency: static
+    expected_data_types: [population_variants]
+    key_identifiers: [variant]
+    joins_to_identity_spine: gene_join
+    value_for_moat: population genetics reference
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Reference population data.
+    first_ingestion_status: not_started
+
+  # ── 9. LITERATURE / TRIALS / PATENTS ──────────────────────────────────────
+  - source_id: pubmed
+    name: PubMed (NCBI E-utilities)
+    category: literature_trials_patents
+    source_url: https://www.ncbi.nlm.nih.gov/books/NBK25501/
+    access_method: api
+    license_status: open
+    robots_tos_status: NCBI E-utilities terms; rate limited
+    update_frequency: daily
+    expected_data_types: [citations, abstracts, mesh]
+    key_identifiers: [pmid, doi]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: citation backbone for evidence spans
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: E-utilities with API key for higher rate; abstracts not full text.
+    first_ingestion_status: not_started
+
+  - source_id: pmc
+    name: PubMed Central (OA subset)
+    category: literature_trials_patents
+    source_url: https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
+    access_method: bulk_download
+    license_status: requires_review
+    robots_tos_status: OA subset only; per-article license varies
+    update_frequency: daily
+    expected_data_types: [full_text_xml, tables]
+    key_identifiers: [pmcid, pmid]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: full-text evidence extraction (OA only)
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Only Open Access subset; honor CC-BY/NC per article.
+    first_ingestion_status: not_started
+
+  - source_id: europe_pmc
+    name: Europe PMC
+    category: literature_trials_patents
+    source_url: https://europepmc.org/RestfulWebService
+    access_method: api
+    license_status: open
+    robots_tos_status: open REST; per-article license varies
+    update_frequency: daily
+    expected_data_types: [citations, full_text_oa, annotations]
+    key_identifiers: [pmid, pmcid, doi]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: rich literature API + text-mined annotations
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Good for annotation-assisted evidence span discovery.
+    first_ingestion_status: not_started
+
+  - source_id: clinicaltrials_gov
+    name: ClinicalTrials.gov
+    category: literature_trials_patents
+    source_url: https://clinicaltrials.gov/data-api/api
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: daily
+    expected_data_types: [trial_records, interventions, results]
+    key_identifiers: [nct_id]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: DDI/PK study trial context
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: GBs
+    notes: v2 API; structured intervention data.
+    first_ingestion_status: not_started
+
+  - source_id: semantic_scholar
+    name: Semantic Scholar
+    category: literature_trials_patents
+    source_url: https://www.semanticscholar.org/product/api
+    access_method: api
+    license_status: open
+    robots_tos_status: API terms; rate limited
+    update_frequency: periodic
+    expected_data_types: [citations, graph, tldr]
+    key_identifiers: [s2_id, doi]
+    joins_to_identity_spine: none
+    value_for_moat: citation graph + ranking
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: true
+    estimated_size: large
+    notes: API key raises limits; not full text.
+    first_ingestion_status: not_started
+
+  - source_id: openalex
+    name: OpenAlex
+    category: literature_trials_patents
+    source_url: https://docs.openalex.org/
+    access_method: api
+    license_status: open
+    robots_tos_status: CC0
+    update_frequency: continuous
+    expected_data_types: [works, authors, concepts]
+    key_identifiers: [openalex_id, doi]
+    joins_to_identity_spine: none
+    value_for_moat: open scholarly metadata graph
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: CC0 metadata; snapshot available.
+    first_ingestion_status: not_started
+
+  - source_id: google_patents
+    name: Google Patents
+    category: literature_trials_patents
+    source_url: https://patents.google.com/
+    access_method: browser
+    license_status: requires_review
+    robots_tos_status: scraping restricted; use BigQuery public dataset
+    update_frequency: periodic
+    expected_data_types: [patent_text, claims]
+    key_identifiers: [patent_no]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: formulation/combination patent landscape
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: false
+    estimated_size: large
+    notes: Prefer Google Patents Public Data on BigQuery over scraping.
+    first_ingestion_status: blocked
+
+  - source_id: lens_org
+    name: Lens.org
+    category: literature_trials_patents
+    source_url: https://www.lens.org/
+    access_method: licensed
+    license_status: requires_review
+    robots_tos_status: API terms; tiered
+    update_frequency: periodic
+    expected_data_types: [patents, scholarly]
+    key_identifiers: [lens_id]
+    joins_to_identity_spine: none
+    value_for_moat: combined patent + scholarly
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: large
+    notes: API tiers; review terms.
+    first_ingestion_status: blocked
+
+  - source_id: surechembl
+    name: SureChEMBL
+    category: literature_trials_patents
+    source_url: https://www.surechembl.org/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-style; verify
+    update_frequency: periodic
+    expected_data_types: [patent_chemistry, structures]
+    key_identifiers: [inchikey, patent_no]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: chemistry extracted from patents
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Patent chemistry mining.
+    first_ingestion_status: not_started
+
+  - source_id: fda_review_pdfs
+    name: FDA Review PDFs
+    category: literature_trials_patents
+    source_url: https://www.accessdata.fda.gov/scripts/cder/daf/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: periodic
+    expected_data_types: [review_pdf, ddi_pbpk_narratives]
+    key_identifiers: [appl_no]
+    joins_to_identity_spine: appl_to_product
+    value_for_moat: regulator-grade DDI/PBPK narratives (citable)
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: GBs of PDFs
+    notes: PDF parsing; cite page spans.
+    first_ingestion_status: not_started
+
+  # ── 10. DRUG COMBINATION / SYNERGY ────────────────────────────────────────
+  - source_id: drugcomb
+    name: DrugComb
+    category: drug_combination_synergy
+    source_url: https://drugcomb.org/
+    access_method: bulk_download
+    license_status: requires_review
+    robots_tos_status: academic; verify
+    update_frequency: periodic
+    expected_data_types: [combination_screens, synergy_scores]
+    key_identifiers: [drug_pair, cell_line]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: combination synergy (preclinical, not clinical DDI)
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: Preclinical synergy != clinical DDI; keep separated in schema.
+    first_ingestion_status: not_started
+
+  - source_id: nci_almanac
+    name: NCI ALMANAC
+    category: drug_combination_synergy
+    source_url: https://dtp.cancer.gov/ncialmanac/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: static
+    expected_data_types: [combination_screens, growth_inhibition]
+    key_identifiers: [nsc_id, cell_line]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: oncology combination benchmark
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: Preclinical; oncology-specific.
+    first_ingestion_status: not_started
+
+  - source_id: oneil_combination
+    name: O'Neil Combination Dataset
+    category: drug_combination_synergy
+    source_url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4901145/
+    access_method: bulk_download
+    license_status: requires_review
+    robots_tos_status: per-publication license
+    update_frequency: static
+    expected_data_types: [combination_synergy]
+    key_identifiers: [drug_pair, cell_line]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: classic combination benchmark
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: false
+    estimated_size: "10s MB"
+    notes: Verify supplementary-data license.
+    first_ingestion_status: blocked
+
+  - source_id: az_sanger_combinations
+    name: AstraZeneca-Sanger Combination Datasets
+    category: drug_combination_synergy
+    source_url: https://www.synapse.org/
+    access_method: licensed
+    license_status: requires_review
+    robots_tos_status: Synapse account + terms
+    update_frequency: static
+    expected_data_types: [combination_screens]
+    key_identifiers: [drug_pair, cell_line]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: DREAM-challenge combination data
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: "100s MB"
+    notes: Synapse governance; review.
+    first_ingestion_status: blocked
+
+  - source_id: dream_combinations
+    name: DREAM Drug Combination Challenge Datasets
+    category: drug_combination_synergy
+    source_url: https://www.synapse.org/
+    access_method: licensed
+    license_status: requires_review
+    robots_tos_status: Synapse account + challenge terms
+    update_frequency: static
+    expected_data_types: [combination_predictions, gold_standard]
+    key_identifiers: [drug_pair]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: combination prediction benchmark
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: "100s MB"
+    notes: Synapse governance; review.
+    first_ingestion_status: blocked

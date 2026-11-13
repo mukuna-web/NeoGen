@@ -1,0 +1,2484 @@
+{
+  "cycle_id": "openfda-ddi-label-cycle-2026-05-28",
+  "evidence": [
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "2f10c950fcad1dacaa783afe84c42207a9dcc5d3392bdab630afff127dcc5d73",
+      "drug_a": "warfarin",
+      "drug_b": "amiodarone",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "217ae25cc5858b6b985ebfeb7eda98a4d965a4c11072068e95c1b7ea5b658161",
+      "drug_a": "warfarin",
+      "drug_b": "ketoconazole",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "d958565fce08afbd1cde6d060670d965a183d6c0197a67c05469a3bdaac1e6b4",
+      "drug_a": "warfarin",
+      "drug_b": "rifampin",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "cae32f1d8bf7cef0553164e358824e770d3f3f570baa043324b21c3e2b6d09b4",
+      "drug_a": "warfarin",
+      "drug_b": "clarithromycin",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "d47768fa3b4c8bf1bd99783963a4090796a8dbdcc579f2e6a4b123355b17d5f0",
+      "drug_a": "warfarin",
+      "drug_b": "cyclosporine",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "046da9cc90ca6ba85f8426849a07fee3b64ad7d202e6910508e3167d5c10e680",
+      "drug_a": "warfarin",
+      "drug_b": "fluconazole",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "d4e224c679aedbe8d922d0b1bce0c40319307ec79148aeb783d2d55ed2e4905e",
+      "drug_a": "warfarin",
+      "drug_b": "itraconazole",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "86b2058dd3c6df6cc0ad37b821013ad83f22ee482d610d32d0d0ccfc85d93afc",
+      "drug_a": "warfarin",
+      "drug_b": "phenytoin",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "9d063d2825d6aac278f77084de78e55f41f493b0441f86e18a2bc5bd4ed9c281",
+      "drug_a": "warfarin",
+      "drug_b": "carbamazepine",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "d19eb81270604eee601204229373e1c4f55e827140d270ef4bc154624db4b2c2",
+      "drug_a": "warfarin",
+      "drug_b": "erythromycin",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "f6f0940f8b627eb6aaf4d2fbaa08bc12e58298e2d10f44144a5e018de57aed10",
+      "drug_a": "warfarin",
+      "drug_b": "atorvastatin",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "60f692be89869911010df8c7d216c7437bd812b9064aa86fe8eae72ec21ca307",
+      "drug_a": "warfarin",
+      "drug_b": "verapamil",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+      "content_hash": "f596799cde9aaefb5d43539475320526e3a8cef600b3d744cc3effc48fbb9bc3",
+      "drug_a": "warfarin",
+      "drug_b": "diltiazem",
+      "enzymes": ["CYP2C9", "CYP1A2", "CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Some botanicals and foods can interact with warfarin sodium through CYP450 interactions (e.g., echinacea, grapefruit juice, ginkgo, goldenseal, St.",
+      "content_hash": "a9f2619447455a4d1f7d8a12a357e0c603f389e57f6cb6a87f5884abf3f37c3d",
+      "drug_a": "warfarin",
+      "drug_b": "grapefruit",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "12 CLINICAL PHARMACOLOGY 12.1 Mechanism of Action Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S.",
+      "content_hash": "5bd4887af770900c083a9e778af22f20e89ca905cdaee0a5220e7f88412ee29c",
+      "drug_a": "warfarin",
+      "drug_b": null,
+      "enzymes": ["CYP2C9"],
+      "evidence_level": "label",
+      "label_section": "CLINICAL PHARMACOLOGY",
+      "mechanism": "cyp_inhibition",
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "5 WARNINGS AND PRECAUTIONS Tissue necrosis:",
+      "content_hash": "c9c44a8ca44726fa6a4ff16d851df031631a4a22e5c26a46812ce5e2d674f7af",
+      "drug_a": "warfarin",
+      "drug_b": null,
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "4 CONTRAINDICATIONS Warfarin sodium is contraindicated in:",
+      "content_hash": "d12becdce4b09000787aa146273202fc16e0c3987e0b26a1502ca41b5552128e",
+      "drug_a": "warfarin",
+      "drug_b": null,
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CONTRAINDICATIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "spl_set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Warfarin Potentiates anticoagulant response and can result in serious or fatal bleeding.",
+      "content_hash": "0bdff3ea106fe5600745aa68837dccc6e4d7afe3a1935175f8ea04c3cb3c624f",
+      "drug_a": "amiodarone",
+      "drug_b": "warfarin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "HMG-CoA Reductase Inhibitors simvastatin, lovastatin, atorvastatin Increased plasma concentration of HMG-CoA reductase inhibitor.",
+      "content_hash": "a388f5fa9b158a89140361878aeeda9e57bc1d5b5dc22351fc2182dd7adbda4b",
+      "drug_a": "amiodarone",
+      "drug_b": "simvastatin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+      "content_hash": "a39679062455ca7f211babafc0fc27e0d8a7021816114161b15c5264f9223562",
+      "drug_a": "amiodarone",
+      "drug_b": "digoxin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Cyclosporine Increased plasma levels of cyclosporine have been reported resulting in elevated creatinine, despite reduction of cyclosporine dose.",
+      "content_hash": "dfe876cdfa483e72bbd96536fe97dd3f7010f35d8fd67476c48494ffc303f1c3",
+      "drug_a": "amiodarone",
+      "drug_b": "cyclosporine",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Phenytoin Increased steady-state levels of phenytoin.",
+      "content_hash": "9af06361fd99e4460b216523b9ad145b7747d2aa8115c3579aab79c7107f46c7",
+      "drug_a": "amiodarone",
+      "drug_b": "phenytoin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "HMG-CoA Reductase Inhibitors simvastatin, lovastatin, atorvastatin Increased plasma concentration of HMG-CoA reductase inhibitor.",
+      "content_hash": "949ad812be3c567d5e25c9af1d82554c2340df22f9be69aee33616a7e7c6f799",
+      "drug_a": "amiodarone",
+      "drug_b": "atorvastatin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+      "content_hash": "3011d07fa8bff0a1acdeb9df7f9dbc82012d23a7f1007ca6c26f32c8da9e5d9a",
+      "drug_a": "amiodarone",
+      "drug_b": "verapamil",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+      "content_hash": "d5f18ea140d723af6bb524f32944fbcd91c198fe22e43124bd6640666ea5a656",
+      "drug_a": "amiodarone",
+      "drug_b": "diltiazem",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Pharmacokinetic Interactions CYP450 Inhibitors grapefruit juice, certain fluoroquinolone and macrolide antibiotics, azole antifungals, cimetidine, certain protease inhibitors Increased exposure of amiodarone.",
+      "content_hash": "c716f5f67fa1a5a8511857e4d2bfe3e7763a334088c3604165bb22c7a0205064",
+      "drug_a": "amiodarone",
+      "drug_b": "grapefruit",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": "cyp_inhibition",
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Amiodarone taken concomitantly with digoxin increases the serum digoxin concentration by 70% after one day.",
+      "content_hash": "490ecdb08eeba5aac485baea3565d15f3a4768e6eebf933f1deb6b206f3064bc",
+      "drug_a": "amiodarone",
+      "drug_b": "digoxin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CLINICAL PHARMACOLOGY",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Effects of other agents on amiodarone Grapefruit juice:",
+      "content_hash": "13b0345530c63c2afa63c08163afde8383508043373c3bd551b8d0a26c33903a",
+      "drug_a": "amiodarone",
+      "drug_b": "grapefruit",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CLINICAL PHARMACOLOGY",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "5 WARNINGS AND PRECAUTIONS Persistence of Adverse Effects:",
+      "content_hash": "5eca3971a07a23246669232fef2917c8a6d35f8c5240c74dbd57c42706c7af23",
+      "drug_a": "amiodarone",
+      "drug_b": null,
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "4 CONTRAINDICATIONS Cardiogenic shock.",
+      "content_hash": "db0fd90103f109c48d6254f06cef39393eea16d25ebc7188323b54c92f397c29",
+      "drug_a": "amiodarone",
+      "drug_b": null,
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CONTRAINDICATIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "spl_set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "CLINICAL PHARMACOLOGY Tinea (pityriasis) versicolor is a non-contagious infection of the skin caused by Pityrosporum orbiculare ( Malassezia furfur ).",
+      "content_hash": "837aa1d3ac6412774a2563d914253d503b39cfb8e76fe725d67ed12cd5ee3e56",
+      "drug_a": "ketoconazole",
+      "drug_b": null,
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CLINICAL PHARMACOLOGY",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+      "spl_set_id": "00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "CONTRAINDICATIONS Ketoconazole shampoo, 2% is contraindicated in persons who have known hypersensitivity to the active ingredient or excipients of this formulation.",
+      "content_hash": "062c32ebb79a057d0838266c78743af8f36e3adcf3dee0c624212b4f2e82a1f1",
+      "drug_a": "ketoconazole",
+      "drug_b": null,
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CONTRAINDICATIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:57Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+      "spl_set_id": "00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Perform prothrombin time daily or as frequently as necessary to establish and maintain the required dose of anticoagulant Warfarin Decrease exposure Antifungals Fluconazole Decrease AUC by 23% Itraconazole Prevention or Management:",
+      "content_hash": "8725500ed4e1bf8f0aac8f1354fc460e2db60c39319014a353a3ee380ae10178",
+      "drug_a": "rifampin",
+      "drug_b": "warfarin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Not recommended 2 weeks before and during itraconazole treatment Decrease exposure Ketoconazole Decrease exposure Caspofungin Prevention or Management:",
+      "content_hash": "23ec711c490f1776b8d43450b3b2a7af80bd381ce8b2fabd61893b9f1a6334fd",
+      "drug_a": "rifampin",
+      "drug_b": "ketoconazole",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Decrease exposure Other Drugs Enalapril Decrease active metabolite exposure Chloramphenicol Concomitant use with rifampin in 2 children Decrease exposure Clarithromycin Decrease exposure Dapsone Rifampin has been shown to increase the clearance of dapsone and, accordingly, decrease dapsone exposure.",
+      "content_hash": "6e0a3c915b53e657936ec6cef51aab956a194dd42d668abec484bb81c1f2bc8a",
+      "drug_a": "rifampin",
+      "drug_b": "clarithromycin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Decrease exposure Selective 5-HT3 Receptor Antagonists Ondansetron Decrease exposure Statins Metabolized by CYP3A4 Simvastatin Decrease exposure Thiazolidinediones Rosiglitazone Decrease AUC by 66% Tricyclic Antidepressants Nortriptyline A tuberculosis treatment regimen including rifampin (600 mg/d\u2026",
+      "content_hash": "9ef1a11b7264cc6bb95fce6b15d701ec43401bcefa5c4276c174d1d7929df5be",
+      "drug_a": "rifampin",
+      "drug_b": "simvastatin",
+      "enzymes": ["CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Prednisolone Decrease exposure Cardiac Glycosides Digoxin Prevention or Management:",
+      "content_hash": "169375b3489cb0748ac2ce1d17efc44a8d75f5df383739bf91d48ca71bf4a4eb",
+      "drug_a": "rifampin",
+      "drug_b": "digoxin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Glipizide Decrease exposure Immunosuppressive Agents Cyclosporine Decrease exposure Tacrolimus Prevention or Management:",
+      "content_hash": "522a0c404ce39396ae10695274d785f4bb240357e532f44651741a4e6c6b7d38",
+      "drug_a": "rifampin",
+      "drug_b": "cyclosporine",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Perform prothrombin time daily or as frequently as necessary to establish and maintain the required dose of anticoagulant Warfarin Decrease exposure Antifungals Fluconazole Decrease AUC by 23% Itraconazole Prevention or Management:",
+      "content_hash": "07ca3a1f65c5a6fa57ecf8592dee14dce98495856b0bec1602a2b8f09d0e07c5",
+      "drug_a": "rifampin",
+      "drug_b": "fluconazole",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Perform prothrombin time daily or as frequently as necessary to establish and maintain the required dose of anticoagulant Warfarin Decrease exposure Antifungals Fluconazole Decrease AUC by 23% Itraconazole Prevention or Management:",
+      "content_hash": "a21e95e366b48ae92b8f5ee686b78bee4ad9c7e346ba02fd3ae8933612ad1b89",
+      "drug_a": "rifampin",
+      "drug_b": "itraconazole",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Advise patients to change to non-hormonal methods of birth control during rifampin therapy Estrogens Decrease exposure Progestins Anticonvulsants Phenytoin Administered with rifampin 450 mg daily Decrease exposure Antiarrhythmics Disopyramide Decrease exposure Mexiletine Decrease exposure Quinidine\u2026",
+      "content_hash": "d4f76b7a7e2eb396adcc00c3b89721adbb44d9fdc17740e29a601de6b3a439c9",
+      "drug_a": "rifampin",
+      "drug_b": "phenytoin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Glipizide Decrease exposure Immunosuppressive Agents Cyclosporine Decrease exposure Tacrolimus Prevention or Management:",
+      "content_hash": "88674bcabdfcabcf3f059734f22dc6abada2833826e45711435147a971f887b1",
+      "drug_a": "rifampin",
+      "drug_b": "tacrolimus",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Decrease exposure Beta-blockers Metoprolol Decrease exposure Propranolol Decrease exposure Benzodiazepines Diazepam , Administered with rifampin 1200 mg daily Decrease exposure Benzodiazepine-related drugs Zopiclone Decrease AUC by 82% Zolpidem Decrease AUC by 73% Calcium Channel Blockers Diltiazem\u2026",
+      "content_hash": "b085d373cb2149a941e0a93487aeeb96046a202cd5e75ccf223b3ba2a6dfa9ad",
+      "drug_a": "rifampin",
+      "drug_b": "verapamil",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Decrease exposure Beta-blockers Metoprolol Decrease exposure Propranolol Decrease exposure Benzodiazepines Diazepam , Administered with rifampin 1200 mg daily Decrease exposure Benzodiazepine-related drugs Zopiclone Decrease AUC by 82% Zolpidem Decrease AUC by 73% Calcium Channel Blockers Diltiazem\u2026",
+      "content_hash": "6d1120355e1ca5b27ed5ac4e3e3b3decbb598036e9ce45cbb6d3158dd5139a66",
+      "drug_a": "rifampin",
+      "drug_b": "diltiazem",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "CLINICAL PHARMACOLOGY Oral Administration Rifampin is readily absorbed from the gastrointestinal tract.",
+      "content_hash": "d7f48a82cb9fb01935f3105f8bc9ab24c3a8f2800a3cb4b0ee0278a63cdce6ce",
+      "drug_a": "rifampin",
+      "drug_b": null,
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CLINICAL PHARMACOLOGY",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "WARNINGS Hepatotoxicity of hepatocellular, cholestatic, and mixed patterns has been reported in patients treated with rifampin.",
+      "content_hash": "28d346900045647494732dcdbb3ef136e3657545d226623f8460aa7629d4a95b",
+      "drug_a": "rifampin",
+      "drug_b": null,
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "WARNINGS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "CONTRAINDICATIONS RIFADIN is contraindicated in patients with a history of hypersensitivity to rifampin or any of the components, or to any of the rifamycins.",
+      "content_hash": "e0134f4750deccf4bf2a4f6e5b5e83e772e0f554f9eba154ef47e298c648c9f3",
+      "drug_a": "rifampin",
+      "drug_b": null,
+      "enzymes": ["CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "CONTRAINDICATIONS",
+      "mechanism": "cyp_induction",
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "spl_set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Warfarin Use With Caution Oral anticoagulants:",
+      "content_hash": "6f130d4a82cb891402d976214d474364b1130f1ffd6716496338ab8f71fab47a",
+      "drug_a": "clarithromycin",
+      "drug_b": "warfarin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Disopyramide Quinidine Dofetilide Amiodarone Sotalol Procainamide Not Recommended Disopyramide, Quinidine:",
+      "content_hash": "1b806097afed1ba66c1a761013a16e3f708363d3f44267cb86e540f9e03b87e8",
+      "drug_a": "clarithromycin",
+      "drug_b": "amiodarone",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Efavirenz Nevirapine Rifampicin Rifabutin Rifapentine Use With Caution Inducers of CYP3A enzymes, such as efavirenz, nevirapine, rifampicin, rifabutin, and rifapentine will increase the metabolism of clarithromycin, thus decreasing plasma concentrations of clarithromycin, while increasing those of\u2026",
+      "content_hash": "a3561361fc6700e18337c54cb39ebb62e484cd91913704e8bc9bd81663f1a0d7",
+      "drug_a": "clarithromycin",
+      "drug_b": "rifampicin",
+      "enzymes": ["CYP3A"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Lomitapide Lovastatin Simvastatin Contraindicated Lomitapide, Lovastatin, Simvastatin:",
+      "content_hash": "f1e7b927b2f62ec5f6c977034ee9f03ecccc2feaaa43ef21b833d23a7dae14fe",
+      "drug_a": "clarithromycin",
+      "drug_b": "simvastatin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Midazolam Use With Caution Midazolam:",
+      "content_hash": "5338ae1dd59ca7e56df64c737e9d4d35574138106a66737d2e83e922acc5f7fe",
+      "drug_a": "clarithromycin",
+      "drug_b": "midazolam",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Digoxin Use With Caution Digoxin:",
+      "content_hash": "9d94c454bae70e4c549f8cdc87a09ed04deb3e6033372919208d28e9fecf2ece",
+      "drug_a": "clarithromycin",
+      "drug_b": "digoxin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Cyclosporine Use With Caution Cyclosporine:",
+      "content_hash": "ecd6adc1dd35a9e957c1eb80bad2de5078837f1b49af59fa6177c18d7fbfea72",
+      "drug_a": "clarithromycin",
+      "drug_b": "cyclosporine",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Fluconazole No Dose Adjustment Fluconazole:",
+      "content_hash": "926217f6a3e63b71a0c83c2eb418d6ab0a2ee3257901fddf4f6a6b9eb034814c",
+      "drug_a": "clarithromycin",
+      "drug_b": "fluconazole",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Itraconazole Use With Caution Itraconazole:",
+      "content_hash": "322b0c6f5e9b3b79b0eb4fd124e1c0acc8bb8a1cdee3cbb39bb8473f60f55ddc",
+      "drug_a": "clarithromycin",
+      "drug_b": "itraconazole",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Hexobarbital Phenytoin Valproate Use With Caution There have been postmarketing reports of interactions of clarithromycin with drugs not thought to be metabolized by CYP3A, including hexobarbital, phenytoin, and valproate.",
+      "content_hash": "5cf7276ad9e42000dbc61a776308f308857212a43629bb6f70c6a1df878d2f8f",
+      "drug_a": "clarithromycin",
+      "drug_b": "phenytoin",
+      "enzymes": ["CYP3A"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Clarithromycin tablets should be used with caution in patients receiving treatment with other drugs known to be CYP3A enzyme substrates, especially if the CYP3A substrate has a narrow safety margin (e.g., carbamazepine) and/or the substrate is extensively metabolized by this enzyme.",
+      "content_hash": "2d9dc0f6c72726778a0f964e86d68fe84b147abaffa692daa553d89424aa2715",
+      "drug_a": "clarithromycin",
+      "drug_b": "carbamazepine",
+      "enzymes": ["CYP3A"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "In postmarketing experience, erythromycin has been reported to decrease the clearance of triazolam and midazolam, and thus, may increase the pharmacologic effect of these benzodiazepines.",
+      "content_hash": "18f05c550845b1c40deb1fc86de7db96dc8ce582ddfded6a903228bfbddf2095",
+      "drug_a": "clarithromycin",
+      "drug_b": "erythromycin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Clarithromycin may increase the exposure of these drugs by inhibition of CYP3A metabolism, thereby increasing the risk of toxicities from these drugs [see Contraindications ( 4.5 ) and Warnings and Precautions ( 5.4 )] Atorvastatin, Pravastatin, Fluvastatin:",
+      "content_hash": "481ee74dedf18113367795d454c365941af76d67b2a04065d85aaa91532f1727",
+      "drug_a": "clarithromycin",
+      "drug_b": "atorvastatin",
+      "enzymes": ["CYP3A"],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": "cyp_inhibition",
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Tacrolimus Tacrolimus:",
+      "content_hash": "3c08d43c2e785ba6e6f962a6e750e5610f1467a249772c4df76fbbcbd5ebde0b",
+      "drug_a": "clarithromycin",
+      "drug_b": "tacrolimus",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Verapamil Use With Caution Verapamil:",
+      "content_hash": "bd8d50d5d0f3e423ab9f9b83c9426df9231835dcd306eb63e0f8916db96beb7e",
+      "drug_a": "clarithromycin",
+      "drug_b": "verapamil",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Amlodipine Diltiazem Amlodipine, Diltiazem:",
+      "content_hash": "32cb28518ba6cd1f36c94146e3d2fe15c9d0738caf0f1d9f2629467ac707889f",
+      "drug_a": "clarithromycin",
+      "drug_b": "diltiazem",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "DRUG INTERACTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Midazolam When a single dose of midazolam was co-administered with clarithromycin tablets (500 mg twice daily for 7 days), midazolam AUC increased 174% after intravenous administration of midazolam and 600% after oral administration.",
+      "content_hash": "c30bf7e2681f281dde77e22d608e70b39d784a4519f6dd945111df90ecb7bac2",
+      "drug_a": "clarithromycin",
+      "drug_b": "midazolam",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CLINICAL PHARMACOLOGY",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Drug Interactions Fluconazole Following administration of fluconazole 200 mg daily and clarithromycin 500 mg twice daily to 21 healthy volunteers, the steady-state clarithromycin C min and AUC increased 33 and 18%, respectively.",
+      "content_hash": "ddb7cfa620151f2e515a89e8e5583c49602c68131cfac3c309f96f33ccaeb8de",
+      "drug_a": "clarithromycin",
+      "drug_b": "fluconazole",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CLINICAL PHARMACOLOGY",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "There is a risk of serious hemorrhage and significant elevations in INR and prothrombin time when clarithromycin is co-administered with warfarin.",
+      "content_hash": "b7216b5a7131c991611058636eca35c468dc8a5fab9ba1b03299cbddd8dfdf90",
+      "drug_a": "clarithromycin",
+      "drug_b": "warfarin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "patients with known prolongation of the QT interval, ventricular cardiac arrhythmia, including torsades de pointes patients receiving drugs known to prolong the QT interval [see also Contraindications ( 4.2 )] \u2022 patients with ongoing proarrhythmic conditions such as uncorrected hypokalemia or hypom\u2026",
+      "content_hash": "1de3711174c728d05fe7bba0374f4c68bee795b94a29036627084d1568233580",
+      "drug_a": "clarithromycin",
+      "drug_b": "amiodarone",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "rhabdomyolysis with simvastatin, lovastatin, and atorvastatin;",
+      "content_hash": "2ec67f2406d38c642faac90e866acbbc281fe79d1d986c338f5684d887eaffea",
+      "drug_a": "clarithromycin",
+      "drug_b": "simvastatin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "Increased sedation and prolongation of sedation have been reported with concomitant administration of clarithromycin and triazolobenzodiazepines, such as triazolam and midazolam [see Drug Interactions ( 7 )] .",
+      "content_hash": "856f6da19cf5021787f971aad90bb193af32ed04367eec28a7b5b022fac412d7",
+      "drug_a": "clarithromycin",
+      "drug_b": "midazolam",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "rhabdomyolysis with simvastatin, lovastatin, and atorvastatin;",
+      "content_hash": "a0342bea375a82a8a5cd942dd58ba4d015a3b1d5bbdf4867741cd86d592fafc1",
+      "drug_a": "clarithromycin",
+      "drug_b": "atorvastatin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "and hypotension and acute kidney injury with calcium channel blockers metabolized by CYP3A4 (e.g., verapamil, amlodipine, diltiazem, nifedipine).",
+      "content_hash": "607c05fdeff8cdec21d71a5e36189da4948941deea599a340f9b68d648bf10bf",
+      "drug_a": "clarithromycin",
+      "drug_b": "verapamil",
+      "enzymes": ["CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "and hypotension and acute kidney injury with calcium channel blockers metabolized by CYP3A4 (e.g., verapamil, amlodipine, diltiazem, nifedipine).",
+      "content_hash": "c1031a6cb6c3fd0a0899acfc2d3b5a4868a843b2cce1924858b17bdd9b5a4568",
+      "drug_a": "clarithromycin",
+      "drug_b": "diltiazem",
+      "enzymes": ["CYP3A4"],
+      "evidence_level": "label",
+      "label_section": "WARNINGS AND PRECAUTIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "4 CONTRAINDICATIONS Hypersensitivity to clarithromycin or any macrolide drug ( 4.1 ) Cisapride and pimozide ( 4.2 ) History of cholestatic jaundice/hepatic dysfunction with use of clarithromycin ( 4.3 ) Colchicine in renal or hepatic impairment ( 4.4 ) Lomitapide, lovastatin, and simvastatin ( 4.5\u2026",
+      "content_hash": "5e552fe82e2fa0d954957a9745d9caad3b3d06003b49a75daa0314b49590ade3",
+      "drug_a": "clarithromycin",
+      "drug_b": "simvastatin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CONTRAINDICATIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    },
+    {
+      "citation_span": "4 CONTRAINDICATIONS Hypersensitivity to clarithromycin or any macrolide drug ( 4.1 ) Cisapride and pimozide ( 4.2 ) History of cholestatic jaundice/hepatic dysfunction with use of clarithromycin ( 4.3 ) Colchicine in renal or hepatic impairment ( 4.4 ) Lomitapide, lovastatin, and simvastatin ( 4.5\u2026",
+      "content_hash": "b107ed08ca5d05286af91c5ab2773efe576fdad585adf94b6fdc86f6a495d269",
+      "drug_a": "clarithromycin",
+      "drug_b": "erythromycin",
+      "enzymes": [],
+      "evidence_level": "label",
+      "label_section": "CONTRAINDICATIONS",
+      "mechanism": null,
+      "retrieved_at": "2026-05-29T01:35:58Z",
+      "reviewer_status": "needs_review",
+      "severity": null,
+      "source_id": "openfda_labels",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "spl_set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "verified_against_spl": true
+    }
+  ],
+  "generated_at": "2026-05-29T01:35:58Z",
+  "note": "metadata-only; citation spans are short quotes, full labels not stored",
+  "pair_records": [
+    {
+      "content_hash": "cd8b4d0ea262bfe8961923ca0a34db4faff90349175cc4a4cc84ba4c11aea816",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "amiodarone",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "b63792255fe02b2fa08f44f24dc18ebf047b450baec49979eb6eb4d6f5209629",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "ketoconazole",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "ketoconazole|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "ff712440173a41c98019ae5a1599aaf2becc586bd4b71912a6462b9d64c513cc",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "rifampin",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "rifampin|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "ba37dc24b0108a5de029a202a978ea54282eaf25c3e1f601fc4966a0fb68f155",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "clarithromycin",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "dabb4ef275e20469eff2735a5e18f3f95820ab3da791b7083547f0fbffc7cafd",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "cyclosporine",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "cyclosporine|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "a55bbeaa0d89b125e8ae210b5c457d7a2324f24476cc937e01fbf3098433d5e5",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "fluconazole",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "fluconazole|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "7cd8196502c66e66e52b2f8ecc01f4d57b9b79bc93fe0b7a008967c97bdcfd72",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "itraconazole",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "itraconazole|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "37287538eafdb35a27396c3957dc8399780eab9b723674a0ce8e670de652c917",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "phenytoin",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "phenytoin|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "99bb8f758eacfdb52b7c3ea0874737b4b7bd913e2a8c3280eb143f51fbb081bc",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "carbamazepine",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "carbamazepine|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "928c553e97c4a9099667a1db5a009db080e05dfd784d63c11a441e3843bc97e0",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "erythromycin",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "erythromycin|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "b7661184aaa817dfeb3810a3d9ec91b2eee7e4a15bfd5e1bc8cb35bbf2c90c6b",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "atorvastatin",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "atorvastatin|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "c12415fc9aeb573131c9f0c097096541689ee839623a87808bc97cdfeee04647",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "verapamil",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "verapamil|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "d2acd675a015302204b30ec14c03acbcd6c125b77c0e540ff88a214a3e267173",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "diltiazem",
+      "enzyme_or_transporter": "CYP2C9",
+      "evidence_refs": [
+        {
+          "citation": "Examples of CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazep\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "diltiazem|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "1e971e4b766f0175f4de2411e75258163ef2b8db9a923525c356ebd0ac7b9387",
+      "drug_a_id": "warfarin",
+      "drug_b_id": "grapefruit",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Some botanicals and foods can interact with warfarin sodium through CYP450 interactions (e.g., echinacea, grapefruit juice, ginkgo, goldenseal, St.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "grapefruit|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "c0d550591d805ff4a3586f6d33d7b3d7652e63bba0339752c1adb67ed4b1b308",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "warfarin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Warfarin Potentiates anticoagulant response and can result in serious or fatal bleeding.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "e97b7853c6f755949aeb65c46c2cf35ca9eca31f2c3cd1fb472c362567075375",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "simvastatin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "HMG-CoA Reductase Inhibitors simvastatin, lovastatin, atorvastatin Increased plasma concentration of HMG-CoA reductase inhibitor.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|simvastatin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "664de1ccb2e55c883d07f31a78ae89983a7278a4697b41ccd944333910cc3488",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "digoxin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|digoxin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "bd2c32127fb3ba2f5e45c2df1d9fdc060a002c3eb5f35e340bb68bc23bf65115",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "cyclosporine",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Cyclosporine Increased plasma levels of cyclosporine have been reported resulting in elevated creatinine, despite reduction of cyclosporine dose.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|cyclosporine",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "7ca761ecd56d12c316d23c63ccb8a0abace4eb96f4481b796c9e8d2062620bd2",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "phenytoin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Phenytoin Increased steady-state levels of phenytoin.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|phenytoin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "5174e124e25e657b6a24e5772ca1c5d3a19c58a8dd3c5344f47dd5c53a50b6ee",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "atorvastatin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "HMG-CoA Reductase Inhibitors simvastatin, lovastatin, atorvastatin Increased plasma concentration of HMG-CoA reductase inhibitor.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|atorvastatin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "d41b8fb539b8589ac398419194517afcbc567a3ee6233c18e8f51b52175e8205",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "verapamil",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|verapamil",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "e25635932f94a68bd1c78beda24fe3739d40fb8fa8a8fef52662e8b0f23de179",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "diltiazem",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|diltiazem",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "183572c942279e22f9da2ba9450f23c624c9992618876cde67d17b229da627ee",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "grapefruit",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Pharmacokinetic Interactions CYP450 Inhibitors grapefruit juice, certain fluoroquinolone and macrolide antibiotics, azole antifungals, cimetidine, certain protease inhibitors Increased exposure of amiodarone.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "cyp_inhibition",
+      "pair_id": "amiodarone|grapefruit",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "bfc7f524891bd02eb3105206cce68f8cf22c9c32e19a107b88e552f03d9815aa",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "digoxin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Amiodarone taken concomitantly with digoxin increases the serum digoxin concentration by 70% after one day.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|digoxin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "054ae196cfa7998035937a806c05f512e96841f356fa144252f94baae717d63e",
+      "drug_a_id": "amiodarone",
+      "drug_b_id": "grapefruit",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Effects of other agents on amiodarone Grapefruit juice:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:57Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|grapefruit",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "58b7aa510f92be2f4d5356bd03e2c515ff43b060037fefc99dd561b863c3e88d",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "warfarin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Perform prothrombin time daily or as frequently as necessary to establish and maintain the required dose of anticoagulant Warfarin Decrease exposure Antifungals Fluconazole Decrease AUC by 23% Itraconazole Prevention or Management:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "rifampin|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "10d8d909ea1d781d9ba19cc7bdcab58711c59b46a3f390bb917d3a9e309a73e7",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "ketoconazole",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Not recommended 2 weeks before and during itraconazole treatment Decrease exposure Ketoconazole Decrease exposure Caspofungin Prevention or Management:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "ketoconazole|rifampin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "95d05c81d835bda1eacd5aabfebc0de9945b126c67821b942c442fca9d39cac9",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "clarithromycin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Decrease exposure Other Drugs Enalapril Decrease active metabolite exposure Chloramphenicol Concomitant use with rifampin in 2 children Decrease exposure Clarithromycin Decrease exposure Dapsone Rifampin has been shown to increase the clearance of dapsone and, accordingly, decrease dapsone exposure.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|rifampin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "7ea095e336cf6a11e95f8008ea5a1a5c2e9dbc61b67f89095d721882d2ba5650",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "simvastatin",
+      "enzyme_or_transporter": "CYP3A4",
+      "evidence_refs": [
+        {
+          "citation": "Decrease exposure Selective 5-HT3 Receptor Antagonists Ondansetron Decrease exposure Statins Metabolized by CYP3A4 Simvastatin Decrease exposure Thiazolidinediones Rosiglitazone Decrease AUC by 66% Tricyclic Antidepressants Nortriptyline A tuberculosis treatment regimen including rifampin (600 mg/d\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "rifampin|simvastatin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "5d11759d673dc1fbfde0024e45808ae90828a063f8f38fc2178e45073febafc6",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "digoxin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Prednisolone Decrease exposure Cardiac Glycosides Digoxin Prevention or Management:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "digoxin|rifampin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "f00c9c87c1d259461295bd0e0cfc6c96297cd4a20028f5b0245f7c57fc11a188",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "cyclosporine",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Glipizide Decrease exposure Immunosuppressive Agents Cyclosporine Decrease exposure Tacrolimus Prevention or Management:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "cyclosporine|rifampin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "41e5fc9cd5ee1aad27b9544d23bb9d99bc835d08095ebfbcc74167a28a9d5f31",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "fluconazole",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Perform prothrombin time daily or as frequently as necessary to establish and maintain the required dose of anticoagulant Warfarin Decrease exposure Antifungals Fluconazole Decrease AUC by 23% Itraconazole Prevention or Management:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "fluconazole|rifampin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "57b0ea3f8d74b4d798ac51471bf9ed8b34634ed91539a198b4c9a214d5440d1d",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "itraconazole",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Perform prothrombin time daily or as frequently as necessary to establish and maintain the required dose of anticoagulant Warfarin Decrease exposure Antifungals Fluconazole Decrease AUC by 23% Itraconazole Prevention or Management:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "itraconazole|rifampin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "b4896922b1f8a1614125758ef6e6b739ac60540216144999fb991bc1e15b6127",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "phenytoin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Advise patients to change to non-hormonal methods of birth control during rifampin therapy Estrogens Decrease exposure Progestins Anticonvulsants Phenytoin Administered with rifampin 450 mg daily Decrease exposure Antiarrhythmics Disopyramide Decrease exposure Mexiletine Decrease exposure Quinidine\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "phenytoin|rifampin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "22034c2abd0569d3f98e36f535a9c6f7baa01eb224449fdb64bf286860e2103f",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "tacrolimus",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Glipizide Decrease exposure Immunosuppressive Agents Cyclosporine Decrease exposure Tacrolimus Prevention or Management:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "rifampin|tacrolimus",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "cced2b56347f3caffe28ee17a4a8e7fc2124b38abfd47427440b4d1cf5eae05d",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "verapamil",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Decrease exposure Beta-blockers Metoprolol Decrease exposure Propranolol Decrease exposure Benzodiazepines Diazepam , Administered with rifampin 1200 mg daily Decrease exposure Benzodiazepine-related drugs Zopiclone Decrease AUC by 82% Zolpidem Decrease AUC by 73% Calcium Channel Blockers Diltiazem\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "rifampin|verapamil",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "9e4d9483cf099ec039077ad519632261072563da5e1b13272c720a8ac403bd4d",
+      "drug_a_id": "rifampin",
+      "drug_b_id": "diltiazem",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Decrease exposure Beta-blockers Metoprolol Decrease exposure Propranolol Decrease exposure Benzodiazepines Diazepam , Administered with rifampin 1200 mg daily Decrease exposure Benzodiazepine-related drugs Zopiclone Decrease AUC by 82% Zolpidem Decrease AUC by 73% Calcium Channel Blockers Diltiazem\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "diltiazem|rifampin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "92cc840b199e66d548d999e12227773aabca9303ab316f39c0c91f306b4161a9",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "warfarin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Warfarin Use With Caution Oral anticoagulants:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "5d2944baf0b92e021007287fe236839f19d8a60b6d168a02344749c639fdc025",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "amiodarone",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Disopyramide Quinidine Dofetilide Amiodarone Sotalol Procainamide Not Recommended Disopyramide, Quinidine:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|clarithromycin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "bd00e65be97cc9e8dce9ef7b46e64155d04f3fea7900a37e8c85a293d648f181",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "rifampicin",
+      "enzyme_or_transporter": "CYP3A",
+      "evidence_refs": [
+        {
+          "citation": "Efavirenz Nevirapine Rifampicin Rifabutin Rifapentine Use With Caution Inducers of CYP3A enzymes, such as efavirenz, nevirapine, rifampicin, rifabutin, and rifapentine will increase the metabolism of clarithromycin, thus decreasing plasma concentrations of clarithromycin, while increasing those of\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|rifampicin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "15e6124f99a7c325cdf67a63760389e5f165a8d65c57056f1d83a0e4e6936f28",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "simvastatin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Lomitapide Lovastatin Simvastatin Contraindicated Lomitapide, Lovastatin, Simvastatin:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|simvastatin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "d342ad0e0bac03b8d06e26926a6072f2ad970afd3ebcc38829d2b40fce4080b7",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "midazolam",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Midazolam Use With Caution Midazolam:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|midazolam",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "e54d4274b940ae07cdc8e8f6bcf9bd1a3201ebc4161c7222e6d67930c0cd60ed",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "digoxin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Digoxin Use With Caution Digoxin:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|digoxin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "a5d47260183622b7a71545fb7e8af6485efee907856a7642207878a7159a36a3",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "cyclosporine",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Cyclosporine Use With Caution Cyclosporine:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|cyclosporine",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "15cf5bef1273ca196be8d0ad3ee3d568100b669ac5707c81f76263103cb64d1b",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "fluconazole",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Fluconazole No Dose Adjustment Fluconazole:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|fluconazole",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "fe727be130352d4ea7a2d0761f9bd997d7c9419df79ab869c5c946bb9fd872a6",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "itraconazole",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Itraconazole Use With Caution Itraconazole:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|itraconazole",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "2d463fbed9e654e126c6c1fb29c2bbf5d3a907a6b033d7a3509d5bf3c2e33f2f",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "phenytoin",
+      "enzyme_or_transporter": "CYP3A",
+      "evidence_refs": [
+        {
+          "citation": "Hexobarbital Phenytoin Valproate Use With Caution There have been postmarketing reports of interactions of clarithromycin with drugs not thought to be metabolized by CYP3A, including hexobarbital, phenytoin, and valproate.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|phenytoin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "7be9dad156a7826b501a90b95aec6c222421113ac5f1620476146be8f7c8ad8e",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "carbamazepine",
+      "enzyme_or_transporter": "CYP3A",
+      "evidence_refs": [
+        {
+          "citation": "Clarithromycin tablets should be used with caution in patients receiving treatment with other drugs known to be CYP3A enzyme substrates, especially if the CYP3A substrate has a narrow safety margin (e.g., carbamazepine) and/or the substrate is extensively metabolized by this enzyme.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "carbamazepine|clarithromycin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "41466ad07107f83689cd52f1d0b0dbfef19d90d88fcf85ab7649e8f10740dc81",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "erythromycin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "In postmarketing experience, erythromycin has been reported to decrease the clearance of triazolam and midazolam, and thus, may increase the pharmacologic effect of these benzodiazepines.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|erythromycin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "c6656f3a1bf2bd13fc4a282addf8f3a379e925b14e64f5cbab2abfaaecc8ee11",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "atorvastatin",
+      "enzyme_or_transporter": "CYP3A",
+      "evidence_refs": [
+        {
+          "citation": "Clarithromycin may increase the exposure of these drugs by inhibition of CYP3A metabolism, thereby increasing the risk of toxicities from these drugs [see Contraindications ( 4.5 ) and Warnings and Precautions ( 5.4 )] Atorvastatin, Pravastatin, Fluvastatin:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "cyp_inhibition",
+      "pair_id": "atorvastatin|clarithromycin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "d483e63b23718862b3a0ddb7dd71674ed7388fa1f1c178f40a9604f4f0d98d92",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "tacrolimus",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Tacrolimus Tacrolimus:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|tacrolimus",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "e7321edd9d0bd1f54a012fa19cc7049315ebaba3a59722f56da3cf9f20a23644",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "verapamil",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Verapamil Use With Caution Verapamil:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|verapamil",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "c805c3c987cc4896092bc1098edea37a15d8d099f29d088fc1b26a47fc0dc4a2",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "diltiazem",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Amlodipine Diltiazem Amlodipine, Diltiazem:",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|diltiazem",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "789e1937b447f54d59e2c8f23cca1a4b7cb8e53e3eb0362620da744f88be38cf",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "midazolam",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Midazolam When a single dose of midazolam was co-administered with clarithromycin tablets (500 mg twice daily for 7 days), midazolam AUC increased 174% after intravenous administration of midazolam and 600% after oral administration.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|midazolam",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "22d9cc8f2545c253c81067f95dece4eb8920f8fea978a7592bc843a44c93b758",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "fluconazole",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Drug Interactions Fluconazole Following administration of fluconazole 200 mg daily and clarithromycin 500 mg twice daily to 21 healthy volunteers, the steady-state clarithromycin C min and AUC increased 33 and 18%, respectively.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|fluconazole",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "ef11ce0cc3fbcd130f939435320c3458534298abc017d6a39ab3f99096bbd913",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "warfarin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "There is a risk of serious hemorrhage and significant elevations in INR and prothrombin time when clarithromycin is co-administered with warfarin.",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|warfarin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "28c92105d435d5a3b84384150d7fd7841de79c8c1fc95d6311a3016a475e626b",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "amiodarone",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "patients with known prolongation of the QT interval, ventricular cardiac arrhythmia, including torsades de pointes patients receiving drugs known to prolong the QT interval [see also Contraindications ( 4.2 )] \u2022 patients with ongoing proarrhythmic conditions such as uncorrected hypokalemia or hypom\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "amiodarone|clarithromycin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "4557cbf6f3d8b517e6ab8d9b5cc2a3c6b2f2c426b72e26f2b90b8e6fcb92a6a0",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "simvastatin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "rhabdomyolysis with simvastatin, lovastatin, and atorvastatin;",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|simvastatin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "535e3a5faf4fd530ed1fe8a5f32bd234f6628270748892ad3f2ab7ee327ab25e",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "midazolam",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "Increased sedation and prolongation of sedation have been reported with concomitant administration of clarithromycin and triazolobenzodiazepines, such as triazolam and midazolam [see Drug Interactions ( 7 )] .",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|midazolam",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "c778a2fccac1161669f5e5b0ca8eca461e51d1c275a3335384fbddd4df0fb6f7",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "atorvastatin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "rhabdomyolysis with simvastatin, lovastatin, and atorvastatin;",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "atorvastatin|clarithromycin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "cec940a9a4d70d7dc86abc5d465c390c656e5d9b32623ae8a20dac10635c1595",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "verapamil",
+      "enzyme_or_transporter": "CYP3A4",
+      "evidence_refs": [
+        {
+          "citation": "and hypotension and acute kidney injury with calcium channel blockers metabolized by CYP3A4 (e.g., verapamil, amlodipine, diltiazem, nifedipine).",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|verapamil",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "12f880fd84aa3043459153eb8e47be1d462fcb36edcf154128801dde4fe6ff4d",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "diltiazem",
+      "enzyme_or_transporter": "CYP3A4",
+      "evidence_refs": [
+        {
+          "citation": "and hypotension and acute kidney injury with calcium channel blockers metabolized by CYP3A4 (e.g., verapamil, amlodipine, diltiazem, nifedipine).",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|diltiazem",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "c02896fa18c5694b7c6049c3116aba6aa4804e2a95e4307f3f2a6b55904a288f",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "simvastatin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "4 CONTRAINDICATIONS Hypersensitivity to clarithromycin or any macrolide drug ( 4.1 ) Cisapride and pimozide ( 4.2 ) History of cholestatic jaundice/hepatic dysfunction with use of clarithromycin ( 4.3 ) Colchicine in renal or hepatic impairment ( 4.4 ) Lomitapide, lovastatin, and simvastatin ( 4.5\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|simvastatin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    },
+    {
+      "content_hash": "18d2a190cf97902b17c59a3d125589d6619b6976395479fd862eec6afef9f06e",
+      "drug_a_id": "clarithromycin",
+      "drug_b_id": "erythromycin",
+      "enzyme_or_transporter": null,
+      "evidence_refs": [
+        {
+          "citation": "4 CONTRAINDICATIONS Hypersensitivity to clarithromycin or any macrolide drug ( 4.1 ) Cisapride and pimozide ( 4.2 ) History of cholestatic jaundice/hepatic dysfunction with use of clarithromycin ( 4.3 ) Colchicine in renal or hepatic impairment ( 4.4 ) Lomitapide, lovastatin, and simvastatin ( 4.5\u2026",
+          "confidence": null,
+          "evidence_type": "fda_label",
+          "extracted_at_utc": "2026-05-29T01:35:58Z",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7"
+        }
+      ],
+      "mechanism_category": "unknown",
+      "pair_id": "clarithromycin|erythromycin",
+      "severity": null,
+      "uncertainty_note": "direction (perpetrator/victim) not yet resolved; needs_review"
+    }
+  ],
+  "source_id": "openfda_labels"
+}

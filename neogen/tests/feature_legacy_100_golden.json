@@ -1,0 +1,402 @@
+[
+  {
+    "smiles": "Cc1cccc(Cl)c1CNC(=O)Nc1ccsc1-c1nc(O)c(O)c(C(=O)O)n1",
+    "sha256_float64_le": "5dc3fbe72470d82aa463e688bfcaceb253d628503a6e07e8d2297d2efc4c76a1"
+  },
+  {
+    "smiles": "COC[C@H](C)Oc1cc(O[C@@H](C)Cc2ccccc2)cc(C(=O)Nc2ccc(C(=O)O)cn2)c1",
+    "sha256_float64_le": "8029dbb90374295ef3aa31a47888406e11cd6f1ce23d400ea9c1928b06bd2f72"
+  },
+  {
+    "smiles": "COc1cc2ncnc(Nc3cccc(Cl)c3F)c2cc1CN1CCC[C@H]1C(N)=O",
+    "sha256_float64_le": "bede55c9b570c8c659ffd93ba661c73f6ff01d68255f973f81810103f540d876"
+  },
+  {
+    "smiles": "COc1cc2ncnc(Nc3cccc(Cl)c3F)c2cc1CN(C)[C@@H](C)C(N)=O",
+    "sha256_float64_le": "07a7f8b24a515ad5aea1fb756429c61cf9828d7dfc567484fc40726e60baf8ae"
+  },
+  {
+    "smiles": "COc1cc2ncnc(Nc3cccc(Cl)c3F)c2cc1CN(C)[C@H](C)C(N)=O",
+    "sha256_float64_le": "07a7f8b24a515ad5aea1fb756429c61cf9828d7dfc567484fc40726e60baf8ae"
+  },
+  {
+    "smiles": "N#C[C@@H]1CC[C@H](C#N)N1C(=O)CNC1(CO)CCCC1",
+    "sha256_float64_le": "3f36148b68fabbc8aa615fc2257f534c28d554951dad6aa397add8b686cfe467"
+  },
+  {
+    "smiles": "CN1CCN(CCOc2cc(OC3CCOCC3)c3c(Nc4c(Cl)ccc5c4OCO5)ncnc3c2)CC1",
+    "sha256_float64_le": "595a98b5ee5b06c9075a19de5e4dfdf9866faebc4626174a34e0747a18bdf21e"
+  },
+  {
+    "smiles": "CCc1cc2c(c(C(F)(F)F)c1)C(=O)N1CCNC[C@@H]21",
+    "sha256_float64_le": "ddbdd5fb55df05843ebf3dda9a5c94dabd9180146f1f74f90b867f0157fdb343"
+  },
+  {
+    "smiles": "O=C(Nc1ccccc1F)N[C@H]1N=C(c2ccccc2)c2ccccc2NC1=O",
+    "sha256_float64_le": "e994ac8b17b63fa105072165608f0c67110e5e24d54ff5f2cfe336bf739063bc"
+  },
+  {
+    "smiles": "Cc1cc(COc2ccc(C(=O)N[C@@H]3CCOC[C@@H]3C(=O)NO)cc2)c2ccccc2n1",
+    "sha256_float64_le": "612dfab670c73c7d57331a028667140aed70a85ed7e80000adeff6ba8d4322e8"
+  },
+  {
+    "smiles": "O=C(N[C@@H]1CCOC[C@@H]1C(=O)NO)c1ccc(Cn2c(C(F)(F)F)nc3ccccc32)cc1",
+    "sha256_float64_le": "22ee9e36f93edbb35c2e4c075024cec22a57bbdb862f7584eb210ef322be6021"
+  },
+  {
+    "smiles": "CCOc1ccc(Cc2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)ccc2Cl)cc1",
+    "sha256_float64_le": "495200042e1d0f0d090e6635889f54dc82429aa046f21375e626bde9f20f1e25"
+  },
+  {
+    "smiles": "CC[C@@H](CO)Nc1cc(C)nc(Oc2c(C)cc(Cl)cc2C)c1C(=O)NC",
+    "sha256_float64_le": "ede5a119fb1f543ed64c0fb7bda265ac59cb879583394dfa9f41681b9034e724"
+  },
+  {
+    "smiles": "COc1cc2nc(N3CCCN(C(=O)N4CCOCC4)CC3)cc(N)c2c(-c2ccc(F)cc2)c1OC",
+    "sha256_float64_le": "34986b0064ee85f3c2342760bcf102d06d29ee3915f1207f420dd09085747c0a"
+  },
+  {
+    "smiles": "COc1cc2nc(N3CCc4c(cccc4NS(C)(=O)=O)C3)nc(N)c2c(-c2ccccn2)c1OC",
+    "sha256_float64_le": "2654f647714c508612e5fdd3d06ec15e7a2b5c12f3021ae5ce46cce9944f7058"
+  },
+  {
+    "smiles": "COc1cc2nc(N3CCc4ncccc4C3)nc(N)c2c(-c2ncccn2)c1OC",
+    "sha256_float64_le": "c2dea8ed18fb406387d16d4c3361f10c541e1a0de4f24e2c0ca79867b476691c"
+  },
+  {
+    "smiles": "COc1cc2nc(N3CCCN(C(=O)N4CCOCC4)CC3)cc(N)c2c(-c2ncco2)c1OC",
+    "sha256_float64_le": "d78cc057229937c178155811b51bb6fd68b128af5dcfe4e5efa5b78ba277acde"
+  },
+  {
+    "smiles": "COc1cc2nc(N3CCCN(C(=O)N4CCOCC4)CC3)nc(N)c2c(-c2ccccn2)c1OC",
+    "sha256_float64_le": "92cd594648485e3a1bda67dc21606cdba0282a4c8e12a9a4f040339ee1c25911"
+  },
+  {
+    "smiles": "COc1cc2nc(N3CCCN(C(=O)N4CCOCC4)CC3)nc(N)c2cc1-c1ccccn1",
+    "sha256_float64_le": "4d1c8389db5dae6c3ee519ad5fa2f20b1200e19160b48df1c078c18bfd30f8a4"
+  },
+  {
+    "smiles": "COc1cc2nc(N3CCCN(C(=O)N4CCOCC4)CC3)cc(N)c2c(-c2ccccc2)c1OC",
+    "sha256_float64_le": "7cf59b4c4fa5366eb69519cc48e6a5a4473f0f93803adb281cf37a014dec463f"
+  },
+  {
+    "smiles": "O=C(COc1cccc(Cl)c1)NC1CCN(Cc2ccn(-c3ccc(C(F)(F)F)cc3)c2)CC1",
+    "sha256_float64_le": "b1cf37f3701ea8f3e9dd88f5763c008e9d94449bf61b8c3cd4141d28d5200171"
+  },
+  {
+    "smiles": "O=C(COc1cccc(Cl)c1)NC1CCN(Cc2ccn(-c3ccc(OC(F)(F)F)cc3)c2)CC1",
+    "sha256_float64_le": "d2f5000fd54d2d0aba370850452a34a49eea8667fd619cf933edbc0ddba0aff0"
+  },
+  {
+    "smiles": "Cc1cc(C[C@@H](NC(=O)N2CCC(N3Cc4cccc(F)c4NC3=O)CC2)C(=O)N2CCC(N3CCCCC3)CC2)cc2cn[nH]c12",
+    "sha256_float64_le": "0384c536adca78c7cced96401f4d1743e71fb7fbece8c9391433f2adbdd017ac"
+  },
+  {
+    "smiles": "CN1C(=O)[C@@H](CN2CCCCC2)C[C@H]1C#Cc1ccccc1",
+    "sha256_float64_le": "16145aa0e9786cf03d44c1be474926911190a8e60b982a608a41f9f2874e984d"
+  },
+  {
+    "smiles": "C[C@](O)(c1ccc(C(=O)N(C2CC2)C2CCN(CC3(C(N)=O)CC3)CC2)cc1)C(F)(F)F",
+    "sha256_float64_le": "a96e203c062d6977beb29bb69661bdfea667137a9e62fbec90a85a10eff36377"
+  },
+  {
+    "smiles": "C[C@](O)(c1ccc(C(=O)N(C2CC2)[C@H]2CC[C@H](CC3(C(N)=O)CC3)CC2)cc1)C(F)(F)F",
+    "sha256_float64_le": "42d632ad0a960e77e335435e8171d2ae745b266834dbd08552bd6d9f465d2ee0"
+  },
+  {
+    "smiles": "C[C@](O)(c1ccc(C(=O)N(C2CC2)[C@H]2CC[C@](O)(C3CC3)CC2)cc1)C(F)(F)F",
+    "sha256_float64_le": "4d3ec8086e1b8ea27fcac722f7cbd2edb1ccbe09cf95b55642451d93aebc9956"
+  },
+  {
+    "smiles": "Cc1cc(COc2ccc([C@]3(C)CCN([C@H](C)C(=O)NO)C3=O)cc2)c2ccccc2n1",
+    "sha256_float64_le": "1756e1612ac5e1058ca0cf9eb6d87955c16fefe6131a0deae424a371d805870c"
+  },
+  {
+    "smiles": "Cc1cc2ncc(C(=O)N3CCC([C@H](N)Cc4cc(F)c(F)cc4F)CC3)c(C)n2n1",
+    "sha256_float64_le": "2684311f4f6f40dede79d4511dcbe64cb91fb788fa301b09ac3fffff2673063f"
+  },
+  {
+    "smiles": "COc1ccc(OC)c(CN(C(=O)C[18F])c2ccccc2Oc2ccccc2)c1",
+    "sha256_float64_le": "909c076a82b451121a4df0471ce20843f1339531117cd27003985ca6be6b648c"
+  },
+  {
+    "smiles": "CN(C)CC(=O)N1CCn2c(c(C3CCCCC3)c3ccc(C(=O)O)cc32)-c2ccc(F)cc2C1",
+    "sha256_float64_le": "d6507e1b9153df5c72cd824c79cb2404438e433cdb10e6942efe9487c074ff5c"
+  },
+  {
+    "smiles": "CN(C)CCN1CCn2c(c(C3CCCCC3)c3ccc(C(=O)O)cc32)-c2ccccc2C1",
+    "sha256_float64_le": "52665dbe1204deffc5e82c3968a6b776a55448c5928b8191bf7551a60ca20950"
+  },
+  {
+    "smiles": "C[C@H]1[C@H](NC(=O)/C(=N\\OC(C)(C)C(=O)O)c2csc(N)n2)C(=O)N1S(=O)(=O)O",
+    "sha256_float64_le": "2a981f4c7304bf4c5810824eb2763e8220770864fe9afacfce346b679c99dd22"
+  },
+  {
+    "smiles": "CN(C)C(=N)c1ccc(C(=O)Nc2ccc(Cl)cc2C(=O)Nc2ccc(Cl)cn2)cc1",
+    "sha256_float64_le": "5ec374d737b3db84e1dee264876572f6649251c1b5b3ad6307fc8b73fa660dcd"
+  },
+  {
+    "smiles": "COc1ccc(NC(=O)c2ccc(C(=N)N(C)C)cc2)c(C(=O)Nc2ccc(Cl)cn2)c1",
+    "sha256_float64_le": "20351215c134e4f9c558f59339d146b73cfe71d6944b6f9009f6792999b79403"
+  },
+  {
+    "smiles": "CN(C)C(=N)c1ccc(C(=O)Nc2ccc(Cl)cc2C(=O)Nc2ccc(Cl)cn2)c(F)c1",
+    "sha256_float64_le": "a2890324849f1c5e2738b119c3748aab1c12b3de005a8d0382c72d901baa437c"
+  },
+  {
+    "smiles": "COc1ccc(NC(=O)c2ccc(C(=N)N(C)C)cc2F)c(C(=O)Nc2ccc(Cl)cn2)c1",
+    "sha256_float64_le": "f789d6f37b7a456c538f400bb8a753d480102be7a0ac2968ea32d67cc64096d9"
+  },
+  {
+    "smiles": "CC(C)Oc1cc(Nc2nc(N[C@@H](C)c3ccc(F)cn3)ncc2Cl)n[nH]1",
+    "sha256_float64_le": "1407f489e25e137b9af1e63b70b35665a225bdcc740d8491180af505b3b41d41"
+  },
+  {
+    "smiles": "C[C@H](Nc1ncc(Br)c(Nc2cc(C3CC3)[nH]n2)n1)c1ccc(F)cc1",
+    "sha256_float64_le": "400f980a09541ca33ffee42b249cd7afd39c8dd7c771165c33b00d5c527b1c98"
+  },
+  {
+    "smiles": "OC[C@H](Nc1ncc(Cl)c(Nc2cc(C3CC3)[nH]n2)n1)c1ccc(F)cc1",
+    "sha256_float64_le": "8013955fd922c430516569428a5b95a2ed16be5d888bfd054f501b0b9260741c"
+  },
+  {
+    "smiles": "O=C(NCc1ccc(F)cc1)C1=C(O)C(=O)N(Cc2ccccn2)C1",
+    "sha256_float64_le": "a966d98d94e3979634248c4d601ad29a170fa3aaa1dd97bfddbb8c56da7f9156"
+  },
+  {
+    "smiles": "C1=C(CS/C(=N\\C2CCCCC2)NC2CCCCC2)N2CCN=C2S1",
+    "sha256_float64_le": "c2cfeee4d21c8c4db16667a7c656001a0164dd63398e2e384322605420687cb8"
+  },
+  {
+    "smiles": "CC1(C)CN2C(CS/C(=N\\C3CCCCC3)NC3CCCCC3)=CSC2=N1",
+    "sha256_float64_le": "88f4829e24e6db168a164ebc7480d790360c952b5891914abb7cf1830363c27a"
+  },
+  {
+    "smiles": "CNC(=O)c1ccc(Nc2nccc(-c3cnc(C)n3C(C)C)n2)cc1F",
+    "sha256_float64_le": "a32a59c01a2ecf03aa8c41a059f9af231c439ba2341029122a15d0d0ddf905a5"
+  },
+  {
+    "smiles": "CC1(C)Oc2ncnc(N)c2N=C1c1ccc(C23CCC(CC(=O)O)(CC2)CC3)cc1",
+    "sha256_float64_le": "258e0e04b24329f7c26fa6333b2f32ef8503de99e068a1c15eddc129ce9d940d"
+  },
+  {
+    "smiles": "COc1c(N2C[C@@H]3CCCN[C@@H]3C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12",
+    "sha256_float64_le": "97005f2d1c1e14ff4ca9ea056e543b8caa3151f14c01cd3e07ce0a8881abda5e"
+  },
+  {
+    "smiles": "C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23.C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23.O",
+    "sha256_float64_le": "71742c124b609afd2febfaa94157fabad19609240c212409aba897551d78a457"
+  },
+  {
+    "smiles": "COC[C@H](C1CC1)n1cc(Cl)nc(Nc2cc(C)c(OC)nc2C)c1=O",
+    "sha256_float64_le": "57814dacfb7052235baf23ecc671ea8c298d7adcc4af76cffa307e7a9b360128"
+  },
+  {
+    "smiles": "COC[C@H](C1CC1)n1cc(Cl)nc(Nc2cc(C#N)c(OC(F)F)nc2C)c1=O",
+    "sha256_float64_le": "b58b1c07f3a10d4ae2e00431594b6b7ab5fa5dadeeb7580f118775b977dddf55"
+  },
+  {
+    "smiles": "Cc1nc(OC(F)F)c(C#N)cc1Nc1nc(Cl)cn([C@H](C)C2CC2)c1=O",
+    "sha256_float64_le": "edb41a4b4af5d04d49218969e4cb86f322412801250ac57854f02849a2e2340c"
+  },
+  {
+    "smiles": "COC[C@H](C1CC1)n1cc(Cl)nc(Nc2cc(C)c(OC(F)F)nc2C)c1=O",
+    "sha256_float64_le": "20150f71790f88b0ca4c373f40a1e28d63286a79546b1a0c4f7e2ed667fdf2df"
+  },
+  {
+    "smiles": "CC[C@H](C1CC1)n1cc(C#N)nc(Nc2cc(C)c(OC)nc2C)c1=O",
+    "sha256_float64_le": "6b851b7274a16165636e79e1dec494d07afd41e6bceaefdaa7751f6f85ce47f2"
+  },
+  {
+    "smiles": "COC[C@@H](C1CC1)n1cc(Cl)nc(Nc2cc(C)c(OC(F)F)nc2C)c1=O",
+    "sha256_float64_le": "20150f71790f88b0ca4c373f40a1e28d63286a79546b1a0c4f7e2ed667fdf2df"
+  },
+  {
+    "smiles": "CCc1nn(CCO)c(CC)c1Cc1cc(Cl)cc(Cl)c1",
+    "sha256_float64_le": "f91e37b1aebe1e7d7b9d1d7c7bd666956ddc6b6f8f3dd74636689bb216e9b61a"
+  },
+  {
+    "smiles": "CCc1nn(CCO)c(CC)c1Oc1cc(Cl)cc(Cl)c1",
+    "sha256_float64_le": "d3cc61748af33cbcafc13d63994f992039248636e7dbda44844e712e9fb178a4"
+  },
+  {
+    "smiles": "CCc1nn(CCO)c(CC)c1Oc1cccc(C#N)c1",
+    "sha256_float64_le": "d079d45e1688d9e225a91ef33e2f1c5a3a11121aad78c081faf42dbfcbf8a6db"
+  },
+  {
+    "smiles": "CCc1nn(CCN)c(CC)c1Oc1cccc(C#N)c1",
+    "sha256_float64_le": "31126b18b313c9409a0ed68b56f33cd06d200d5fc0fd5894a9a1c77b77790f7a"
+  },
+  {
+    "smiles": "CCc1nn(CCN)c(CC)c1Oc1cc(C)cc(C#N)c1",
+    "sha256_float64_le": "243fea7d9a32ff499d1122aa36e0cca546e935c9f098589305e48f870a28c8d3"
+  },
+  {
+    "smiles": "Nc1cccc(-c2ccc(Cn3cc(C(=O)O)c(=O)c4cccc(F)c43)nc2)c1",
+    "sha256_float64_le": "17d1c5f045835e75cdcb48f8c93f2155911066e90d3f189a2a25e5ba9ac7b203"
+  },
+  {
+    "smiles": "CN(C)Cc1cccc(-c2ccc(Cn3cc(C(=O)O)c(=O)c4cccc(F)c43)cc2)c1",
+    "sha256_float64_le": "be05ca65c90ed2348ed1cbdc27d27e0924c2027269314ad0be5919d256addfb7"
+  },
+  {
+    "smiles": "CCOc1ccc(Cc2cc([C@@H]3S[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)c(OC)cc2C)cc1",
+    "sha256_float64_le": "a327a0ad4d12fa9357ea0870056a85159174785e16e3d53ffd61049abb8720ff"
+  },
+  {
+    "smiles": "CC(C)c1ccc(Cc2cc([C@@H]3S[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)ccc2Cl)cc1",
+    "sha256_float64_le": "5f13f65d47aa9a2a857c49e9a9315fd94c686e97bc576e33ee8a4468a07b8abe"
+  },
+  {
+    "smiles": "Cc1cnc(NC(=O)C2=C(O)c3ccccc3S(=O)(=O)N2C)s1",
+    "sha256_float64_le": "47282d392b7619f966144b621e3d9ebc59213d5ed6385e81029f550c9435c990"
+  },
+  {
+    "smiles": "C[C@@H](c1ncncc1F)[C@](O)(Cn1cncn1)c1ccc(F)cc1F",
+    "sha256_float64_le": "533514137adb42b2ff69c443378716e69787c177a2e7c99aed4ec9afc23bd571"
+  },
+  {
+    "smiles": "CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OCC5COC(Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O",
+    "sha256_float64_le": "46c77f37eea0b54da768f3c94a2abc6fe577f261e89cd4d18bf4ad4ceb1d2098"
+  },
+  {
+    "smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+    "sha256_float64_le": "3dd0539117746d9349251b2e82c85fde588f805c94192d3f05cad4efdc632856"
+  },
+  {
+    "smiles": "CN1CCN(CCN(C)C2COc3ccccc3-c3c(C4CCCCC4)c4ccc(C(=O)O)cc4n3C2)CC1",
+    "sha256_float64_le": "7aa14b0f4805021ad82877f08c997ef767e6ed59e8c4f6c828eeb9a3ebd7a13d"
+  },
+  {
+    "smiles": "CN(C)CCN(C)C1COc2ccccc2-c2c(C3CCCCC3)c3ccc(C(=O)O)cc3n2C1",
+    "sha256_float64_le": "a70c60d083bc955673df3f2c86b8fe5843ed6b9de918b2a756e41e8af288de77"
+  },
+  {
+    "smiles": "CN(C)CC(=O)N(C)C1COc2ccccc2-c2c(C3CCCCC3)c3ccc(C(=O)O)cc3n2C1",
+    "sha256_float64_le": "d804d313a6b9dc380a4c2c672350c221bfb168ec29c8e7f706ff669279e19583"
+  },
+  {
+    "smiles": "CC(C)(C)Cc1c[nH]c(C(C)(O)Cc2ccc(-c3ccc(F)cn3)cc2)n1",
+    "sha256_float64_le": "8ba82e18ef9b9f07752b9c956f48468e96d5acd731e14cf747e94ce60177603a"
+  },
+  {
+    "smiles": "CC(C)(C)Cc1c[nH]c(CC(C)(O)c2ccc(-c3ccc(F)cn3)cc2)n1",
+    "sha256_float64_le": "4ad28d01c5cc112094bc0e29083f2a42db670d43a91fe703d082598e95f03241"
+  },
+  {
+    "smiles": "CC(C)(C)Cc1c[nH]c(CC(C)(O)c2ccc(-n3cccn3)cc2)n1",
+    "sha256_float64_le": "a567e1d2600c4bf58ef2d3696df9b818fd2849249198518732e2e336989a2b11"
+  },
+  {
+    "smiles": "CC(O)(Cc1nc(CC2(C(F)(F)F)CC2)c[nH]1)c1ccc(-n2cccn2)cc1",
+    "sha256_float64_le": "dcb4ca8c87e5cacc84e04c827b03832fff8d9aba7313832cf9df30653c3d667f"
+  },
+  {
+    "smiles": "O[C@@](Cc1nc(CC2(C(F)(F)F)CC2)c[nH]1)(c1ccc(-n2cccn2)cc1)C(F)(F)F",
+    "sha256_float64_le": "f33d2cd3d5577d134e57adc47a29a3869b58d47522a6b98cb3d00f1901b43e6a"
+  },
+  {
+    "smiles": "O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1",
+    "sha256_float64_le": "522255e7d2a5da954ba2514f846f9a4fee0ba92222ee1b1840e73fe0adfb32c5"
+  },
+  {
+    "smiles": "N[C@H]1CN(c2ncnc(N3CCC(F)(F)C3)n2)C[C@@H]1N1CC(F)(F)CCC1=O",
+    "sha256_float64_le": "78fd76d8bc6d85efaf47c66d8bf2842bc2aa1630aba968f9b23d064b81e03a0c"
+  },
+  {
+    "smiles": "N[C@@H](C(=O)N1CCC[C@H]1C(=O)NCc1cc(Cl)ccc1OCC(=O)NC1CC1)C1CCCCC1",
+    "sha256_float64_le": "feb987aab219af9b4de7f5107f9bd4981eeb19ec0e7b8930481c3283f27eecb9"
+  },
+  {
+    "smiles": "Cc1cnc(NCCc2ccccn2)c(=O)n1CC(=O)NCc1cc(Cl)ccc1OCC(=O)NC1CC1",
+    "sha256_float64_le": "f68d258798d6383f648a909bd68908eaea77205dd9b6d5caf94d61798fb19c65"
+  },
+  {
+    "smiles": "Cc1cnc(NCCc2ccccn2)c(=O)n1CC(=O)NCc1cc(Cl)ccc1OCC(=O)NC1CCCNC1",
+    "sha256_float64_le": "efffb255553dfd27239eca4912715f060e2736e87f9a1b6c2caad124f44700e5"
+  },
+  {
+    "smiles": "Cc1cnc(NCCc2ccccn2)c(=O)n1CC(=O)NCc1cccc(Cl)c1",
+    "sha256_float64_le": "92c421503f77b3dc9e561391e791841fea86f1490614f7a5d9972a6ac8a351c7"
+  },
+  {
+    "smiles": "CO[C@@H]1COCC[C@@H]1N[C@@H]1CC[C@@](C(=O)N2CCN(c3cc(C(F)(F)F)ccn3)CC2)(C(C)C)C1",
+    "sha256_float64_le": "161711b011c2fd3f645d14eb4cc85d2e0d3da3fcddc865a8dece1388effeb6af"
+  },
+  {
+    "smiles": "CCO[C@@H]1Cc2cc(C(F)(F)F)ccc2[C@H]1N1CCN(C2(C)CCN(C(=O)c3c(C)ncnc3C)CC2)C[C@@H]1C",
+    "sha256_float64_le": "f64c7209eaeaaec02a0b9a530f00a2a690967e1f3af6224919923d0ce5f44edd"
+  },
+  {
+    "smiles": "Cc1onc(-c2ccccc2)c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)O",
+    "sha256_float64_le": "b82cbd37d2a9b91203560c624aac6ad4290b3f21efc750b82732ebd360db224f"
+  },
+  {
+    "smiles": "CC(=O)O[C@H]1C[C@@]2(C)[C@@H](C[C@@H](O)[C@H]3[C@@]4(C)CC[C@@H](O)[C@@H](C)[C@@H]4CC[C@@]32C)/C1=C(\\CCC=C(C)C)C(=O)O",
+    "sha256_float64_le": "4a0e967d3827717f3fce23ae747eda2c3aeee8bec5c316330585082adda46916"
+  },
+  {
+    "smiles": "CCC[C@@H]1C[C@@H](C(=O)N[C@@H]([C@H]2O[C@H](SC)[C@H](O)[C@@H](O)[C@H]2O)[C@H](C)Cl)N(C)C1",
+    "sha256_float64_le": "18b51f8addde46e3ff19c0840a9703ff64cf49492332919de9c39077d2c00236"
+  },
+  {
+    "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CCN(C)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C",
+    "sha256_float64_le": "498ed20e5c3f86d71e6106a77d48129a20a193a26735fdf8302289943b0d799b"
+  },
+  {
+    "smiles": "CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1",
+    "sha256_float64_le": "21fc9a30d5f6ab44bc81fbb235514689857272a739a096b9b1206860cd6568d9"
+  },
+  {
+    "smiles": "CN(C)c1cc(NC(=O)CNC(C)(C)C)c(O)c2c1C[C@H]1C[C@H]3[C@H](N(C)C)C(O)=C(C(N)=O)C(=O)[C@@]3(O)C(O)=C1C2=O",
+    "sha256_float64_le": "f55bb2af2296087ed796cdc48cc42a2c897384ffb38dc3a85c4335cad10dd407"
+  },
+  {
+    "smiles": "Cc1ccc(CO)cc1N(C)c1ccnc(Nc2cc(N3CCOCC3)nc(N3CCOCC3)c2)n1",
+    "sha256_float64_le": "da2d098dda95b71deba7615b6fdf99b89c3a733d2f5439ed628cdda5def4fd34"
+  },
+  {
+    "smiles": "Cc1ccc(CO)cc1N(C)c1ccnc(Nc2cc(N3CCOCC3)cc(S(C)(=O)=O)c2)n1",
+    "sha256_float64_le": "97bcf36e6b68b5127ca5370ee66b0a4b4f6f71e9e608acdd65be8bff8ff8fc95"
+  },
+  {
+    "smiles": "Cc1ccc(CO)cc1N(C)c1ccnc(Nc2cc(N3CCOCC3)cc(N3CCOCC3)c2)n1",
+    "sha256_float64_le": "03acbdf47c960ee1979d065c2548970d6bb657537419c61d6bfba7911de7273f"
+  },
+  {
+    "smiles": "O=C(O)c1cn(Cc2ccc3ccccc3c2)c2cccc(F)c2c1=O",
+    "sha256_float64_le": "ce1f87d963aa9f92f8ebb20702dbefd1b9769f331563e923bfd3d48b888ec15c"
+  },
+  {
+    "smiles": "COc1ccc(Cc2cc([C@]34OC[C@](CO)(O3)[C@@H](O)[C@H](O)[C@H]4O)ccc2C)cc1",
+    "sha256_float64_le": "371c6ecb99bf4910d4c3092edbf02e7521cb09412d40fbd0ecb59a3b72a48d65"
+  },
+  {
+    "smiles": "CCOc1ccc(Cc2cc([C@]34OC[C@](CO)(O3)[C@@H](O)[C@H](O)[C@H]4O)ccc2Cl)cc1",
+    "sha256_float64_le": "a0350c1bc37fde9dbdd81156b051a3abe857ec4b14750fe5646542a12d0a6e00"
+  },
+  {
+    "smiles": "Cc1cc(Nc2nc(N[C@@H](C)c3ccc(F)cn3)c(C#N)cc2F)n[nH]1",
+    "sha256_float64_le": "352bac88a2046946a5a5d2b892d58cb018b4e2550942c72fc5533f062b5c54cf"
+  },
+  {
+    "smiles": "O=C(NCCc1ccccc1Cl)c1cc(-n2ncc(=O)[nH]c2=O)ccc1Cl",
+    "sha256_float64_le": "0540f9ab4a071408c3528cea993aa960aaf6851876e3c540ecd6018daea29684"
+  },
+  {
+    "smiles": "O=C(NCC1(O)CCCCCC1)c1cc(-n2ncc(=O)[nH]c2=O)ccc1Cl",
+    "sha256_float64_le": "1e438696f64cd874c69735737214d4e7ed0b18bf5dc1d562f724dedb8cd41fe0"
+  },
+  {
+    "smiles": "COC[C@H](O)Cn1c(=O)cnn(-c2ccc(Cl)c(C(=O)NCC3(O)CCCCCC3)c2)c1=O",
+    "sha256_float64_le": "81599303def36c1351fcdaf5c849f6ede9007a1d11fd74a41180dfae2f897693"
+  },
+  {
+    "smiles": "C[C@H](CS(C)(=O)=O)Nc1n[nH]c2nc(Oc3ccc(F)cc3F)ncc12",
+    "sha256_float64_le": "5604050cfd36c7e51b15e2af2d57398ed50136ab54951740b96972a7b8331c13"
+  },
+  {
+    "smiles": "COC[C@H](C)Oc1cc(Oc2cc(F)cc(F)c2)cc(C(=O)Nc2ccc(C(=O)O)cn2)c1",
+    "sha256_float64_le": "cc831bc33824ddac97566e33a33ef92761af2dec67fe8048cd96bcf64f073177"
+  }
+]

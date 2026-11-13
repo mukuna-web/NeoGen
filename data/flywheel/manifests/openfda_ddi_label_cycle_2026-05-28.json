@@ -1,0 +1,48 @@
+{
+  "cycle_id": "openfda-ddi-label-cycle-2026-05-28",
+  "drugs_attempted": 5,
+  "errors": [],
+  "evidence_records": 74,
+  "named_pairs": 64,
+  "pair_records": 64,
+  "pending_pairs": 10,
+  "per_drug": [
+    {
+      "drug": "warfarin",
+      "evidence": 17,
+      "pairs": 14,
+      "pending": 3,
+      "status": "ok"
+    },
+    {
+      "drug": "amiodarone",
+      "evidence": 13,
+      "pairs": 11,
+      "pending": 2,
+      "status": "ok"
+    },
+    {
+      "drug": "ketoconazole",
+      "evidence": 2,
+      "pairs": 0,
+      "pending": 2,
+      "status": "ok"
+    },
+    {
+      "drug": "rifampin",
+      "evidence": 15,
+      "pairs": 12,
+      "pending": 3,
+      "status": "ok"
+    },
+    {
+      "drug": "clarithromycin",
+      "evidence": 27,
+      "pairs": 27,
+      "pending": 0,
+      "status": "ok"
+    }
+  ],
+  "retrieved_at": "2026-05-29T01:35:58Z",
+  "source_id": "openfda_labels"
+}

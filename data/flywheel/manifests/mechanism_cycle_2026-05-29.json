@@ -1,0 +1,11 @@
+{
+  "adversarial_note": "table/class-flattened spans rejected; residual prose assertions are needs_review; authoritative directionality = structured FDA tables (GAP-014)",
+  "completed_at": "2026-05-29T11:57:41Z",
+  "cycle_id": "moat-next5-adversarial-2026-05-29-c3",
+  "directionality_gaps": 62,
+  "explicit_assertions": 2,
+  "next_action": "Ingest FDA CYP/transporter substrate/inhibitor/inducer tables for authoritative direction.",
+  "pairable_evidence": 64,
+  "started_at": "2026-05-29T11:57:41Z",
+  "tool_used": "directionality_extractor(table+class-guarded)"
+}

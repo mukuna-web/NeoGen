@@ -1,0 +1,24 @@
+{
+  "category": "ddi_evidence",
+  "content_sha256": "acc38ac0a1980561a4d94c5162ef2e751ed048758ec494e12646b60ee7fcd69e",
+  "description": "",
+  "discovered_links": [
+    "https://ddinter.scbdd.com/explanation/",
+    "https://ddinter.scbdd.com/",
+    "https://ddinter.scbdd.com/#"
+  ],
+  "http_status": 200,
+  "ingestion_priority": "P0",
+  "license_status": "requires_review",
+  "link_count": 3,
+  "markdown_char_count": 1380,
+  "note": "metadata-only extraction; full page body intentionally not stored",
+  "retrieved_at": "2026-05-29T01:12:59Z",
+  "robots_tos_status": "academic use; verify redistribution",
+  "snippet": "## Curated Drug-Drug Interactions Database  DDInter is a comprehensive, professional, and open-access database specific to drug-drug interactions. It provides abundant annotations for each DDI association including mechanism description, risk levels, management strategies, alternative medications, etc. to improve clinical decision-making and patient safety.  [Read\\\\ More](https://ddinter.scbdd.com",
+  "source_id": "ddinter",
+  "source_name": "DDInter",
+  "title": "\n      \n        DDinter\n      \n    ",
+  "tool_used": "firecrawl_cloud",
+  "url": "http://ddinter.scbdd.com/"
+}

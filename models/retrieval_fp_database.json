@@ -1,0 +1,3385 @@
+[
+  {
+    "name": "Metoprolol",
+    "smiles": "CC(C)NCC(O)COC1=CC=C(C=C1)CCOC",
+    "mw": 267.36899999999997,
+    "logp": 1.6131999999999995,
+    "tpsa": 50.72,
+    "pk": {
+      "half_life": 3.5,
+      "clearance": 63,
+      "vd": 300,
+      "cmax": 0.12,
+      "auc": 1.2,
+      "F": 0.5,
+      "fu": 0.88
+    },
+    "dose": 100
+  },
+  {
+    "name": "Propranolol",
+    "smiles": "CC(C)NCC(O)C1=CC=C2C(=C1)C=CC=C2O",
+    "mw": 245.322,
+    "logp": 2.576800000000001,
+    "tpsa": 52.489999999999995,
+    "pk": {
+      "half_life": 3.9,
+      "clearance": 60,
+      "vd": 270,
+      "cmax": 0.03,
+      "auc": 0.3,
+      "F": 0.26,
+      "fu": 0.13
+    },
+    "dose": 80
+  },
+  {
+    "name": "Atenolol",
+    "smiles": "CC(C)NCC(O)C1=CC=C(CC(N)=O)C=C1",
+    "mw": 236.31499999999997,
+    "logp": 0.7457999999999998,
+    "tpsa": 75.35,
+    "pk": {
+      "half_life": 7,
+      "clearance": 10.5,
+      "vd": 63,
+      "cmax": 0.6,
+      "auc": 7.0,
+      "F": 0.56,
+      "fu": 0.95
+    },
+    "dose": 100
+  },
+  {
+    "name": "Bisoprolol",
+    "smiles": "CC(C)NCC(O)COC1=CC=C(COCCOC2CC2)C=C1",
+    "mw": 323.43300000000005,
+    "logp": 2.1198999999999995,
+    "tpsa": 59.95,
+    "pk": {
+      "half_life": 11,
+      "clearance": 3.7,
+      "vd": 242,
+      "cmax": 0.07,
+      "auc": 0.42,
+      "F": 0.88,
+      "fu": 0.7
+    },
+    "dose": 10
+  },
+  {
+    "name": "Carvedilol",
+    "smiles": "COC1=CC=CC=C1OCCNCC(O)COC1=CC=C2C(C=C1)NC1=CC=CC=C12",
+    "mw": 420.509,
+    "logp": 3.3725000000000014,
+    "tpsa": 71.98,
+    "pk": {
+      "half_life": 7,
+      "clearance": 36,
+      "vd": 115,
+      "cmax": 0.024,
+      "auc": 0.14,
+      "F": 0.25,
+      "fu": 0.02
+    },
+    "dose": 25
+  },
+  {
+    "name": "Amlodipine",
+    "smiles": "CCOC(=O)C1=C(COCCN)NC(C)=C(C1C1=CC=CC(Cl)=C1)C(=O)OC",
+    "mw": 408.88200000000006,
+    "logp": 2.2663,
+    "tpsa": 99.88000000000001,
+    "pk": {
+      "half_life": 35,
+      "clearance": 0.4,
+      "vd": 1680,
+      "cmax": 0.006,
+      "auc": 0.41,
+      "F": 0.64,
+      "fu": 0.03
+    },
+    "dose": 10
+  },
+  {
+    "name": "Nifedipine",
+    "smiles": "COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC=C1[N+]([O-])=O)C(=O)OC",
+    "mw": 346.33900000000017,
+    "logp": 2.1756,
+    "tpsa": 107.77,
+    "pk": {
+      "half_life": 2,
+      "clearance": 30,
+      "vd": 56,
+      "cmax": 0.08,
+      "auc": 0.6,
+      "F": 0.5,
+      "fu": 0.04
+    },
+    "dose": 30
+  },
+  {
+    "name": "Verapamil",
+    "smiles": "COC1=CC=C(CCN(C)CCCC(C#N)(C(C)C)C2=CC(OC)=C(OC)C=C2)C=C1OC",
+    "mw": 454.6110000000002,
+    "logp": 5.093080000000005,
+    "tpsa": 63.95,
+    "pk": {
+      "half_life": 6,
+      "clearance": 63,
+      "vd": 350,
+      "cmax": 0.18,
+      "auc": 1.2,
+      "F": 0.22,
+      "fu": 0.1
+    },
+    "dose": 120
+  },
+  {
+    "name": "Diltiazem",
+    "smiles": "COC1=CC=C(C=C1)C1SC2=CC=CC=C2N(CCN(C)C)C1=O",
+    "mw": 342.4640000000001,
+    "logp": 3.4368000000000016,
+    "tpsa": 32.78,
+    "pk": {
+      "half_life": 4.5,
+      "clearance": 58,
+      "vd": 305,
+      "cmax": 0.18,
+      "auc": 2.1,
+      "F": 0.4,
+      "fu": 0.22
+    },
+    "dose": 120
+  },
+  {
+    "name": "Lisinopril",
+    "smiles": "NCCCC(NC(CCC1=CC=CC=C1)C(O)=O)C(=O)N1CCCC1C(O)=O",
+    "mw": 391.46800000000025,
+    "logp": 0.8451000000000011,
+    "tpsa": 132.95999999999998,
+    "pk": {
+      "half_life": 12,
+      "clearance": 1.7,
+      "vd": 124,
+      "cmax": 0.025,
+      "auc": 0.6,
+      "F": 0.25,
+      "fu": 1.0
+    },
+    "dose": 10
+  },
+  {
+    "name": "Enalapril",
+    "smiles": "CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N1CC2=CC=CC=C2CC1C(O)=O",
+    "mw": 438.5240000000003,
+    "logp": 2.5671,
+    "tpsa": 95.94,
+    "pk": {
+      "half_life": 11,
+      "clearance": 0.6,
+      "vd": 60,
+      "cmax": 0.06,
+      "auc": 0.35,
+      "F": 0.6,
+      "fu": 0.5
+    },
+    "dose": 10
+  },
+  {
+    "name": "Losartan",
+    "smiles": "CCCCC1=NC(Cl)=C(N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)CO",
+    "mw": 422.92000000000013,
+    "logp": 4.266800000000004,
+    "tpsa": 92.51,
+    "pk": {
+      "half_life": 2,
+      "clearance": 35,
+      "vd": 34,
+      "cmax": 0.25,
+      "auc": 1.5,
+      "F": 0.33,
+      "fu": 0.01
+    },
+    "dose": 50
+  },
+  {
+    "name": "Valsartan",
+    "smiles": "CCCCC(=O)N(CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)C(C(C)C)C(O)=O",
+    "mw": 435.5280000000002,
+    "logp": 4.161700000000002,
+    "tpsa": 112.07000000000002,
+    "pk": {
+      "half_life": 6,
+      "clearance": 2,
+      "vd": 17,
+      "cmax": 2.0,
+      "auc": 30,
+      "F": 0.23,
+      "fu": 0.05
+    },
+    "dose": 160
+  },
+  {
+    "name": "Digoxin",
+    "smiles": "OCC1OC(OC2CCC3(C)C(CCC4C3CC(O)C3(C)C(CCC34O)C3=CC(=O)OC3)C2)CC(O)C1O",
+    "mw": 536.6620000000005,
+    "logp": 1.4284999999999994,
+    "tpsa": 145.91,
+    "pk": {
+      "half_life": 39,
+      "clearance": 3.1,
+      "vd": 510,
+      "cmax": 0.0015,
+      "auc": 0.035,
+      "F": 0.7,
+      "fu": 0.75
+    },
+    "dose": 0.25
+  },
+  {
+    "name": "Furosemide",
+    "smiles": "NS(=O)(=O)C1=CC(C(=O)O)=C(NCC2=CC=CO2)C=C1Cl",
+    "mw": 330.749,
+    "logp": 1.8907,
+    "tpsa": 122.63000000000001,
+    "pk": {
+      "half_life": 1.5,
+      "clearance": 2.5,
+      "vd": 7.7,
+      "cmax": 2.0,
+      "auc": 5.3,
+      "F": 0.6,
+      "fu": 0.01
+    },
+    "dose": 40
+  },
+  {
+    "name": "Hydrochlorothiazide",
+    "smiles": "NS(=O)(=O)C1=CC2=C(C=C1Cl)S(=O)(=O)NC(N2)=O",
+    "mw": 311.728,
+    "logp": -0.18879999999999975,
+    "tpsa": 135.43,
+    "pk": {
+      "half_life": 10,
+      "clearance": 4.9,
+      "vd": 70,
+      "cmax": 0.07,
+      "auc": 0.56,
+      "F": 0.65,
+      "fu": 0.4
+    },
+    "dose": 25
+  },
+  {
+    "name": "Spironolactone",
+    "smiles": "CC(=O)SC1CC2=CC(=O)CCC2(C)C2CCC3(C)C(CCC3(O)C(C)=O)C12",
+    "mw": 404.5720000000002,
+    "logp": 4.096600000000003,
+    "tpsa": 71.44,
+    "pk": {
+      "half_life": 1.4,
+      "clearance": 200,
+      "vd": 17,
+      "cmax": 0.08,
+      "auc": 0.77,
+      "F": 0.73,
+      "fu": 0.1
+    },
+    "dose": 100
+  },
+  {
+    "name": "Warfarin",
+    "smiles": "CC(=O)CC(C1=CC=CC=C1)C1=C(O)C2=CC=CC=C2OC1=O",
+    "mw": 308.3330000000001,
+    "logp": 3.609600000000003,
+    "tpsa": 67.50999999999999,
+    "pk": {
+      "half_life": 40,
+      "clearance": 0.05,
+      "vd": 8,
+      "cmax": 1.5,
+      "auc": 70,
+      "F": 0.97,
+      "fu": 0.01
+    },
+    "dose": 5
+  },
+  {
+    "name": "Clopidogrel",
+    "smiles": "COC(=O)C(C1=CC=CC=C1Cl)N1CCC2=CC(=CS2)C1",
+    "mw": 321.829,
+    "logp": 3.6739000000000024,
+    "tpsa": 29.54,
+    "pk": {
+      "half_life": 6,
+      "clearance": 50,
+      "vd": 28,
+      "cmax": 0.003,
+      "auc": 0.008,
+      "F": 0.5,
+      "fu": 0.02
+    },
+    "dose": 75
+  },
+  {
+    "name": "Diazepam",
+    "smiles": "CN1C(=O)CN=C(C2=CC=CC=C2)C2=CC=C(Cl)C=C21",
+    "mw": 284.74600000000004,
+    "logp": 3.153800000000002,
+    "tpsa": 32.67,
+    "pk": {
+      "half_life": 43,
+      "clearance": 1.5,
+      "vd": 80,
+      "cmax": 0.3,
+      "auc": 20,
+      "F": 0.93,
+      "fu": 0.02
+    },
+    "dose": 10
+  },
+  {
+    "name": "Midazolam",
+    "smiles": "CC1=NC=C2N1C1=CC(Cl)=CC=C1C(C1=CC=CC=C1F)=NC2",
+    "mw": 325.77400000000006,
+    "logp": 4.324220000000002,
+    "tpsa": 30.18,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 25,
+      "vd": 77,
+      "cmax": 0.075,
+      "auc": 0.3,
+      "F": 0.36,
+      "fu": 0.04
+    },
+    "dose": 15
+  },
+  {
+    "name": "Alprazolam",
+    "smiles": "CC1=NN=C2CN=C(C3=CC=CC=C3Cl)C3=CC=CC=C3N12",
+    "mw": 308.77200000000005,
+    "logp": 3.5801200000000026,
+    "tpsa": 43.07,
+    "pk": {
+      "half_life": 12,
+      "clearance": 0.8,
+      "vd": 70,
+      "cmax": 0.015,
+      "auc": 0.3,
+      "F": 0.8,
+      "fu": 0.2
+    },
+    "dose": 1
+  },
+  {
+    "name": "Fluoxetine",
+    "smiles": "CNCCC(OC1=CC=C(C(F)(F)F)C=C1)C1=CC=CC=C1",
+    "mw": 309.33099999999996,
+    "logp": 4.435000000000003,
+    "tpsa": 21.259999999999998,
+    "pk": {
+      "half_life": 48,
+      "clearance": 40,
+      "vd": 2500,
+      "cmax": 0.015,
+      "auc": 0.6,
+      "F": 0.72,
+      "fu": 0.06
+    },
+    "dose": 20
+  },
+  {
+    "name": "Sertraline",
+    "smiles": "CNC1CCC(C2=CC(Cl)=C(Cl)C=C2)C2=CC=CC=C12",
+    "mw": 306.236,
+    "logp": 5.179600000000004,
+    "tpsa": 12.03,
+    "pk": {
+      "half_life": 26,
+      "clearance": 96,
+      "vd": 2000,
+      "cmax": 0.02,
+      "auc": 0.45,
+      "F": 0.44,
+      "fu": 0.02
+    },
+    "dose": 100
+  },
+  {
+    "name": "Paroxetine",
+    "smiles": "OC1C2=CC=CC=C2OCC2=CC(F)=CC=C21",
+    "mw": 230.23799999999997,
+    "logp": 2.799800000000001,
+    "tpsa": 29.46,
+    "pk": {
+      "half_life": 21,
+      "clearance": 27,
+      "vd": 850,
+      "cmax": 0.03,
+      "auc": 0.5,
+      "F": 0.5,
+      "fu": 0.05
+    },
+    "dose": 20
+  },
+  {
+    "name": "Escitalopram",
+    "smiles": "CN(C)CCCC1(OCC2=CC(F)=CC=C21)C1=CC=C(C#N)C=C1",
+    "mw": 324.39900000000006,
+    "logp": 3.812980000000003,
+    "tpsa": 36.26,
+    "pk": {
+      "half_life": 27,
+      "clearance": 36,
+      "vd": 1100,
+      "cmax": 0.004,
+      "auc": 0.11,
+      "F": 0.8,
+      "fu": 0.2
+    },
+    "dose": 10
+  },
+  {
+    "name": "Venlafaxine",
+    "smiles": "COC1=CC=C(C(CN(C)C)C2(O)CCCCC2)C=C1",
+    "mw": 277.4079999999999,
+    "logp": 3.0356000000000014,
+    "tpsa": 32.7,
+    "pk": {
+      "half_life": 5,
+      "clearance": 13,
+      "vd": 350,
+      "cmax": 0.15,
+      "auc": 2.1,
+      "F": 0.45,
+      "fu": 0.73
+    },
+    "dose": 75
+  },
+  {
+    "name": "Duloxetine",
+    "smiles": "CNCC(OC1=CC=CC2=CC=CC=C12)C1=CC=CS1",
+    "mw": 283.396,
+    "logp": 4.240800000000003,
+    "tpsa": 21.259999999999998,
+    "pk": {
+      "half_life": 12,
+      "clearance": 114,
+      "vd": 1640,
+      "cmax": 0.047,
+      "auc": 0.68,
+      "F": 0.5,
+      "fu": 0.04
+    },
+    "dose": 60
+  },
+  {
+    "name": "Quetiapine",
+    "smiles": "OCCOCCN1CCN(CC1)C1=NC2=CC=CC=C2SC2=CC=CC=C12",
+    "mw": 383.5170000000001,
+    "logp": 2.8560000000000016,
+    "tpsa": 48.300000000000004,
+    "pk": {
+      "half_life": 7,
+      "clearance": 120,
+      "vd": 610,
+      "cmax": 0.58,
+      "auc": 4.4,
+      "F": 0.73,
+      "fu": 0.17
+    },
+    "dose": 300
+  },
+  {
+    "name": "Olanzapine",
+    "smiles": "CN1CCN(CC1)C1=NC2=CC=CC=C2NC2=C1C=C(C)S2",
+    "mw": 312.44200000000006,
+    "logp": 3.4392200000000015,
+    "tpsa": 30.869999999999997,
+    "pk": {
+      "half_life": 30,
+      "clearance": 12,
+      "vd": 1000,
+      "cmax": 0.012,
+      "auc": 0.18,
+      "F": 0.57,
+      "fu": 0.07
+    },
+    "dose": 10
+  },
+  {
+    "name": "Risperidone",
+    "smiles": "CC1=C(CCN2CCC(CC2)C2=NOC3=CC(F)=CC=C23)C(=O)N2CCCCC12",
+    "mw": 397.4940000000002,
+    "logp": 4.247600000000004,
+    "tpsa": 49.580000000000005,
+    "pk": {
+      "half_life": 20,
+      "clearance": 5,
+      "vd": 200,
+      "cmax": 0.004,
+      "auc": 0.06,
+      "F": 0.7,
+      "fu": 0.1
+    },
+    "dose": 2
+  },
+  {
+    "name": "Lamotrigine",
+    "smiles": "NC1=NC(=CS1)C1=CC(=CC(Cl)=C1)Cl",
+    "mw": 245.134,
+    "logp": 3.6991000000000005,
+    "tpsa": 38.91,
+    "pk": {
+      "half_life": 25,
+      "clearance": 0.6,
+      "vd": 77,
+      "cmax": 3.0,
+      "auc": 100,
+      "F": 0.98,
+      "fu": 0.45
+    },
+    "dose": 100
+  },
+  {
+    "name": "Gabapentin",
+    "smiles": "NCC1(CC(O)=O)CCCCC1",
+    "mw": 171.23999999999992,
+    "logp": 1.3702999999999994,
+    "tpsa": 63.32,
+    "pk": {
+      "half_life": 6,
+      "clearance": 1.4,
+      "vd": 58,
+      "cmax": 2.7,
+      "auc": 20,
+      "F": 0.6,
+      "fu": 0.97
+    },
+    "dose": 300
+  },
+  {
+    "name": "Pregabalin",
+    "smiles": "CC(C)CC(CN)CC(O)=O",
+    "mw": 159.229,
+    "logp": 1.0821,
+    "tpsa": 63.32,
+    "pk": {
+      "half_life": 6,
+      "clearance": 1.1,
+      "vd": 47,
+      "cmax": 4.8,
+      "auc": 28,
+      "F": 0.9,
+      "fu": 1.0
+    },
+    "dose": 150
+  },
+  {
+    "name": "Zolpidem",
+    "smiles": "CC1=CC(=C(N1C)CC(=O)N(C)C)C1=CC=C(C)N=C1",
+    "mw": 271.364,
+    "logp": 2.3346400000000003,
+    "tpsa": 38.13,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 4.5,
+      "vd": 63,
+      "cmax": 0.13,
+      "auc": 0.74,
+      "F": 0.7,
+      "fu": 0.08
+    },
+    "dose": 10
+  },
+  {
+    "name": "Bupropion",
+    "smiles": "CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1",
+    "mw": 239.746,
+    "logp": 3.2993000000000023,
+    "tpsa": 29.1,
+    "pk": {
+      "half_life": 21,
+      "clearance": 31,
+      "vd": 2000,
+      "cmax": 0.17,
+      "auc": 1.5,
+      "F": 0.87,
+      "fu": 0.16
+    },
+    "dose": 150
+  },
+  {
+    "name": "Aspirin",
+    "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+    "mw": 180.15899999999996,
+    "logp": 1.3101,
+    "tpsa": 63.60000000000001,
+    "pk": {
+      "half_life": 0.25,
+      "clearance": 39,
+      "vd": 10,
+      "cmax": 36.8,
+      "auc": 97,
+      "F": 0.68,
+      "fu": 0.5
+    },
+    "dose": 500
+  },
+  {
+    "name": "Paracetamol",
+    "smiles": "CC(=O)NC1=CC=C(O)C=C1",
+    "mw": 151.165,
+    "logp": 1.3505999999999998,
+    "tpsa": 49.33,
+    "pk": {
+      "half_life": 2,
+      "clearance": 19.5,
+      "vd": 55,
+      "cmax": 18.5,
+      "auc": 53,
+      "F": 0.88,
+      "fu": 0.8
+    },
+    "dose": 1000
+  },
+  {
+    "name": "Ibuprofen",
+    "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+    "mw": 206.28499999999997,
+    "logp": 3.073200000000001,
+    "tpsa": 37.3,
+    "pk": {
+      "half_life": 2,
+      "clearance": 3.5,
+      "vd": 10,
+      "cmax": 26,
+      "auc": 105,
+      "F": 0.8,
+      "fu": 0.01
+    },
+    "dose": 400
+  },
+  {
+    "name": "Naproxen",
+    "smiles": "COC1=CC2=CC(CC(C)C(O)=O)=CC=C2C=C1",
+    "mw": 244.29,
+    "logp": 3.111600000000001,
+    "tpsa": 46.53,
+    "pk": {
+      "half_life": 14,
+      "clearance": 0.3,
+      "vd": 12,
+      "cmax": 70,
+      "auc": 770,
+      "F": 0.95,
+      "fu": 0.01
+    },
+    "dose": 500
+  },
+  {
+    "name": "Diclofenac",
+    "smiles": "OC(=O)CC1=CC=CC=C1NC1=C(Cl)C=CC=C1Cl",
+    "mw": 296.153,
+    "logp": 4.364100000000001,
+    "tpsa": 49.33,
+    "pk": {
+      "half_life": 1.5,
+      "clearance": 21,
+      "vd": 7,
+      "cmax": 1.5,
+      "auc": 5.5,
+      "F": 0.55,
+      "fu": 0.005
+    },
+    "dose": 50
+  },
+  {
+    "name": "Celecoxib",
+    "smiles": "CC1=CC=C(C=C1)C1=CC(C(F)(F)F)=NN1C1=CC=C(S(N)(=O)=O)C=C1",
+    "mw": 381.3790000000001,
+    "logp": 3.5139200000000006,
+    "tpsa": 77.98,
+    "pk": {
+      "half_life": 11,
+      "clearance": 27,
+      "vd": 400,
+      "cmax": 0.7,
+      "auc": 5.5,
+      "F": 0.4,
+      "fu": 0.03
+    },
+    "dose": 200
+  },
+  {
+    "name": "Tramadol",
+    "smiles": "COC1=CC=CC(C2CCCCN2C)=C1",
+    "mw": 205.30099999999996,
+    "logp": 2.852000000000001,
+    "tpsa": 12.47,
+    "pk": {
+      "half_life": 6,
+      "clearance": 6,
+      "vd": 306,
+      "cmax": 0.3,
+      "auc": 3.2,
+      "F": 0.68,
+      "fu": 0.8
+    },
+    "dose": 100
+  },
+  {
+    "name": "Morphine",
+    "smiles": "CN1CCC23C4OC5=CC(O)=CC=C5C2(O)C=CC1C3C4",
+    "mw": 285.343,
+    "logp": 1.6209999999999998,
+    "tpsa": 52.93000000000001,
+    "pk": {
+      "half_life": 3,
+      "clearance": 60,
+      "vd": 200,
+      "cmax": 0.06,
+      "auc": 0.3,
+      "F": 0.3,
+      "fu": 0.65
+    },
+    "dose": 30
+  },
+  {
+    "name": "Codeine",
+    "smiles": "COC1=CC=C2C3CC=C4C(O)C(=CC(N(C)C3C1)C24)OC",
+    "mw": 301.3860000000001,
+    "logp": 1.9967,
+    "tpsa": 41.93000000000001,
+    "pk": {
+      "half_life": 3,
+      "clearance": 42,
+      "vd": 200,
+      "cmax": 0.15,
+      "auc": 0.8,
+      "F": 0.5,
+      "fu": 0.5
+    },
+    "dose": 60
+  },
+  {
+    "name": "Oxycodone",
+    "smiles": "COC1=CC=C2C3CC4=CC=C(O)C5OC1C2(CCN3C)C45",
+    "mw": 299.37,
+    "logp": 2.3164000000000007,
+    "tpsa": 41.93,
+    "pk": {
+      "half_life": 3.5,
+      "clearance": 12,
+      "vd": 200,
+      "cmax": 0.015,
+      "auc": 0.12,
+      "F": 0.6,
+      "fu": 0.55
+    },
+    "dose": 10
+  },
+  {
+    "name": "Omeprazole",
+    "smiles": "COC1=CC2=C(C=C1)N=C(N2)S(=O)CC1=NC=C(C)C(OC)=C1C",
+    "mw": 345.42400000000015,
+    "logp": 2.8997400000000013,
+    "tpsa": 77.10000000000001,
+    "pk": {
+      "half_life": 1,
+      "clearance": 30,
+      "vd": 30,
+      "cmax": 0.56,
+      "auc": 1.1,
+      "F": 0.35,
+      "fu": 0.05
+    },
+    "dose": 20
+  },
+  {
+    "name": "Pantoprazole",
+    "smiles": "COC1=CC=NC(CS(=O)C2=NC3=C(N2)C=C(OC(F)F)C=C3)=C1OC",
+    "mw": 383.3760000000001,
+    "logp": 2.8843000000000014,
+    "tpsa": 86.33000000000001,
+    "pk": {
+      "half_life": 1,
+      "clearance": 12,
+      "vd": 11,
+      "cmax": 2.5,
+      "auc": 5,
+      "F": 0.77,
+      "fu": 0.02
+    },
+    "dose": 40
+  },
+  {
+    "name": "Ranitidine",
+    "smiles": "CNC(/C=C/[N+](=O)[O-])=N\\CSCC1=CC=C(CN(C)C)O1",
+    "mw": 312.39500000000004,
+    "logp": 1.9402000000000001,
+    "tpsa": 83.91,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 43,
+      "vd": 96,
+      "cmax": 0.55,
+      "auc": 3.5,
+      "F": 0.5,
+      "fu": 0.85
+    },
+    "dose": 150
+  },
+  {
+    "name": "Ondansetron",
+    "smiles": "CC1=NC=CN1CC1=CC=C2C(=C1)C(=O)C1=CC=CC=C1N2C",
+    "mw": 303.36500000000007,
+    "logp": 3.2449200000000014,
+    "tpsa": 39.82,
+    "pk": {
+      "half_life": 4,
+      "clearance": 25,
+      "vd": 160,
+      "cmax": 0.025,
+      "auc": 0.14,
+      "F": 0.6,
+      "fu": 0.27
+    },
+    "dose": 8
+  },
+  {
+    "name": "Amoxicillin",
+    "smiles": "CC1(C)SC2C(NC(=O)C(N)C3=CC=C(O)C=C3)C(=O)N2C1C(O)=O",
+    "mw": 365.4110000000001,
+    "logp": 0.023699999999999555,
+    "tpsa": 132.96,
+    "pk": {
+      "half_life": 1.2,
+      "clearance": 21,
+      "vd": 25,
+      "cmax": 7.5,
+      "auc": 18,
+      "F": 0.74,
+      "fu": 0.82
+    },
+    "dose": 500
+  },
+  {
+    "name": "Ciprofloxacin",
+    "smiles": "O=C(O)C1=CN(C2CC2)C2=CC(N3CCNCC3)=C(F)C=C2C1=O",
+    "mw": 331.34700000000004,
+    "logp": 1.5833,
+    "tpsa": 74.57,
+    "pk": {
+      "half_life": 4,
+      "clearance": 30,
+      "vd": 200,
+      "cmax": 2.5,
+      "auc": 20,
+      "F": 0.7,
+      "fu": 0.6
+    },
+    "dose": 500
+  },
+  {
+    "name": "Azithromycin",
+    "smiles": "CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(O)CC(C)CN(C)C1CC",
+    "mw": 688.944,
+    "logp": 3.178900000000005,
+    "tpsa": 139.62000000000003,
+    "pk": {
+      "half_life": 68,
+      "clearance": 37,
+      "vd": 3160,
+      "cmax": 0.5,
+      "auc": 4.3,
+      "F": 0.37,
+      "fu": 0.5
+    },
+    "dose": 500
+  },
+  {
+    "name": "Doxycycline",
+    "smiles": "OC1C2CC3CC4=C(O)C=CC(O)=C4C(O)=C3C(=O)C2(O)C(=C1N(C)C)C(N)=O",
+    "mw": 402.4030000000002,
+    "logp": -0.4652000000000002,
+    "tpsa": 164.55,
+    "pk": {
+      "half_life": 18,
+      "clearance": 0.4,
+      "vd": 50,
+      "cmax": 3.0,
+      "auc": 50,
+      "F": 0.93,
+      "fu": 0.07
+    },
+    "dose": 200
+  },
+  {
+    "name": "Metronidazole",
+    "smiles": "CC1=NC=C(CO)N1CCO",
+    "mw": 156.185,
+    "logp": -0.3238800000000001,
+    "tpsa": 58.28,
+    "pk": {
+      "half_life": 8,
+      "clearance": 0.75,
+      "vd": 52,
+      "cmax": 12,
+      "auc": 80,
+      "F": 0.8,
+      "fu": 0.8
+    },
+    "dose": 500
+  },
+  {
+    "name": "Levofloxacin",
+    "smiles": "CC1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1",
+    "mw": 361.37300000000016,
+    "logp": 1.544,
+    "tpsa": 75.00999999999999,
+    "pk": {
+      "half_life": 7,
+      "clearance": 10,
+      "vd": 74,
+      "cmax": 5.2,
+      "auc": 47,
+      "F": 0.99,
+      "fu": 0.76
+    },
+    "dose": 500
+  },
+  {
+    "name": "Metformin",
+    "smiles": "CN(C)C(=N)NC(=N)N",
+    "mw": 129.167,
+    "logp": -1.034159999999999,
+    "tpsa": 88.99000000000001,
+    "pk": {
+      "half_life": 5,
+      "clearance": 26.5,
+      "vd": 654,
+      "cmax": 1.03,
+      "auc": 5.86,
+      "F": 0.52,
+      "fu": 1.0
+    },
+    "dose": 500
+  },
+  {
+    "name": "Glipizide",
+    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1",
+    "mw": 296.3920000000001,
+    "logp": 2.31562,
+    "tpsa": 75.27,
+    "pk": {
+      "half_life": 4,
+      "clearance": 0.7,
+      "vd": 11,
+      "cmax": 0.35,
+      "auc": 3.2,
+      "F": 0.95,
+      "fu": 0.03
+    },
+    "dose": 10
+  },
+  {
+    "name": "Sitagliptin",
+    "smiles": "NC(CC1=CC(=C(F)C=C1F)F)CC(=O)N1CCN2C(=NN=C2C(F)(F)F)C1",
+    "mw": 407.31800000000004,
+    "logp": 2.0165,
+    "tpsa": 77.04,
+    "pk": {
+      "half_life": 12,
+      "clearance": 6,
+      "vd": 198,
+      "cmax": 0.95,
+      "auc": 8.5,
+      "F": 0.87,
+      "fu": 0.62
+    },
+    "dose": 100
+  },
+  {
+    "name": "Empagliflozin",
+    "smiles": "OCC1OC(C(O)C(O)C1O)C1=CC(=C(Cl)C=C1)CC1=CC=C(OC2CCCC2)C=C1",
+    "mw": 448.9430000000003,
+    "logp": 2.767100000000001,
+    "tpsa": 99.38000000000001,
+    "pk": {
+      "half_life": 12.4,
+      "clearance": 10.6,
+      "vd": 73.8,
+      "cmax": 0.687,
+      "auc": 4.74,
+      "F": 0.78,
+      "fu": 0.14
+    },
+    "dose": 25
+  },
+  {
+    "name": "Pioglitazone",
+    "smiles": "CCC1=CC=C(CCN2C(=O)SC(=O)N2)C=C1",
+    "mw": 250.323,
+    "logp": 1.4032,
+    "tpsa": 54.86,
+    "pk": {
+      "half_life": 7,
+      "clearance": 0.7,
+      "vd": 50,
+      "cmax": 1.0,
+      "auc": 16,
+      "F": 0.83,
+      "fu": 0.01
+    },
+    "dose": 30
+  },
+  {
+    "name": "Acyclovir",
+    "smiles": "NC1=NC(=O)C2=C(N1)N(COCCO)C=N2",
+    "mw": 225.20799999999997,
+    "logp": -1.3318,
+    "tpsa": 119.05,
+    "pk": {
+      "half_life": 3,
+      "clearance": 5,
+      "vd": 48,
+      "cmax": 0.6,
+      "auc": 4.8,
+      "F": 0.15,
+      "fu": 0.85
+    },
+    "dose": 400
+  },
+  {
+    "name": "Oseltamivir",
+    "smiles": "CCOC(=O)C1=CC(OC(CC)CC)C(NC(C)=O)C(N)C1",
+    "mw": 312.41,
+    "logp": 1.2853999999999997,
+    "tpsa": 90.64999999999999,
+    "pk": {
+      "half_life": 8,
+      "clearance": 3.5,
+      "vd": 23,
+      "cmax": 0.35,
+      "auc": 2.5,
+      "F": 0.8,
+      "fu": 0.58
+    },
+    "dose": 75
+  },
+  {
+    "name": "Dolutegravir",
+    "smiles": "CC1CCOC2=C1C(=O)C1=C(O2)C(=O)C(=CN1CC1=CC(F)=CC=C1)O",
+    "mw": 357.337,
+    "logp": 2.733700000000001,
+    "tpsa": 81.67,
+    "pk": {
+      "half_life": 14,
+      "clearance": 1,
+      "vd": 17,
+      "cmax": 3.67,
+      "auc": 53,
+      "F": 0.85,
+      "fu": 0.005
+    },
+    "dose": 50
+  },
+  {
+    "name": "Efavirenz",
+    "smiles": "OC1(C#CC2CC2)OC(=O)NC1=CC1=CC(Cl)=C(F)C=C1",
+    "mw": 307.708,
+    "logp": 2.6618000000000004,
+    "tpsa": 58.56,
+    "pk": {
+      "half_life": 52,
+      "clearance": 1.1,
+      "vd": 252,
+      "cmax": 4.07,
+      "auc": 185,
+      "F": 0.4,
+      "fu": 0.005
+    },
+    "dose": 600
+  },
+  {
+    "name": "Montelukast",
+    "smiles": "CC(C)(O)C1=CC=CC(CCC(SCC2(CC2)CC(O)=O)C2=CC=CC(=C2)/C=C/C2=CC3=CC=CC=C3N=C2Cl)=C1",
+    "mw": 586.1970000000001,
+    "logp": 8.948000000000002,
+    "tpsa": 70.42,
+    "pk": {
+      "half_life": 5,
+      "clearance": 0.7,
+      "vd": 8,
+      "cmax": 0.35,
+      "auc": 2.7,
+      "F": 0.64,
+      "fu": 0.01
+    },
+    "dose": 10
+  },
+  {
+    "name": "Cetirizine",
+    "smiles": "OC(=O)COCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1",
+    "mw": 388.8950000000001,
+    "logp": 3.148200000000002,
+    "tpsa": 53.010000000000005,
+    "pk": {
+      "half_life": 8,
+      "clearance": 0.5,
+      "vd": 35,
+      "cmax": 0.3,
+      "auc": 3.2,
+      "F": 0.7,
+      "fu": 0.07
+    },
+    "dose": 10
+  },
+  {
+    "name": "Loratadine",
+    "smiles": "CCOC(=O)N1CCC(=C2C3=CC(Cl)=CC=C3CCC3=CC=CN=C32)CC1",
+    "mw": 382.89100000000025,
+    "logp": 4.887800000000005,
+    "tpsa": 42.43,
+    "pk": {
+      "half_life": 8,
+      "clearance": 40,
+      "vd": 400,
+      "cmax": 0.003,
+      "auc": 0.07,
+      "F": 0.97,
+      "fu": 0.03
+    },
+    "dose": 10
+  },
+  {
+    "name": "Sildenafil",
+    "smiles": "CCCC1=NN(C)C2=C1NC(=NC2=O)C1=C(OCC)C=CC(=C1)S(=O)(=O)N1CCN(C)CC1",
+    "mw": 474.5870000000003,
+    "logp": 1.6109,
+    "tpsa": 113.41999999999999,
+    "pk": {
+      "half_life": 4,
+      "clearance": 6,
+      "vd": 105,
+      "cmax": 0.45,
+      "auc": 2.4,
+      "F": 0.41,
+      "fu": 0.04
+    },
+    "dose": 50
+  },
+  {
+    "name": "Allopurinol",
+    "smiles": "O=C1N=CN=C2NNC=C12",
+    "mw": 136.11399999999998,
+    "logp": -0.4022000000000001,
+    "tpsa": 74.43,
+    "pk": {
+      "half_life": 2,
+      "clearance": 25,
+      "vd": 40,
+      "cmax": 3.0,
+      "auc": 10,
+      "F": 0.67,
+      "fu": 1.0
+    },
+    "dose": 300
+  },
+  {
+    "name": "Caffeine",
+    "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+    "mw": 194.194,
+    "logp": -1.0293,
+    "tpsa": 61.82,
+    "pk": {
+      "half_life": 5,
+      "clearance": 5.5,
+      "vd": 37,
+      "cmax": 5.6,
+      "auc": 38.5,
+      "F": 0.99,
+      "fu": 0.65
+    },
+    "dose": 200
+  },
+  {
+    "name": "Theophylline",
+    "smiles": "CN1C(=O)C2=C(NC=N2)N(C)C1=O",
+    "mw": 180.16699999999997,
+    "logp": -1.0397000000000005,
+    "tpsa": 72.68,
+    "pk": {
+      "half_life": 8,
+      "clearance": 2.4,
+      "vd": 35,
+      "cmax": 8.0,
+      "auc": 80,
+      "F": 0.96,
+      "fu": 0.6
+    },
+    "dose": 300
+  },
+  {
+    "name": "Lithium",
+    "smiles": "O=C(O[Li])O[Li]",
+    "mw": 73.89,
+    "logp": -0.6934,
+    "tpsa": 35.53,
+    "pk": {
+      "half_life": 24,
+      "clearance": 1.5,
+      "vd": 50,
+      "cmax": 0.6,
+      "auc": 14,
+      "F": 1.0,
+      "fu": 1.0
+    },
+    "dose": 300
+  },
+  {
+    "name": "Hydroxychloroquine",
+    "smiles": "CCN(CCO)CCCC(C)NC1=CC=NC2=CC(Cl)=CC=C12",
+    "mw": 335.8790000000001,
+    "logp": 3.783000000000002,
+    "tpsa": 48.39,
+    "pk": {
+      "half_life": 960,
+      "clearance": 0.06,
+      "vd": 5500,
+      "cmax": 0.4,
+      "auc": 45,
+      "F": 0.74,
+      "fu": 0.45
+    },
+    "dose": 400
+  },
+  {
+    "name": "Colchicine",
+    "smiles": "COC1=CC2=C(C=C1OC)C(NC(C)=O)CC1=CC(=O)C(OC)=C(OC)C=C12",
+    "mw": 385.41600000000017,
+    "logp": 2.4815000000000005,
+    "tpsa": 83.09,
+    "pk": {
+      "half_life": 30,
+      "clearance": 30,
+      "vd": 350,
+      "cmax": 0.003,
+      "auc": 0.03,
+      "F": 0.45,
+      "fu": 0.61
+    },
+    "dose": 0.6
+  },
+  {
+    "name": "Tamoxifen",
+    "smiles": "CCC(=C(C1=CC=CC=C1)C1=CC=C(OCCN(C)C)C=C1)C1=CC=CC=C1",
+    "mw": 371.524,
+    "logp": 5.9961000000000055,
+    "tpsa": 12.47,
+    "pk": {
+      "half_life": 168,
+      "clearance": 0.6,
+      "vd": 1400,
+      "cmax": 0.04,
+      "auc": 2.7,
+      "F": 0.98,
+      "fu": 0.02
+    },
+    "dose": 20
+  },
+  {
+    "name": "Prednisone",
+    "smiles": "CC12CCC3C(CCC4=CC(=O)C=CC34C)C1CCC2(O)C(=O)CO",
+    "mw": 344.45100000000014,
+    "logp": 2.5868000000000007,
+    "tpsa": 74.6,
+    "pk": {
+      "half_life": 3.5,
+      "clearance": 3.6,
+      "vd": 97,
+      "cmax": 0.22,
+      "auc": 1.4,
+      "F": 0.77,
+      "fu": 0.23
+    },
+    "dose": 20
+  },
+  {
+    "name": "Dexamethasone",
+    "smiles": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO",
+    "mw": 392.4670000000002,
+    "logp": 1.8957000000000002,
+    "tpsa": 94.83,
+    "pk": {
+      "half_life": 4,
+      "clearance": 3.7,
+      "vd": 42,
+      "cmax": 0.07,
+      "auc": 0.84,
+      "F": 0.78,
+      "fu": 0.23
+    },
+    "dose": 4
+  },
+  {
+    "name": "Cyclosporine",
+    "smiles": "CCC1NC(=O)C(CC(C)C)N(C)C(=O)C(C(O)C(C)CC=CCCC(C)CC2OC2C)N(C)C(=O)C(CC(C)C)NC(=O)C1C",
+    "mw": 648.9300000000002,
+    "logp": 4.298900000000003,
+    "tpsa": 131.57999999999998,
+    "pk": {
+      "half_life": 19,
+      "clearance": 5.5,
+      "vd": 400,
+      "cmax": 0.83,
+      "auc": 15,
+      "F": 0.3,
+      "fu": 0.07
+    },
+    "dose": 300
+  },
+  {
+    "name": "Ramipril",
+    "smiles": "CCOC(=O)C(CCC1=CC=CC=C1)NC1CC2=CC=CC=C2N(C1=O)C(C(=O)OCC)CC1=CC=CC=C1",
+    "mw": 528.6490000000003,
+    "logp": 4.272800000000004,
+    "tpsa": 84.94000000000001,
+    "pk": {
+      "half_life": 13,
+      "clearance": 8,
+      "vd": 105,
+      "cmax": 0.023,
+      "auc": 0.11,
+      "F": 0.6,
+      "fu": 0.44
+    },
+    "dose": 10
+  },
+  {
+    "name": "Candesartan",
+    "smiles": "CCOC1=NC2=CC=C(C=C2N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NN=N[NH]1)C(=O)OCC(C)C",
+    "mw": 496.57100000000025,
+    "logp": 5.143200000000005,
+    "tpsa": 107.80999999999999,
+    "pk": {
+      "half_life": 9,
+      "clearance": 0.37,
+      "vd": 9,
+      "cmax": 0.26,
+      "auc": 3.6,
+      "F": 0.15,
+      "fu": 0.01
+    },
+    "dose": 16
+  },
+  {
+    "name": "Irbesartan",
+    "smiles": "CCCCC1=NC2(CCCC2)C(=O)N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1",
+    "mw": 428.5400000000001,
+    "logp": 4.777400000000004,
+    "tpsa": 87.13000000000001,
+    "pk": {
+      "half_life": 12,
+      "clearance": 3.0,
+      "vd": 53,
+      "cmax": 2.0,
+      "auc": 20,
+      "F": 0.7,
+      "fu": 0.1
+    },
+    "dose": 300
+  },
+  {
+    "name": "Telmisartan",
+    "smiles": "CCCC1=NC2=C(C=CC(=C2)C2=CC=CC3=CC=CC=C23)N1CC1=CC=C(C=C1)C1=CC=CC=C1C(O)=O",
+    "mw": 496.61000000000024,
+    "logp": 8.222500000000007,
+    "tpsa": 55.12,
+    "pk": {
+      "half_life": 24,
+      "clearance": 1.0,
+      "vd": 500,
+      "cmax": 0.3,
+      "auc": 3.7,
+      "F": 0.43,
+      "fu": 0.005
+    },
+    "dose": 80
+  },
+  {
+    "name": "Olmesartan",
+    "smiles": "CCCC1=NC(=C(N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)C(O)=O)C(C)(C)O",
+    "mw": 446.5110000000002,
+    "logp": 3.6566000000000014,
+    "tpsa": 129.81,
+    "pk": {
+      "half_life": 13,
+      "clearance": 0.6,
+      "vd": 17,
+      "cmax": 0.55,
+      "auc": 4.0,
+      "F": 0.26,
+      "fu": 0.01
+    },
+    "dose": 20
+  },
+  {
+    "name": "Felodipine",
+    "smiles": "CCOC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC(Cl)=C1Cl)C(=O)OC",
+    "mw": 384.2590000000001,
+    "logp": 3.9643000000000033,
+    "tpsa": 64.63,
+    "pk": {
+      "half_life": 17,
+      "clearance": 6.0,
+      "vd": 394,
+      "cmax": 0.005,
+      "auc": 0.04,
+      "F": 0.15,
+      "fu": 0.005
+    },
+    "dose": 10
+  },
+  {
+    "name": "Isosorbide Dinitrate",
+    "smiles": "O=NOC1COC2C(ON=O)COC12",
+    "mw": 204.13799999999998,
+    "logp": -0.0828000000000002,
+    "tpsa": 95.78000000000002,
+    "pk": {
+      "half_life": 1,
+      "clearance": 70,
+      "vd": 200,
+      "cmax": 0.05,
+      "auc": 0.15,
+      "F": 0.22,
+      "fu": 0.72
+    },
+    "dose": 40
+  },
+  {
+    "name": "Doxazosin",
+    "smiles": "COC1=CC2=C(C=C1OC)C(=NC(=N2)N1CCN(CC1)C(=O)C1COC2=CC=CC=C12)N",
+    "mw": 435.48400000000026,
+    "logp": 2.054,
+    "tpsa": 103.04,
+    "pk": {
+      "half_life": 22,
+      "clearance": 0.6,
+      "vd": 80,
+      "cmax": 0.02,
+      "auc": 0.26,
+      "F": 0.65,
+      "fu": 0.02
+    },
+    "dose": 4
+  },
+  {
+    "name": "Prazosin",
+    "smiles": "COC1=CC2=C(C=C1OC)C(=NC(=N2)N1CCN(CC1)C(=O)C1=CC=CO1)N",
+    "mw": 383.4080000000002,
+    "logp": 1.7845999999999997,
+    "tpsa": 106.95,
+    "pk": {
+      "half_life": 3,
+      "clearance": 12,
+      "vd": 42,
+      "cmax": 0.015,
+      "auc": 0.09,
+      "F": 0.6,
+      "fu": 0.05
+    },
+    "dose": 2
+  },
+  {
+    "name": "Eplerenone",
+    "smiles": "CC(=O)OC1CC2CCC3C(CCC4(C)C3CC(=O)C4C3=CC(=O)OC3)C2(C)CC1=O",
+    "mw": 428.52500000000026,
+    "logp": 3.4182000000000023,
+    "tpsa": 86.74000000000001,
+    "pk": {
+      "half_life": 5,
+      "clearance": 10,
+      "vd": 43,
+      "cmax": 1.7,
+      "auc": 12,
+      "F": 0.69,
+      "fu": 0.5
+    },
+    "dose": 50
+  },
+  {
+    "name": "Hydralazine",
+    "smiles": "NNC1=CC=CC=N1",
+    "mw": 109.13199999999999,
+    "logp": 0.3672000000000001,
+    "tpsa": 50.94,
+    "pk": {
+      "half_life": 3,
+      "clearance": 50,
+      "vd": 200,
+      "cmax": 0.1,
+      "auc": 0.5,
+      "F": 0.35,
+      "fu": 0.13
+    },
+    "dose": 25
+  },
+  {
+    "name": "Minoxidil",
+    "smiles": "NC1=CC(N)=NC(=N1)N1CCCCC1=O",
+    "mw": 207.23699999999997,
+    "logp": 0.1578999999999997,
+    "tpsa": 98.13,
+    "pk": {
+      "half_life": 4,
+      "clearance": 9,
+      "vd": 30,
+      "cmax": 0.03,
+      "auc": 0.24,
+      "F": 0.9,
+      "fu": 0.98
+    },
+    "dose": 5
+  },
+  {
+    "name": "Aripiprazole",
+    "smiles": "ClC1=CC=C(N2CCN(CCCCOC3=CC=C4CCC(=O)NC4=C3)CC2)C=C1Cl",
+    "mw": 448.39400000000023,
+    "logp": 4.859300000000005,
+    "tpsa": 44.81,
+    "pk": {
+      "half_life": 75,
+      "clearance": 0.7,
+      "vd": 404,
+      "cmax": 0.17,
+      "auc": 6.0,
+      "F": 0.87,
+      "fu": 0.01
+    },
+    "dose": 15
+  },
+  {
+    "name": "Haloperidol",
+    "smiles": "OC(CCCN1CCC(CC1)C1=CC=C(F)C=C1)C1=CC=C(Cl)C=C1",
+    "mw": 361.88800000000003,
+    "logp": 5.172300000000005,
+    "tpsa": 23.47,
+    "pk": {
+      "half_life": 18,
+      "clearance": 10,
+      "vd": 1260,
+      "cmax": 0.005,
+      "auc": 0.08,
+      "F": 0.6,
+      "fu": 0.08
+    },
+    "dose": 5
+  },
+  {
+    "name": "Clozapine",
+    "smiles": "CN1CCN(CC1)C1=NC2=CC=CC=C2NC2=CC(Cl)=CC=C12",
+    "mw": 326.8310000000001,
+    "logp": 3.7227000000000023,
+    "tpsa": 30.869999999999997,
+    "pk": {
+      "half_life": 12,
+      "clearance": 25,
+      "vd": 300,
+      "cmax": 0.32,
+      "auc": 4.0,
+      "F": 0.5,
+      "fu": 0.03
+    },
+    "dose": 100
+  },
+  {
+    "name": "Lithium Carbonate",
+    "smiles": "[Li]OC([O-])=O",
+    "mw": 66.949,
+    "logp": -1.5702,
+    "tpsa": 49.36,
+    "pk": {
+      "half_life": 24,
+      "clearance": 1.5,
+      "vd": 50,
+      "cmax": 0.6,
+      "auc": 14,
+      "F": 1.0,
+      "fu": 1.0
+    },
+    "dose": 300
+  },
+  {
+    "name": "Carbamazepine",
+    "smiles": "NC(=O)N1C2=CC=CC=C2C=CC2=CC=CC=C12",
+    "mw": 236.274,
+    "logp": 3.3872000000000018,
+    "tpsa": 46.330000000000005,
+    "pk": {
+      "half_life": 16,
+      "clearance": 1.3,
+      "vd": 98,
+      "cmax": 4.5,
+      "auc": 54,
+      "F": 0.75,
+      "fu": 0.24
+    },
+    "dose": 200
+  },
+  {
+    "name": "Phenytoin",
+    "smiles": "O=C1NC(=O)C(C1)(C1=CC=CC=C1)C1=CC=CC=C1",
+    "mw": 251.28500000000003,
+    "logp": 2.0191999999999997,
+    "tpsa": 46.17,
+    "pk": {
+      "half_life": 22,
+      "clearance": 0.12,
+      "vd": 45,
+      "cmax": 10,
+      "auc": 250,
+      "F": 0.9,
+      "fu": 0.1
+    },
+    "dose": 300
+  },
+  {
+    "name": "Valproic Acid",
+    "smiles": "CCCC(CCC)C(O)=O",
+    "mw": 144.214,
+    "logp": 2.2874,
+    "tpsa": 37.3,
+    "pk": {
+      "half_life": 12,
+      "clearance": 0.5,
+      "vd": 11,
+      "cmax": 50,
+      "auc": 600,
+      "F": 0.99,
+      "fu": 0.1
+    },
+    "dose": 500
+  },
+  {
+    "name": "Topiramate",
+    "smiles": "OCC1(OS(N)(=O)=O)OC2OC(C)(C)OC2C2OC(C)(C)OC12",
+    "mw": 355.3650000000001,
+    "logp": -1.0769999999999973,
+    "tpsa": 135.77,
+    "pk": {
+      "half_life": 21,
+      "clearance": 1.5,
+      "vd": 44,
+      "cmax": 1.5,
+      "auc": 24,
+      "F": 0.81,
+      "fu": 0.85
+    },
+    "dose": 100
+  },
+  {
+    "name": "Levetiracetam",
+    "smiles": "CCC(C(N)=O)N1CCCC1=O",
+    "mw": 170.212,
+    "logp": -0.12729999999999997,
+    "tpsa": 63.400000000000006,
+    "pk": {
+      "half_life": 7,
+      "clearance": 3.6,
+      "vd": 42,
+      "cmax": 6.0,
+      "auc": 45,
+      "F": 0.95,
+      "fu": 1.0
+    },
+    "dose": 500
+  },
+  {
+    "name": "Oxcarbazepine",
+    "smiles": "NC(=O)N1C2=CC=CC=C2C(=O)C2=CC=CC=C12",
+    "mw": 238.24599999999998,
+    "logp": 2.0815,
+    "tpsa": 65.09,
+    "pk": {
+      "half_life": 9,
+      "clearance": 1.7,
+      "vd": 49,
+      "cmax": 2.0,
+      "auc": 30,
+      "F": 0.95,
+      "fu": 0.6
+    },
+    "dose": 300
+  },
+  {
+    "name": "Citalopram",
+    "smiles": "CN(C)CCCC1(OCC2=CC(F)=CC=C21)C1=CC=C(C#N)C=C1",
+    "mw": 324.39900000000006,
+    "logp": 3.812980000000003,
+    "tpsa": 36.26,
+    "pk": {
+      "half_life": 35,
+      "clearance": 1.1,
+      "vd": 420,
+      "cmax": 0.04,
+      "auc": 1.0,
+      "F": 0.8,
+      "fu": 0.2
+    },
+    "dose": 20
+  },
+  {
+    "name": "Mirtazapine",
+    "smiles": "CN1CCN2C(C1)C1=CC=CC=C1CC1=CC=CN=C12",
+    "mw": 265.36,
+    "logp": 2.4789000000000003,
+    "tpsa": 19.37,
+    "pk": {
+      "half_life": 30,
+      "clearance": 1.7,
+      "vd": 350,
+      "cmax": 0.045,
+      "auc": 0.8,
+      "F": 0.5,
+      "fu": 0.15
+    },
+    "dose": 30
+  },
+  {
+    "name": "Trazodone",
+    "smiles": "ClC1=CC=CC(N2CCN(CCCN3C(=O)N4C=CC=CC4=N3)CC2)=C1",
+    "mw": 371.87200000000007,
+    "logp": 2.3617,
+    "tpsa": 45.78,
+    "pk": {
+      "half_life": 7,
+      "clearance": 6,
+      "vd": 77,
+      "cmax": 1.2,
+      "auc": 12,
+      "F": 0.65,
+      "fu": 0.11
+    },
+    "dose": 100
+  },
+  {
+    "name": "Buspirone",
+    "smiles": "O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(CC1)C1=NC=CC=N1",
+    "mw": 385.5120000000001,
+    "logp": 2.0881999999999996,
+    "tpsa": 69.64000000000001,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 100,
+      "vd": 400,
+      "cmax": 0.001,
+      "auc": 0.01,
+      "F": 0.04,
+      "fu": 0.05
+    },
+    "dose": 10
+  },
+  {
+    "name": "Donepezil",
+    "smiles": "COC1=CC2=C(C=C1OC)C(CC1CCN(CC3=CC=CC=C3)CC1)C1=CC=CC=C1O2",
+    "mw": 429.5600000000001,
+    "logp": 6.243700000000007,
+    "tpsa": 30.930000000000003,
+    "pk": {
+      "half_life": 70,
+      "clearance": 0.3,
+      "vd": 833,
+      "cmax": 0.03,
+      "auc": 0.8,
+      "F": 1.0,
+      "fu": 0.04
+    },
+    "dose": 10
+  },
+  {
+    "name": "Memantine",
+    "smiles": "NC12CC3CC(CC(C3)C1)C2",
+    "mw": 151.253,
+    "logp": 1.9139,
+    "tpsa": 26.02,
+    "pk": {
+      "half_life": 70,
+      "clearance": 0.6,
+      "vd": 700,
+      "cmax": 0.045,
+      "auc": 1.6,
+      "F": 1.0,
+      "fu": 0.55
+    },
+    "dose": 20
+  },
+  {
+    "name": "Meloxicam",
+    "smiles": "CN1C(=C(O)C2=CC=CC=C2S1(=O)=O)C(=O)NC1=CC=C(C)C=C1",
+    "mw": 344.39200000000005,
+    "logp": 2.4944200000000007,
+    "tpsa": 86.71000000000001,
+    "pk": {
+      "half_life": 20,
+      "clearance": 0.4,
+      "vd": 10,
+      "cmax": 2.0,
+      "auc": 60,
+      "F": 0.89,
+      "fu": 0.005
+    },
+    "dose": 15
+  },
+  {
+    "name": "Piroxicam",
+    "smiles": "OC1=C(C(=O)N(C)C2=CC=CC=N2)C2=CC=CC=C2S(=O)(=O)N1",
+    "mw": 331.35300000000007,
+    "logp": 1.2631,
+    "tpsa": 99.6,
+    "pk": {
+      "half_life": 50,
+      "clearance": 0.025,
+      "vd": 12,
+      "cmax": 1.5,
+      "auc": 60,
+      "F": 0.95,
+      "fu": 0.01
+    },
+    "dose": 20
+  },
+  {
+    "name": "Ketorolac",
+    "smiles": "OC(=O)C1CCN2C1=CC1=CC=CC=C1C2=O",
+    "mw": 229.235,
+    "logp": 1.5734,
+    "tpsa": 59.3,
+    "pk": {
+      "half_life": 5,
+      "clearance": 1.8,
+      "vd": 11,
+      "cmax": 0.9,
+      "auc": 5.0,
+      "F": 0.8,
+      "fu": 0.01
+    },
+    "dose": 10
+  },
+  {
+    "name": "Indomethacin",
+    "smiles": "COC1=CC2=C(C=C1)C(CC(O)=O)=C(C)N2C(=O)C1=CC=C(Cl)C=C1",
+    "mw": 357.793,
+    "logp": 3.9273200000000026,
+    "tpsa": 68.53,
+    "pk": {
+      "half_life": 4.5,
+      "clearance": 1.3,
+      "vd": 18,
+      "cmax": 2.0,
+      "auc": 14,
+      "F": 0.98,
+      "fu": 0.01
+    },
+    "dose": 25
+  },
+  {
+    "name": "Acetazolamide",
+    "smiles": "CC(=O)NC1=NN=C(S1)S(N)(=O)=O",
+    "mw": 222.251,
+    "logp": -0.8561000000000003,
+    "tpsa": 115.03999999999999,
+    "pk": {
+      "half_life": 8,
+      "clearance": 0.8,
+      "vd": 15,
+      "cmax": 12,
+      "auc": 120,
+      "F": 0.95,
+      "fu": 0.1
+    },
+    "dose": 250
+  },
+  {
+    "name": "Methadone",
+    "smiles": "CCC(=O)C(CC1=CC=CC=C1)(C1=CC=CC=C1)CC(C)N(C)C",
+    "mw": 323.4800000000001,
+    "logp": 4.486400000000004,
+    "tpsa": 20.310000000000002,
+    "pk": {
+      "half_life": 25,
+      "clearance": 6,
+      "vd": 350,
+      "cmax": 0.1,
+      "auc": 2.7,
+      "F": 0.8,
+      "fu": 0.15
+    },
+    "dose": 10
+  },
+  {
+    "name": "Fentanyl",
+    "smiles": "CCC(=O)N(C1=CC=CC=C1)C1CCN(CCC2=CC=CC=C2)CC1",
+    "mw": 336.47900000000004,
+    "logp": 4.136700000000004,
+    "tpsa": 23.550000000000004,
+    "pk": {
+      "half_life": 4,
+      "clearance": 42,
+      "vd": 350,
+      "cmax": 0.002,
+      "auc": 0.014,
+      "F": 0.32,
+      "fu": 0.16
+    },
+    "dose": 0.2
+  },
+  {
+    "name": "Hydromorphone",
+    "smiles": "O=C1CCC23C4OC(=O)C2C1CC=C3C1=CC(O)=CC=C14",
+    "mw": 282.295,
+    "logp": 2.3725000000000005,
+    "tpsa": 63.60000000000001,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 30,
+      "vd": 300,
+      "cmax": 0.005,
+      "auc": 0.02,
+      "F": 0.24,
+      "fu": 0.81
+    },
+    "dose": 4
+  },
+  {
+    "name": "Cephalexin",
+    "smiles": "CC1=C(N2C(CC2=O)C(N)C2=CC=CC=C2)C(=O)OCC1",
+    "mw": 286.3310000000001,
+    "logp": 1.5082000000000004,
+    "tpsa": 72.63,
+    "pk": {
+      "half_life": 1,
+      "clearance": 18,
+      "vd": 18,
+      "cmax": 18,
+      "auc": 40,
+      "F": 0.9,
+      "fu": 0.85
+    },
+    "dose": 500
+  },
+  {
+    "name": "Cefuroxime Axetil",
+    "smiles": "COC(=O)OC(C)OC(=O)C1=C(COC(N)=O)CS(=O)C2C1C(=O)N2C1=NOC(C)=C1",
+    "mw": 457.4170000000002,
+    "logp": 0.09832000000000063,
+    "tpsa": 177.56,
+    "pk": {
+      "half_life": 1.2,
+      "clearance": 15,
+      "vd": 50,
+      "cmax": 7.0,
+      "auc": 20,
+      "F": 0.37,
+      "fu": 0.67
+    },
+    "dose": 500
+  },
+  {
+    "name": "Trimethoprim",
+    "smiles": "COC1=CC(CC2=CN=C(N)N=C2N)=CC(OC)=C1OC",
+    "mw": 290.32300000000004,
+    "logp": 1.2575999999999998,
+    "tpsa": 105.51,
+    "pk": {
+      "half_life": 10,
+      "clearance": 6,
+      "vd": 130,
+      "cmax": 2.0,
+      "auc": 25,
+      "F": 0.95,
+      "fu": 0.56
+    },
+    "dose": 200
+  },
+  {
+    "name": "Sulfamethoxazole",
+    "smiles": "CC1=CC(NS(=O)(=O)C2=CC=C(N)C=C2)=NO1",
+    "mw": 253.28300000000002,
+    "logp": 1.3660199999999998,
+    "tpsa": 98.22,
+    "pk": {
+      "half_life": 10,
+      "clearance": 0.4,
+      "vd": 15,
+      "cmax": 30,
+      "auc": 400,
+      "F": 0.85,
+      "fu": 0.32
+    },
+    "dose": 800
+  },
+  {
+    "name": "Clarithromycin",
+    "smiles": "CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(O)CC(C)C(=O)C1CC",
+    "mw": 673.8850000000001,
+    "logp": 3.063800000000003,
+    "tpsa": 153.45000000000002,
+    "pk": {
+      "half_life": 5,
+      "clearance": 30,
+      "vd": 243,
+      "cmax": 2.5,
+      "auc": 30,
+      "F": 0.5,
+      "fu": 0.3
+    },
+    "dose": 500
+  },
+  {
+    "name": "Clindamycin",
+    "smiles": "CCCC1CC(C(C(C)O1)OC1CC(CC)C(NC(=O)C(Cl)Cl)C(O1)SC)O",
+    "mw": 458.4480000000001,
+    "logp": 3.4602000000000017,
+    "tpsa": 77.02000000000001,
+    "pk": {
+      "half_life": 3,
+      "clearance": 14,
+      "vd": 94,
+      "cmax": 2.5,
+      "auc": 14,
+      "F": 0.87,
+      "fu": 0.06
+    },
+    "dose": 300
+  },
+  {
+    "name": "Nitrofurantoin",
+    "smiles": "OC(=O)CN=NC1=CC=C(O1)\\C=N\\N1C(=O)NC(=O)C1=O",
+    "mw": 293.19500000000005,
+    "logp": -0.1398000000000001,
+    "tpsa": 153.99999999999997,
+    "pk": {
+      "half_life": 0.3,
+      "clearance": 50,
+      "vd": 38,
+      "cmax": 1.0,
+      "auc": 4,
+      "F": 0.9,
+      "fu": 0.6
+    },
+    "dose": 100
+  },
+  {
+    "name": "Rifampicin",
+    "smiles": "CC1=CC=C2C(=C1O)C(=O)C1=C(C)C(OC(C)CC(C)C(O)C(C)C(OC(C)=O)C(C)C(O)C(C)OC1=O)C2=NN1CCN(CC1)C=O",
+    "mw": 671.7879999999998,
+    "logp": 2.3624199999999993,
+    "tpsa": 175.5,
+    "pk": {
+      "half_life": 3,
+      "clearance": 6,
+      "vd": 70,
+      "cmax": 12,
+      "auc": 90,
+      "F": 0.93,
+      "fu": 0.2
+    },
+    "dose": 600
+  },
+  {
+    "name": "Fluconazole",
+    "smiles": "OC(CN1C=NC=N1)(CN1C=NC=N1)C1=CC(F)=CC=C1",
+    "mw": 288.286,
+    "logp": 0.5966999999999996,
+    "tpsa": 81.64999999999999,
+    "pk": {
+      "half_life": 30,
+      "clearance": 1.1,
+      "vd": 50,
+      "cmax": 6.7,
+      "auc": 120,
+      "F": 0.9,
+      "fu": 0.89
+    },
+    "dose": 200
+  },
+  {
+    "name": "Glyburide",
+    "smiles": "COC1=CC=C(CCNC(=O)NS(=O)(=O)C2=CC=C(Cl)C=C2)C=C1",
+    "mw": 368.8420000000001,
+    "logp": 2.5792,
+    "tpsa": 84.5,
+    "pk": {
+      "half_life": 10,
+      "clearance": 0.6,
+      "vd": 9,
+      "cmax": 0.35,
+      "auc": 4.5,
+      "F": 0.95,
+      "fu": 0.01
+    },
+    "dose": 5
+  },
+  {
+    "name": "Gliclazide",
+    "smiles": "CC1=CC=C(S1)NC(=O)NS(=O)(=O)C1=CC=C2CC(NC(=O)C2=C1)C",
+    "mw": 379.4630000000002,
+    "logp": 2.24132,
+    "tpsa": 104.37,
+    "pk": {
+      "half_life": 12,
+      "clearance": 0.7,
+      "vd": 25,
+      "cmax": 4,
+      "auc": 50,
+      "F": 0.97,
+      "fu": 0.06
+    },
+    "dose": 80
+  },
+  {
+    "name": "Repaglinide",
+    "smiles": "CCOC(=O)C(CC1=CC=CC=C1)NC(=O)C(CC1=CC=C(CC(O)=O)C=C1)CC",
+    "mw": 411.4980000000002,
+    "logp": 3.173000000000001,
+    "tpsa": 92.69999999999999,
+    "pk": {
+      "half_life": 1,
+      "clearance": 38,
+      "vd": 31,
+      "cmax": 0.04,
+      "auc": 0.1,
+      "F": 0.56,
+      "fu": 0.02
+    },
+    "dose": 2
+  },
+  {
+    "name": "Canagliflozin",
+    "smiles": "CC1=CC(=C(CC2=CC=C3C(=C2)C(=CC=C3F)C(O)=O)C=C1)CC1OC(CO)C(O)C(O)C1O",
+    "mw": 470.49300000000017,
+    "logp": 1.9612200000000004,
+    "tpsa": 127.45000000000002,
+    "pk": {
+      "half_life": 11,
+      "clearance": 12,
+      "vd": 83,
+      "cmax": 1.0,
+      "auc": 10,
+      "F": 0.65,
+      "fu": 0.01
+    },
+    "dose": 300
+  },
+  {
+    "name": "Dapagliflozin",
+    "smiles": "OCC1OC(C(O)C(O)C1O)C1=CC(=C(Cl)C=C1)CC1=CC=C(OCC2=CC=CC=C2)C=C1",
+    "mw": 470.94900000000024,
+    "logp": 3.024700000000001,
+    "tpsa": 99.38000000000001,
+    "pk": {
+      "half_life": 13,
+      "clearance": 6.5,
+      "vd": 118,
+      "cmax": 0.17,
+      "auc": 1.1,
+      "F": 0.78,
+      "fu": 0.09
+    },
+    "dose": 10
+  },
+  {
+    "name": "Acarbose",
+    "smiles": "OCC1OC(OC2C(O)C(O)C(OC3OC(CO)C(O)C(O)C3N)C(CO)O2)C(O)C(O)C1O",
+    "mw": 503.4540000000001,
+    "logp": -7.606599999999991,
+    "tpsa": 274.46999999999997,
+    "pk": {
+      "half_life": 2,
+      "clearance": 14,
+      "vd": 25,
+      "cmax": 0.035,
+      "auc": 0.5,
+      "F": 0.02,
+      "fu": 1.0
+    },
+    "dose": 100
+  },
+  {
+    "name": "Levothyroxine",
+    "smiles": "NC(CC1=CC(I)=C(OC2=CC(I)=C(O)C(I)=C2)C(I)=C1)C(O)=O",
+    "mw": 776.8720000000001,
+    "logp": 4.5573000000000015,
+    "tpsa": 92.78,
+    "pk": {
+      "half_life": 168,
+      "clearance": 0.0008,
+      "vd": 10,
+      "cmax": 0.0001,
+      "auc": 0.003,
+      "F": 0.8,
+      "fu": 0.01
+    },
+    "dose": 0.1
+  },
+  {
+    "name": "Methimazole",
+    "smiles": "CN1C=CSC1=N",
+    "mw": 114.173,
+    "logp": 0.5660700000000001,
+    "tpsa": 28.78,
+    "pk": {
+      "half_life": 6,
+      "clearance": 1.3,
+      "vd": 40,
+      "cmax": 0.3,
+      "auc": 5.5,
+      "F": 0.93,
+      "fu": 0.9
+    },
+    "dose": 10
+  },
+  {
+    "name": "Fludrocortisone",
+    "smiles": "OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3(F)C(O)CC12C",
+    "mw": 380.45600000000013,
+    "logp": 1.8737,
+    "tpsa": 94.83,
+    "pk": {
+      "half_life": 3.5,
+      "clearance": 2.5,
+      "vd": 42,
+      "cmax": 0.002,
+      "auc": 0.04,
+      "F": 0.8,
+      "fu": 0.31
+    },
+    "dose": 0.1
+  },
+  {
+    "name": "Tenofovir DF",
+    "smiles": "CC(OC(=O)OC(C)C)OCP(=O)(O)COC(CN1C=NC2=C(N)N=CN=C12)C",
+    "mw": 431.38600000000014,
+    "logp": 1.9231999999999994,
+    "tpsa": 160.90999999999997,
+    "pk": {
+      "half_life": 17,
+      "clearance": 14,
+      "vd": 1300,
+      "cmax": 0.3,
+      "auc": 3.3,
+      "F": 0.25,
+      "fu": 0.93
+    },
+    "dose": 300
+  },
+  {
+    "name": "Emtricitabine",
+    "smiles": "NC1=NC(=O)N(C=C1F)C1CSC(CO)O1",
+    "mw": 247.25099999999998,
+    "logp": -0.45500000000000024,
+    "tpsa": 90.37,
+    "pk": {
+      "half_life": 10,
+      "clearance": 14,
+      "vd": 140,
+      "cmax": 1.8,
+      "auc": 10,
+      "F": 0.93,
+      "fu": 0.96
+    },
+    "dose": 200
+  },
+  {
+    "name": "Lamivudine",
+    "smiles": "NC1=NC(=O)N(C=C1)C1CSC(CO)O1",
+    "mw": 229.26099999999997,
+    "logp": -0.5941000000000005,
+    "tpsa": 90.37,
+    "pk": {
+      "half_life": 6,
+      "clearance": 13,
+      "vd": 130,
+      "cmax": 1.5,
+      "auc": 6.5,
+      "F": 0.86,
+      "fu": 0.64
+    },
+    "dose": 150
+  },
+  {
+    "name": "Abacavir",
+    "smiles": "NC1=NC2=C(C(=N1)NC1CC1)N=CN2C1CC(CO)C=C1",
+    "mw": 286.33899999999994,
+    "logp": 1.0922999999999998,
+    "tpsa": 101.88000000000001,
+    "pk": {
+      "half_life": 1.5,
+      "clearance": 44,
+      "vd": 86,
+      "cmax": 3.0,
+      "auc": 9,
+      "F": 0.83,
+      "fu": 0.5
+    },
+    "dose": 300
+  },
+  {
+    "name": "Zidovudine",
+    "smiles": "CC1=CN(C2CC(N=[N+]=[N-])C(CO)O2)C(=O)NC1=O",
+    "mw": 267.245,
+    "logp": -0.19628000000000012,
+    "tpsa": 133.07999999999998,
+    "pk": {
+      "half_life": 1,
+      "clearance": 75,
+      "vd": 98,
+      "cmax": 1.2,
+      "auc": 3.3,
+      "F": 0.65,
+      "fu": 0.75
+    },
+    "dose": 300
+  },
+  {
+    "name": "Sofosbuvir",
+    "smiles": "CC(C)OC(=O)C(C)NP(=O)(OCC1OC(N2C=CC(=O)NC2=O)C(O)C1(C)F)OC1=CC=CC=C1",
+    "mw": 529.4580000000002,
+    "logp": 1.6565000000000003,
+    "tpsa": 158.17999999999995,
+    "pk": {
+      "half_life": 0.5,
+      "clearance": 400,
+      "vd": 127,
+      "cmax": 0.53,
+      "auc": 1.0,
+      "F": 0.8,
+      "fu": 0.38
+    },
+    "dose": 400
+  },
+  {
+    "name": "Ledipasvir",
+    "smiles": "COC1=CC=C(NC(=O)C2=CC3=CC(=CC=C3N2)NC(=O)C2=CC=CC=N2)C=C1",
+    "mw": 386.4110000000001,
+    "logp": 4.076100000000001,
+    "tpsa": 96.11,
+    "pk": {
+      "half_life": 47,
+      "clearance": 1.0,
+      "vd": 300,
+      "cmax": 0.32,
+      "auc": 11,
+      "F": 0.53,
+      "fu": 0.005
+    },
+    "dose": 90
+  },
+  {
+    "name": "Ribavirin",
+    "smiles": "NC(=O)C1=NN(C=N1)C1OC(CO)C(O)C1O",
+    "mw": 244.20700000000002,
+    "logp": -3.0114999999999994,
+    "tpsa": 143.72000000000003,
+    "pk": {
+      "half_life": 300,
+      "clearance": 0.05,
+      "vd": 2000,
+      "cmax": 2.2,
+      "auc": 30,
+      "F": 0.52,
+      "fu": 1.0
+    },
+    "dose": 600
+  },
+  {
+    "name": "Entecavir",
+    "smiles": "NC1=NC(=O)C2=C(N1)N(C=N2)C1CC(CO)C(=C1)CO",
+    "mw": 277.28400000000005,
+    "logp": -0.8262,
+    "tpsa": 130.04999999999998,
+    "pk": {
+      "half_life": 130,
+      "clearance": 0.5,
+      "vd": 4500,
+      "cmax": 0.004,
+      "auc": 0.05,
+      "F": 1.0,
+      "fu": 0.87
+    },
+    "dose": 0.5
+  },
+  {
+    "name": "Fexofenadine",
+    "smiles": "CC(C)(C1=CC=C(C=C1)C(O)CCCN1CCC(CC1)C(O)(C1=CC=CC=C1)C1=CC=CC=C1)C(O)=O",
+    "mw": 501.6670000000002,
+    "logp": 5.510500000000005,
+    "tpsa": 81.0,
+    "pk": {
+      "half_life": 14,
+      "clearance": 14,
+      "vd": 300,
+      "cmax": 0.14,
+      "auc": 1.4,
+      "F": 0.33,
+      "fu": 0.3
+    },
+    "dose": 60
+  },
+  {
+    "name": "Desloratadine",
+    "smiles": "ClC1=CC2=C(C=C1)CCC1=CC=CN=C1C2=C1CCNCC1",
+    "mw": 310.8280000000001,
+    "logp": 4.018900000000003,
+    "tpsa": 24.92,
+    "pk": {
+      "half_life": 27,
+      "clearance": 50,
+      "vd": 2700,
+      "cmax": 0.004,
+      "auc": 0.05,
+      "F": 0.5,
+      "fu": 0.15
+    },
+    "dose": 5
+  },
+  {
+    "name": "Pseudoephedrine",
+    "smiles": "CC(NCC(O)C1=CC=CC=C1)O",
+    "mw": 181.23499999999999,
+    "logp": 0.6479000000000001,
+    "tpsa": 52.489999999999995,
+    "pk": {
+      "half_life": 6,
+      "clearance": 7,
+      "vd": 165,
+      "cmax": 0.45,
+      "auc": 3.0,
+      "F": 0.96,
+      "fu": 0.8
+    },
+    "dose": 60
+  },
+  {
+    "name": "Dextromethorphan",
+    "smiles": "COC1=CC=C2C(CC3C4CCCC(C4)N3C)=CC=C2C1",
+    "mw": 283.415,
+    "logp": 3.9761000000000033,
+    "tpsa": 12.47,
+    "pk": {
+      "half_life": 3,
+      "clearance": 90,
+      "vd": 400,
+      "cmax": 0.005,
+      "auc": 0.02,
+      "F": 0.11,
+      "fu": 0.2
+    },
+    "dose": 30
+  },
+  {
+    "name": "Esomeprazole",
+    "smiles": "COC1=CC2=C(C=C1)N=C(N2)S(=O)CC1=NC=C(C)C(OC)=C1C",
+    "mw": 345.42400000000015,
+    "logp": 2.8997400000000013,
+    "tpsa": 77.10000000000001,
+    "pk": {
+      "half_life": 1.5,
+      "clearance": 18,
+      "vd": 16,
+      "cmax": 1.1,
+      "auc": 2.1,
+      "F": 0.64,
+      "fu": 0.03
+    },
+    "dose": 40
+  },
+  {
+    "name": "Lansoprazole",
+    "smiles": "CC1=C(OCC(F)(F)F)C=CN=C1CS(=O)C1=NC2=CC=CC=C2N1",
+    "mw": 369.3680000000001,
+    "logp": 3.515220000000001,
+    "tpsa": 67.87,
+    "pk": {
+      "half_life": 1.5,
+      "clearance": 30,
+      "vd": 15,
+      "cmax": 1.7,
+      "auc": 3.3,
+      "F": 0.8,
+      "fu": 0.03
+    },
+    "dose": 30
+  },
+  {
+    "name": "Rabeprazole",
+    "smiles": "COC1=CC=NC(CS(=O)C2=NC3=CC=CC=C3N2)=C1OCCCOC",
+    "mw": 375.4500000000002,
+    "logp": 2.6896000000000004,
+    "tpsa": 86.33000000000001,
+    "pk": {
+      "half_life": 1,
+      "clearance": 18,
+      "vd": 20,
+      "cmax": 0.5,
+      "auc": 1.1,
+      "F": 0.52,
+      "fu": 0.04
+    },
+    "dose": 20
+  },
+  {
+    "name": "Famotidine",
+    "smiles": "NC(=N)NC1=NC(CSCCC(=N)NS(N)(=O)=O)=CS1",
+    "mw": 337.4560000000001,
+    "logp": -0.15785999999999956,
+    "tpsa": 170.83,
+    "pk": {
+      "half_life": 3,
+      "clearance": 25,
+      "vd": 77,
+      "cmax": 0.06,
+      "auc": 0.5,
+      "F": 0.4,
+      "fu": 0.84
+    },
+    "dose": 40
+  },
+  {
+    "name": "Metoclopramide",
+    "smiles": "CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC",
+    "mw": 299.8020000000001,
+    "logp": 2.0023999999999997,
+    "tpsa": 67.59,
+    "pk": {
+      "half_life": 5,
+      "clearance": 25,
+      "vd": 200,
+      "cmax": 0.04,
+      "auc": 0.3,
+      "F": 0.75,
+      "fu": 0.6
+    },
+    "dose": 10
+  },
+  {
+    "name": "Loperamide",
+    "smiles": "CN(C)C(=O)C(CCN1CCC(O)(CC1)C1=CC=C(Cl)C=C1)(C1=CC=CC=C1)C1=CC=CC=C1",
+    "mw": 477.0480000000001,
+    "logp": 5.088000000000005,
+    "tpsa": 43.78,
+    "pk": {
+      "half_life": 10,
+      "clearance": 70,
+      "vd": 300,
+      "cmax": 0.002,
+      "auc": 0.01,
+      "F": 0.004,
+      "fu": 0.03
+    },
+    "dose": 4
+  },
+  {
+    "name": "Domperidone",
+    "smiles": "ClC1=CC2=C(CCN(CCCN3C(=O)NC4=CC=CC=C34)C2=O)C=C1",
+    "mw": 355.82500000000005,
+    "logp": 3.071600000000001,
+    "tpsa": 58.1,
+    "pk": {
+      "half_life": 7,
+      "clearance": 30,
+      "vd": 440,
+      "cmax": 0.02,
+      "auc": 0.2,
+      "F": 0.15,
+      "fu": 0.08
+    },
+    "dose": 10
+  },
+  {
+    "name": "Sucralfate",
+    "smiles": "OC(=O)CCCCCCCCCCCCCCCC(O)=O",
+    "mw": 300.4389999999999,
+    "logp": 5.007100000000005,
+    "tpsa": 74.6,
+    "pk": {
+      "half_life": 6,
+      "clearance": 50,
+      "vd": 100,
+      "cmax": 0.005,
+      "auc": 0.01,
+      "F": 0.05,
+      "fu": 0.5
+    },
+    "dose": 1000
+  },
+  {
+    "name": "Bisacodyl",
+    "smiles": "CC(=O)OC1=CC=C(C(C2=CC=C(OC(C)=O)C=C2)C2=CC=CN=C2)C=C1",
+    "mw": 361.39700000000005,
+    "logp": 4.112400000000003,
+    "tpsa": 65.49000000000001,
+    "pk": {
+      "half_life": 16,
+      "clearance": 50,
+      "vd": 400,
+      "cmax": 0.003,
+      "auc": 0.02,
+      "F": 0.04,
+      "fu": 0.05
+    },
+    "dose": 10
+  },
+  {
+    "name": "Mesalamine",
+    "smiles": "NC1=CC(O)=C(C=C1O)C(O)=O",
+    "mw": 169.13599999999997,
+    "logp": 0.37820000000000004,
+    "tpsa": 103.78,
+    "pk": {
+      "half_life": 5,
+      "clearance": 7,
+      "vd": 18,
+      "cmax": 2.0,
+      "auc": 8,
+      "F": 0.28,
+      "fu": 0.57
+    },
+    "dose": 1000
+  },
+  {
+    "name": "Tamsulosin",
+    "smiles": "CCOC1=CC=C(CC(C)NC(=O)C2=CC(OC)=C(OCCN)C=C2)C=C1OC",
+    "mw": 402.4910000000002,
+    "logp": 2.801000000000001,
+    "tpsa": 92.04,
+    "pk": {
+      "half_life": 10,
+      "clearance": 3,
+      "vd": 16,
+      "cmax": 0.01,
+      "auc": 0.12,
+      "F": 0.9,
+      "fu": 0.01
+    },
+    "dose": 0.4
+  },
+  {
+    "name": "Finasteride",
+    "smiles": "CC12CCC3C(CCC4NC(=O)C=CC34C)C1CCC2C(=O)NC(C)(C)C",
+    "mw": 372.55300000000017,
+    "logp": 3.8145000000000024,
+    "tpsa": 58.2,
+    "pk": {
+      "half_life": 6,
+      "clearance": 6,
+      "vd": 76,
+      "cmax": 0.04,
+      "auc": 0.4,
+      "F": 0.8,
+      "fu": 0.1
+    },
+    "dose": 5
+  },
+  {
+    "name": "Dutasteride",
+    "smiles": "CC12CCC3C(CCC4NC(=O)C(=CC34C)C3=CC(=CC=C3)C(F)(F)F)C1CCC2C(=O)NC1=CC(=CC=C1)C(F)(F)F",
+    "mw": 604.6350000000003,
+    "logp": 8.103500000000006,
+    "tpsa": 58.2,
+    "pk": {
+      "half_life": 300,
+      "clearance": 0.03,
+      "vd": 300,
+      "cmax": 0.002,
+      "auc": 0.1,
+      "F": 0.6,
+      "fu": 0.005
+    },
+    "dose": 0.5
+  },
+  {
+    "name": "Oxybutynin",
+    "smiles": "OC(C#CC1CCCCC1)(C1=CC=CC=C1)C(=O)OCCN(CC)CC",
+    "mw": 357.49400000000026,
+    "logp": 3.342900000000002,
+    "tpsa": 49.77,
+    "pk": {
+      "half_life": 2,
+      "clearance": 100,
+      "vd": 193,
+      "cmax": 0.004,
+      "auc": 0.02,
+      "F": 0.06,
+      "fu": 0.01
+    },
+    "dose": 5
+  },
+  {
+    "name": "Solifenacin",
+    "smiles": "O=C(OC1CN2CCC1CC2)C(O)(C1=CC=CC=C1)C1=CC=CC=C1",
+    "mw": 337.41900000000004,
+    "logp": 2.5599,
+    "tpsa": 49.769999999999996,
+    "pk": {
+      "half_life": 55,
+      "clearance": 0.6,
+      "vd": 600,
+      "cmax": 0.03,
+      "auc": 0.55,
+      "F": 0.9,
+      "fu": 0.02
+    },
+    "dose": 10
+  },
+  {
+    "name": "Silodosin",
+    "smiles": "CC(N)COC1=CC2=C(CC(O)CN(CC3=CC=C(F)C=C3)C2=O)C=C1OCCC#N",
+    "mw": 427.47600000000017,
+    "logp": 2.40358,
+    "tpsa": 108.81,
+    "pk": {
+      "half_life": 12,
+      "clearance": 10,
+      "vd": 49,
+      "cmax": 0.06,
+      "auc": 0.4,
+      "F": 0.32,
+      "fu": 0.04
+    },
+    "dose": 8
+  },
+  {
+    "name": "Methotrexate",
+    "smiles": "CN(CC1=CC=C(C=C1)C(=O)NC1=CC=C(C=C1)N(C=O)C1=NC2=C(N=C1)NC(N)=NC2=O)C=O",
+    "mw": 472.4650000000002,
+    "logp": 1.4302999999999995,
+    "tpsa": 167.26999999999998,
+    "pk": {
+      "half_life": 6,
+      "clearance": 5,
+      "vd": 18,
+      "cmax": 0.45,
+      "auc": 3.5,
+      "F": 0.7,
+      "fu": 0.5
+    },
+    "dose": 15
+  },
+  {
+    "name": "Leflunomide",
+    "smiles": "CC1=CC=C(C=C1)C1=CC(=O)NN1/C=C/C1=CC=C(C(F)(F)F)C=C1",
+    "mw": 344.336,
+    "logp": 4.798520000000003,
+    "tpsa": 37.79,
+    "pk": {
+      "half_life": 336,
+      "clearance": 0.006,
+      "vd": 11,
+      "cmax": 0.035,
+      "auc": 1.5,
+      "F": 0.82,
+      "fu": 0.005
+    },
+    "dose": 20
+  },
+  {
+    "name": "Febuxostat",
+    "smiles": "CC1=NC(=C(C=C1)C1=CC=C(OCC(C)C)C=C1)C(O)=O",
+    "mw": 285.34299999999996,
+    "logp": 3.790020000000002,
+    "tpsa": 59.42,
+    "pk": {
+      "half_life": 6,
+      "clearance": 12,
+      "vd": 50,
+      "cmax": 1.6,
+      "auc": 4,
+      "F": 0.49,
+      "fu": 0.01
+    },
+    "dose": 80
+  },
+  {
+    "name": "Teriflunomide",
+    "smiles": "CC1=CC(=CC=C1)/C=C(/C#N)C(=O)NC1=CC(=CC=C1)C(F)(F)F",
+    "mw": 330.30899999999997,
+    "logp": 4.559500000000002,
+    "tpsa": 52.89,
+    "pk": {
+      "half_life": 336,
+      "clearance": 0.006,
+      "vd": 11,
+      "cmax": 0.035,
+      "auc": 1.5,
+      "F": 1.0,
+      "fu": 0.005
+    },
+    "dose": 14
+  },
+  {
+    "name": "Cyclobenzaprine",
+    "smiles": "CN(C)CCC=C1C2=CC=CC=C2C=CC2=CC=CC=C12",
+    "mw": 275.39500000000004,
+    "logp": 4.553800000000004,
+    "tpsa": 3.24,
+    "pk": {
+      "half_life": 18,
+      "clearance": 43,
+      "vd": 700,
+      "cmax": 0.03,
+      "auc": 0.4,
+      "F": 0.55,
+      "fu": 0.07
+    },
+    "dose": 10
+  },
+  {
+    "name": "Baclofen",
+    "smiles": "NCC(CC(O)=O)C1=CC=C(Cl)C=C1",
+    "mw": 213.664,
+    "logp": 1.857,
+    "tpsa": 63.32,
+    "pk": {
+      "half_life": 4,
+      "clearance": 10,
+      "vd": 59,
+      "cmax": 0.18,
+      "auc": 1.5,
+      "F": 0.7,
+      "fu": 0.7
+    },
+    "dose": 20
+  },
+  {
+    "name": "Tizanidine",
+    "smiles": "ClC1=CC=C2NC(=NC2=C1)NC1=NCCN1",
+    "mw": 235.678,
+    "logp": 1.5873999999999995,
+    "tpsa": 65.1,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 90,
+      "vd": 200,
+      "cmax": 0.012,
+      "auc": 0.05,
+      "F": 0.4,
+      "fu": 0.7
+    },
+    "dose": 4
+  },
+  {
+    "name": "Isotretinoin",
+    "smiles": "CC1=C(C=CC(=C1)/C=C/C(=C/C=C/C(=C/C(O)=O)/C)/C)C",
+    "mw": 282.38300000000004,
+    "logp": 4.850040000000004,
+    "tpsa": 37.3,
+    "pk": {
+      "half_life": 20,
+      "clearance": 1.5,
+      "vd": 40,
+      "cmax": 0.3,
+      "auc": 3,
+      "F": 0.25,
+      "fu": 0.005
+    },
+    "dose": 40
+  },
+  {
+    "name": "Acitretin",
+    "smiles": "CCOC(=O)/C=C(/C=C/C=C(/C=C/C1=C(C)C(=C(C)C=C1C)OC)C)C",
+    "mw": 354.4900000000001,
+    "logp": 5.645560000000007,
+    "tpsa": 35.53,
+    "pk": {
+      "half_life": 50,
+      "clearance": 0.2,
+      "vd": 35,
+      "cmax": 0.55,
+      "auc": 12,
+      "F": 0.6,
+      "fu": 0.005
+    },
+    "dose": 25
+  },
+  {
+    "name": "Capecitabine",
+    "smiles": "CCCCCC(NC(=O)OCC)C(=O)NC1=NC(=O)N(C=C1F)C1OC(C)C(O)C1O",
+    "mw": 444.4600000000001,
+    "logp": 0.6549999999999996,
+    "tpsa": 152.01,
+    "pk": {
+      "half_life": 0.75,
+      "clearance": 200,
+      "vd": 130,
+      "cmax": 4.0,
+      "auc": 7,
+      "F": 0.95,
+      "fu": 0.46
+    },
+    "dose": 1250
+  },
+  {
+    "name": "Imatinib",
+    "smiles": "CC1=CC=C(NC(=O)C2=CC=C(CN3CCN(CC3)C)C=C2)C=C1NC1=NC=CC(=N1)C1=CC=CN=C1",
+    "mw": 493.6150000000001,
+    "logp": 4.590320000000004,
+    "tpsa": 86.28000000000002,
+    "pk": {
+      "half_life": 18,
+      "clearance": 8,
+      "vd": 435,
+      "cmax": 2.6,
+      "auc": 60,
+      "F": 0.98,
+      "fu": 0.05
+    },
+    "dose": 400
+  },
+  {
+    "name": "Erlotinib",
+    "smiles": "C#CC1=CC=CC=C1NC1=NC=NC2=CC(OCCOC)=C(OCCOC)C=C12",
+    "mw": 393.4430000000002,
+    "logp": 3.405100000000002,
+    "tpsa": 74.73000000000002,
+    "pk": {
+      "half_life": 36,
+      "clearance": 4.6,
+      "vd": 232,
+      "cmax": 1.4,
+      "auc": 20,
+      "F": 0.59,
+      "fu": 0.07
+    },
+    "dose": 150
+  },
+  {
+    "name": "Sunitinib",
+    "smiles": "CCN(CC)CCNC(=O)C1=C(C)NC(=C1C)C=C1C2=CC=C(F)C=C2NC1=O",
+    "mw": 398.48200000000014,
+    "logp": 3.3349400000000013,
+    "tpsa": 77.23,
+    "pk": {
+      "half_life": 60,
+      "clearance": 1.7,
+      "vd": 2230,
+      "cmax": 0.05,
+      "auc": 1.2,
+      "F": 0.6,
+      "fu": 0.05
+    },
+    "dose": 50
+  },
+  {
+    "name": "Enzalutamide",
+    "smiles": "CNC(=O)C1(C)CCC(=CC1C#N)C1=CC=C(C(F)(F)F)C(=C1)C#N",
+    "mw": 347.34000000000003,
+    "logp": 3.6463600000000023,
+    "tpsa": 76.68,
+    "pk": {
+      "half_life": 144,
+      "clearance": 0.05,
+      "vd": 110,
+      "cmax": 5.8,
+      "auc": 140,
+      "F": 0.84,
+      "fu": 0.03
+    },
+    "dose": 160
+  },
+  {
+    "name": "Abiraterone",
+    "smiles": "CC(=O)OC1CCC2(C)C(CC3C4CCC(C4(C)CCC23)C2=CC=CN=C2)C1",
+    "mw": 381.5600000000002,
+    "logp": 5.7495000000000065,
+    "tpsa": 39.19,
+    "pk": {
+      "half_life": 12,
+      "clearance": 50,
+      "vd": 5630,
+      "cmax": 0.23,
+      "auc": 1.5,
+      "F": 0.1,
+      "fu": 0.005
+    },
+    "dose": 1000
+  },
+  {
+    "name": "Lenalidomide",
+    "smiles": "NC1=CC=C2C(CC(=O)NC(=O)C2=C1)N1C(=O)CCC1=O",
+    "mw": 287.27500000000003,
+    "logp": 0.1189999999999996,
+    "tpsa": 109.57,
+    "pk": {
+      "half_life": 3,
+      "clearance": 14,
+      "vd": 90,
+      "cmax": 0.4,
+      "auc": 3.5,
+      "F": 0.7,
+      "fu": 0.7
+    },
+    "dose": 25
+  },
+  {
+    "name": "Hydroxyurea",
+    "smiles": "NC(=O)NO",
+    "mw": 76.05499999999999,
+    "logp": -0.9561000000000002,
+    "tpsa": 75.35000000000001,
+    "pk": {
+      "half_life": 3.5,
+      "clearance": 5,
+      "vd": 30,
+      "cmax": 20,
+      "auc": 100,
+      "F": 0.8,
+      "fu": 1.0
+    },
+    "dose": 1000
+  },
+  {
+    "name": "Atomoxetine",
+    "smiles": "CC(NC1CCCCC1)COC1=CC=CC=C1C",
+    "mw": 247.382,
+    "logp": 3.6846200000000024,
+    "tpsa": 21.259999999999998,
+    "pk": {
+      "half_life": 5,
+      "clearance": 26,
+      "vd": 77,
+      "cmax": 0.2,
+      "auc": 1.6,
+      "F": 0.94,
+      "fu": 0.02
+    },
+    "dose": 40
+  },
+  {
+    "name": "Methylphenidate",
+    "smiles": "COC(=O)C(C1CCCCN1)C1=CC=CC=C1",
+    "mw": 233.31100000000004,
+    "logp": 2.0853,
+    "tpsa": 38.33,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 60,
+      "vd": 300,
+      "cmax": 0.008,
+      "auc": 0.04,
+      "F": 0.22,
+      "fu": 0.85
+    },
+    "dose": 20
+  },
+  {
+    "name": "Modafinil",
+    "smiles": "O=C(N)CS(=O)C(C1=CC=CC=C1)C1=CC=CC=C1",
+    "mw": 273.357,
+    "logp": 2.01,
+    "tpsa": 60.160000000000004,
+    "pk": {
+      "half_life": 12,
+      "clearance": 5,
+      "vd": 60,
+      "cmax": 3.0,
+      "auc": 30,
+      "F": 0.8,
+      "fu": 0.4
+    },
+    "dose": 200
+  },
+  {
+    "name": "Sumatriptan",
+    "smiles": "CNS(=O)(=O)CC1=CC2=C(C=C1)NC=C2CCN(C)C",
+    "mw": 295.408,
+    "logp": 1.3212,
+    "tpsa": 65.2,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 73,
+      "vd": 170,
+      "cmax": 0.054,
+      "auc": 0.2,
+      "F": 0.14,
+      "fu": 0.86
+    },
+    "dose": 100
+  },
+  {
+    "name": "Rizatriptan",
+    "smiles": "CN(C)CC1=CNC2=CC=C(C=C12)CN1C=NC=N1",
+    "mw": 255.325,
+    "logp": 1.8693,
+    "tpsa": 49.74,
+    "pk": {
+      "half_life": 2.5,
+      "clearance": 17,
+      "vd": 140,
+      "cmax": 0.02,
+      "auc": 0.08,
+      "F": 0.45,
+      "fu": 0.86
+    },
+    "dose": 10
+  },
+  {
+    "name": "Clobazam",
+    "smiles": "O=C1CC(=O)N(C)C2=CC=C(Cl)C=C2N1C1=CC=CC=C1",
+    "mw": 300.745,
+    "logp": 3.3712000000000018,
+    "tpsa": 40.620000000000005,
+    "pk": {
+      "half_life": 36,
+      "clearance": 0.5,
+      "vd": 100,
+      "cmax": 0.32,
+      "auc": 12,
+      "F": 0.87,
+      "fu": 0.15
+    },
+    "dose": 20
+  },
+  {
+    "name": "Brivaracetam",
+    "smiles": "CCCC(CCC)C(=O)N1CCCC1C(N)=O",
+    "mw": 240.34699999999995,
+    "logp": 1.6791,
+    "tpsa": 63.4,
+    "pk": {
+      "half_life": 9,
+      "clearance": 3.6,
+      "vd": 17,
+      "cmax": 5.5,
+      "auc": 32,
+      "F": 0.95,
+      "fu": 0.97
+    },
+    "dose": 100
+  },
+  {
+    "name": "Perampanel",
+    "smiles": "O=C1C(C2=CC=CC=C2)=CC2=CC(=CC=C2N1)C1=CC=CC=C1C#N",
+    "mw": 322.367,
+    "logp": 4.733780000000003,
+    "tpsa": 56.65,
+    "pk": {
+      "half_life": 105,
+      "clearance": 0.1,
+      "vd": 77,
+      "cmax": 0.65,
+      "auc": 25,
+      "F": 0.95,
+      "fu": 0.04
+    },
+    "dose": 8
+  },
+  {
+    "name": "Roflumilast",
+    "smiles": "FC1=CC(=CC(F)=C1)OC1=CC(=CC(Cl)=C1)NC(=O)C1=CC=C(Cl)C=C1Cl",
+    "mw": 428.6490000000001,
+    "logp": 6.969600000000002,
+    "tpsa": 38.33,
+    "pk": {
+      "half_life": 17,
+      "clearance": 0.7,
+      "vd": 480,
+      "cmax": 0.005,
+      "auc": 0.06,
+      "F": 0.8,
+      "fu": 0.01
+    },
+    "dose": 0.5
+  },
+  {
+    "name": "Apremilast",
+    "smiles": "CC(NC(=O)C1=CC=C(OCC2=CC=C(C#N)C=C2)C(=C1)OC)CS(=O)(=O)C",
+    "mw": 402.47200000000015,
+    "logp": 2.3087800000000005,
+    "tpsa": 105.48999999999998,
+    "pk": {
+      "half_life": 9,
+      "clearance": 10,
+      "vd": 87,
+      "cmax": 0.81,
+      "auc": 7.8,
+      "F": 0.73,
+      "fu": 0.32
+    },
+    "dose": 30
+  },
+  {
+    "name": "Baricitinib",
+    "smiles": "CCS(=O)(=O)N1CC(CC1C#N)N1C=C(C=N1)C1=CC=NC=C1",
+    "mw": 331.40100000000007,
+    "logp": 1.4337800000000003,
+    "tpsa": 91.88,
+    "pk": {
+      "half_life": 12,
+      "clearance": 9.4,
+      "vd": 76,
+      "cmax": 0.045,
+      "auc": 0.24,
+      "F": 0.79,
+      "fu": 0.5
+    },
+    "dose": 4
+  },
+  {
+    "name": "Tofacitinib",
+    "smiles": "CC1CCN(C(=O)CC#N)CC1N(C)C1=NC=NC2=C1C=CN2",
+    "mw": 312.377,
+    "logp": 1.5447799999999998,
+    "tpsa": 88.91,
+    "pk": {
+      "half_life": 3,
+      "clearance": 20.8,
+      "vd": 87,
+      "cmax": 0.059,
+      "auc": 0.24,
+      "F": 0.74,
+      "fu": 0.6
+    },
+    "dose": 5
+  },
+  {
+    "name": "Upadacitinib",
+    "smiles": "CCC1CN2C(=O)CC(NC3=CC=NC(=N3)C(F)(F)F)C2C1",
+    "mw": 314.31100000000004,
+    "logp": 2.3067,
+    "tpsa": 58.120000000000005,
+    "pk": {
+      "half_life": 9,
+      "clearance": 14,
+      "vd": 294,
+      "cmax": 0.045,
+      "auc": 0.35,
+      "F": 0.79,
+      "fu": 0.48
+    },
+    "dose": 15
+  },
+  {
+    "name": "Filgotinib",
+    "smiles": "CC(NC1=CC=NC(=N1)C1=CC=C(C=C1)N1CCCC(C1)C(=O)NCC1CCS(=O)(=O)C1)C1CCCO1",
+    "mw": 527.6910000000004,
+    "logp": 2.8903000000000008,
+    "tpsa": 113.52,
+    "pk": {
+      "half_life": 7,
+      "clearance": 18,
+      "vd": 150,
+      "cmax": 3.6,
+      "auc": 14,
+      "F": 0.95,
+      "fu": 0.55
+    },
+    "dose": 200
+  },
+  {
+    "name": "Fingolimod",
+    "smiles": "CCCCCCCCC=CCC(N)(CO)CO",
+    "mw": 243.39099999999996,
+    "logp": 2.3653999999999997,
+    "tpsa": 66.48,
+    "pk": {
+      "half_life": 216,
+      "clearance": 0.05,
+      "vd": 1200,
+      "cmax": 0.003,
+      "auc": 0.09,
+      "F": 0.93,
+      "fu": 0.005
+    },
+    "dose": 0.5
+  },
+  {
+    "name": "Dimethyl Fumarate",
+    "smiles": "COC(=O)/C=C/C(=O)OC",
+    "mw": 144.12599999999998,
+    "logp": -0.11140000000000017,
+    "tpsa": 52.60000000000001,
+    "pk": {
+      "half_life": 1,
+      "clearance": 42,
+      "vd": 35,
+      "cmax": 1.5,
+      "auc": 3,
+      "F": 0.51,
+      "fu": 0.73
+    },
+    "dose": 240
+  },
+  {
+    "name": "Mycophenolate",
+    "smiles": "COC1=CC(CC=C(C)CCC(O)=O)=C2C(=O)OC(C)=C(OC)C2=C1O",
+    "mw": 362.3780000000001,
+    "logp": 3.177820000000002,
+    "tpsa": 106.20000000000002,
+    "pk": {
+      "half_life": 18,
+      "clearance": 11,
+      "vd": 350,
+      "cmax": 15,
+      "auc": 50,
+      "F": 0.94,
+      "fu": 0.03
+    },
+    "dose": 1000
+  },
+  {
+    "name": "Sirolimus",
+    "smiles": "COC1CC(CCC1OC1CC(=CC=CC(OC)CC(OC(=O)C(C)CC=CC1C)C)C)OC1OC(C)CC(O)C1OC",
+    "mw": 608.8130000000003,
+    "logp": 5.296600000000006,
+    "tpsa": 101.91000000000001,
+    "pk": {
+      "half_life": 62,
+      "clearance": 1.2,
+      "vd": 6000,
+      "cmax": 0.015,
+      "auc": 0.2,
+      "F": 0.14,
+      "fu": 0.08
+    },
+    "dose": 2
+  },
+  {
+    "name": "Everolimus",
+    "smiles": "COC1CC(CCC1OC1CC(=CC=CC(OC)CC(OC(=O)C(C)CC=CC1C)C)C)OC1OC(C)CC(OCCO)C1OC",
+    "mw": 652.8660000000002,
+    "logp": 5.313200000000006,
+    "tpsa": 111.14000000000001,
+    "pk": {
+      "half_life": 30,
+      "clearance": 4,
+      "vd": 342,
+      "cmax": 0.05,
+      "auc": 0.5,
+      "F": 0.16,
+      "fu": 0.26
+    },
+    "dose": 10
+  },
+  {
+    "name": "Posaconazole",
+    "smiles": "CCC(C(CC1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OCC2COC(CN3C=NC=N3)(O2)C)C=C1)OC1=CC=CC(F)=C1)O",
+    "mw": 631.7490000000004,
+    "logp": 4.715400000000006,
+    "tpsa": 94.34000000000002,
+    "pk": {
+      "half_life": 35,
+      "clearance": 5,
+      "vd": 1774,
+      "cmax": 2.3,
+      "auc": 45,
+      "F": 0.54,
+      "fu": 0.02
+    },
+    "dose": 400
+  }
+]

@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NeoGen — Feature Demo</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #04040c;
+        color: #e0e0e0;
+        font-family: "Rajdhani", sans-serif;
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      /* ── SLIDE SYSTEM ── */
+      .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transform: scale(0.95);
+        transition:
+          opacity 1s ease,
+          transform 1s ease;
+        pointer-events: none;
+        padding: 60px;
+      }
+      .slide.active {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: all;
+      }
+
+      /* ── BACKGROUNDS ── */
+      .bg-grid {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image:
+          linear-gradient(rgba(0, 100, 200, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 100, 200, 0.03) 1px, transparent 1px);
+        background-size: 40px 40px;
+        z-index: 0;
+      }
+      .bg-glow {
+        position: fixed;
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(
+          circle,
+          rgba(0, 100, 255, 0.08) 0%,
+          transparent 70%
+        );
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        animation: breathe 8s ease-in-out infinite;
+      }
+      @keyframes breathe {
+        0%,
+        100% {
+          transform: translate(-50%, -50%) scale(1);
+        }
+        50% {
+          transform: translate(-50%, -50%) scale(1.2);
+        }
+      }
+
+      /* ── TYPOGRAPHY ── */
+      .title-mega {
+        font-family: "Orbitron", sans-serif;
+        font-size: 72px;
+        font-weight: 900;
+        background: linear-gradient(135deg, #00d4ff, #0066ff, #8800ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 8px;
+        text-align: center;
+        animation: titleGlow 3s ease-in-out infinite;
+      }
+      @keyframes titleGlow {
+        0%,
+        100% {
+          filter: brightness(1);
+        }
+        50% {
+          filter: brightness(1.3);
+        }
+      }
+      .subtitle {
+        font-family: "Rajdhani", sans-serif;
+        font-size: 22px;
+        color: #4488aa;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin-top: 16px;
+        text-align: center;
+      }
+      .section-label {
+        font-family: "Orbitron", sans-serif;
+        font-size: 14px;
+        color: #0088ff;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+      .feature-title {
+        font-family: "Orbitron", sans-serif;
+        font-size: 38px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .feature-desc {
+        font-size: 20px;
+        color: #88aacc;
+        text-align: center;
+        max-width: 800px;
+        line-height: 1.6;
+      }
+      .highlight {
+        color: #00d4ff;
+        font-weight: 700;
+      }
+      .highlight-red {
+        color: #ff4466;
+        font-weight: 700;
+      }
+      .highlight-green {
+        color: #00ff88;
+        font-weight: 700;
+      }
+      .highlight-orange {
+        color: #ffaa00;
+        font-weight: 700;
+      }
+      .highlight-purple {
+        color: #aa66ff;
+        font-weight: 700;
+      }
+
+      /* ── CARDS ── */
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+        max-width: 900px;
+        width: 100%;
+        margin-top: 30px;
+      }
+      .card {
+        background: rgba(0, 50, 100, 0.1);
+        border: 1px solid rgba(0, 150, 255, 0.15);
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
+        transition: all 0.3s;
+      }
+      .card:hover {
+        border-color: rgba(0, 150, 255, 0.4);
+        background: rgba(0, 50, 100, 0.2);
+        transform: translateY(-2px);
+      }
+      .card-icon {
+        font-size: 32px;
+        margin-bottom: 8px;
+      }
+      .card-title {
+        font-family: "Orbitron", sans-serif;
+        font-size: 13px;
+        color: #00ccff;
+        letter-spacing: 1px;
+        margin-bottom: 6px;
+      }
+      .card-value {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 28px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      .card-unit {
+        font-size: 11px;
+        color: #4466aa;
+      }
+      .card-desc {
+        font-size: 12px;
+        color: #556688;
+        margin-top: 6px;
+      }
+
+      /* ── STAT ROW ── */
+      .stat-row {
+        display: flex;
+        gap: 40px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .stat {
+        text-align: center;
+      }
+      .stat-number {
+        font-family: "Orbitron", sans-serif;
+        font-size: 48px;
+        font-weight: 900;
+        color: #00d4ff;
+      }
+      .stat-label {
+        font-size: 12px;
+        color: #4488aa;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+      /* ── TABLE ── */
+      .data-table {
+        width: 100%;
+        max-width: 850px;
+        margin-top: 20px;
+        border-collapse: collapse;
+      }
+      .data-table th {
+        font-family: "Orbitron", sans-serif;
+        font-size: 10px;
+        color: #0088ff;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 8px 12px;
+        border-bottom: 1px solid rgba(0, 100, 255, 0.2);
+        text-align: left;
+      }
+      .data-table td {
+        font-size: 13px;
+        color: #88aacc;
+        padding: 6px 12px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+      }
+      .data-table td:first-child {
+        color: #ffffff;
+        font-weight: 600;
+      }
+
+      /* ── PROGRESS BAR ── */
+      .progress-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: rgba(0, 50, 100, 0.2);
+        z-index: 100;
+      }
+      .progress-bar {
+        height: 100%;
+        background: linear-gradient(90deg, #00d4ff, #0066ff);
+        transition: width 0.3s;
+      }
+
+      /* ── SLIDE COUNTER ── */
+      .slide-counter {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        color: #335577;
+        z-index: 100;
+      }
+
+      /* ── NAV HINT ── */
+      .nav-hint {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 11px;
+        color: #335566;
+        letter-spacing: 1px;
+        z-index: 100;
+        animation: fadeInUp 1s ease 2s forwards;
+        opacity: 0;
+      }
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* ── COMPARISON ── */
+      .compare {
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+        max-width: 800px;
+      }
+      .compare-col {
+        flex: 1;
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+      }
+      .compare-col.us {
+        background: rgba(0, 100, 255, 0.08);
+        border: 1px solid rgba(0, 150, 255, 0.2);
+      }
+      .compare-col.them {
+        background: rgba(100, 50, 50, 0.08);
+        border: 1px solid rgba(200, 100, 100, 0.15);
+      }
+      .compare-name {
+        font-family: "Orbitron", sans-serif;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .compare-col.us .compare-name {
+        color: #00d4ff;
+      }
+      .compare-col.them .compare-name {
+        color: #ff6666;
+      }
+
+      /* ── ANIMATED ELEMENTS ── */
+      .fade-in-seq > * {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeSeq 0.6s ease forwards;
+      }
+      .fade-in-seq > *:nth-child(1) {
+        animation-delay: 0.2s;
+      }
+      .fade-in-seq > *:nth-child(2) {
+        animation-delay: 0.4s;
+      }
+      .fade-in-seq > *:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+      .fade-in-seq > *:nth-child(4) {
+        animation-delay: 0.8s;
+      }
+      .fade-in-seq > *:nth-child(5) {
+        animation-delay: 1s;
+      }
+      .fade-in-seq > *:nth-child(6) {
+        animation-delay: 1.2s;
+      }
+      .fade-in-seq > *:nth-child(7) {
+        animation-delay: 1.4s;
+      }
+      .fade-in-seq > *:nth-child(8) {
+        animation-delay: 1.6s;
+      }
+      .fade-in-seq > *:nth-child(9) {
+        animation-delay: 1.8s;
+      }
+      @keyframes fadeSeq {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* ── IFRAME EMBED ── */
+      .live-demo {
+        width: 90vw;
+        height: 70vh;
+        border: 1px solid rgba(0, 150, 255, 0.2);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .live-demo iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <div class="bg-glow"></div>
+
+    <!-- ════════════ SLIDE 1: TITLE ════════════ -->
+    <div class="slide active" id="slide-0">
+      <div class="section-label">Introducing</div>
+      <div class="title-mega">NEOGEN</div>
+      <div class="subtitle">
+        The World's First AI-Powered Digital Human Twin
+      </div>
+      <div
+        style="
+          margin-top: 40px;
+          font-size: 16px;
+          color: #556677;
+          max-width: 600px;
+          text-align: center;
+          line-height: 1.8;
+        "
+      >
+        A virtual human body that simulates how drugs work inside you.<br />
+        Powered by AI. Visualized in 3D. Built from scratch.
+      </div>
+      <div class="stat-row" style="margin-top: 50px">
+        <div class="stat">
+          <div class="stat-number">132K</div>
+          <div class="stat-label">Training Records</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">14</div>
+          <div class="stat-label">Body Compartments</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">Simulation Modules</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">&lt;1s</div>
+          <div class="stat-label">Prediction Speed</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 2: WHAT IT DOES ════════════ -->
+    <div class="slide" id="slide-1">
+      <div class="section-label">Core Capability</div>
+      <div class="feature-title">Give It a Molecule. See What Happens.</div>
+      <div class="feature-desc">
+        Type a drug's chemical structure (<span class="highlight"
+          >SMILES string</span
+        >), and NeoGen instantly predicts
+        <span class="highlight">5 pharmacokinetic parameters</span>, simulates
+        drug flow through <span class="highlight">14 organs</span>, and shows
+        you everything on a <span class="highlight">3D holographic body</span>.
+      </div>
+      <div class="card-grid fade-in-seq">
+        <div class="card">
+          <div class="card-icon">💊</div>
+          <div class="card-title">Cmax</div>
+          <div class="card-value">34.9</div>
+          <div class="card-unit">mg/L</div>
+          <div class="card-desc">Peak plasma concentration</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">📊</div>
+          <div class="card-title">AUC</div>
+          <div class="card-value">97.0</div>
+          <div class="card-unit">mg·h/L</div>
+          <div class="card-desc">Total drug exposure</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">⏱️</div>
+          <div class="card-title">Half-Life</div>
+          <div class="card-value">2.0</div>
+          <div class="card-unit">hours</div>
+          <div class="card-desc">Time to 50% elimination</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔄</div>
+          <div class="card-title">Clearance</div>
+          <div class="card-value">19.5</div>
+          <div class="card-unit">L/h</div>
+          <div class="card-desc">Body removal rate</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🫧</div>
+          <div class="card-title">Vd</div>
+          <div class="card-value">55.0</div>
+          <div class="card-unit">L</div>
+          <div class="card-desc">Distribution volume</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 3: PBPK ════════════ -->
+    <div class="slide" id="slide-2">
+      <div class="section-label">Simulation Engine</div>
+      <div class="feature-title">14-Compartment PBPK Model</div>
+      <div class="feature-desc">
+        Real physiological parameters from
+        <span class="highlight">ICRP Publication 89</span>. 16 simultaneous ODEs
+        solved in real-time. Drug flows through organs connected by actual blood
+        flow rates.
+      </div>
+      <table class="data-table" style="margin-top: 20px">
+        <tr>
+          <th>Organ</th>
+          <th>Volume</th>
+          <th>Blood Flow</th>
+          <th>Function</th>
+        </tr>
+        <tr>
+          <td>Gut</td>
+          <td>1.7 L</td>
+          <td>58.5 L/h</td>
+          <td>Drug absorption</td>
+        </tr>
+        <tr>
+          <td>Liver</td>
+          <td>1.8 L</td>
+          <td>97.5 L/h</td>
+          <td>First-pass metabolism (CYP enzymes)</td>
+        </tr>
+        <tr>
+          <td>Kidney</td>
+          <td>0.31 L</td>
+          <td>74.1 L/h</td>
+          <td>Filtration + secretion + reabsorption</td>
+        </tr>
+        <tr>
+          <td>Brain</td>
+          <td>1.45 L</td>
+          <td>46.8 L/h</td>
+          <td>BBB-protected, neurotransmitter effects</td>
+        </tr>
+        <tr>
+          <td>Muscle</td>
+          <td>29.0 L</td>
+          <td>66.3 L/h</td>
+          <td>Large reservoir, slow equilibrium</td>
+        </tr>
+        <tr>
+          <td>Fat</td>
+          <td>18.2 L</td>
+          <td>19.5 L/h</td>
+          <td>Lipophilic drug accumulation</td>
+        </tr>
+        <tr>
+          <td>Lung</td>
+          <td>0.50 L</td>
+          <td>390 L/h</td>
+          <td>100% of blood passes through</td>
+        </tr>
+        <tr>
+          <td>Blood</td>
+          <td>5.6 L</td>
+          <td>390 L/h (CO)</td>
+          <td>Central distribution hub</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- ════════════ SLIDE 4: CYP ENZYMES ════════════ -->
+    <div class="slide" id="slide-3">
+      <div class="section-label">Metabolism</div>
+      <div class="feature-title">15 CYP Enzymes with Real Kinetics</div>
+      <div class="feature-desc">
+        Michaelis-Menten kinetics (<span class="highlight">Vmax/Km</span>) for
+        each drug-enzyme pair. Liver zonation shows
+        <span class="highlight-red">Zone 3</span> vulnerability. GSH depletion
+        tracking predicts <span class="highlight-red">liver toxicity</span>.
+      </div>
+      <div
+        class="card-grid fade-in-seq"
+        style="grid-template-columns: repeat(5, 1fr)"
+      >
+        <div class="card">
+          <div class="card-title">CYP3A4</div>
+          <div class="card-value" style="font-size: 20px">30%</div>
+          <div class="card-desc">of all drug metabolism</div>
+        </div>
+        <div class="card">
+          <div class="card-title">CYP2D6</div>
+          <div class="card-value" style="font-size: 20px">25%</div>
+          <div class="card-desc">of drugs, only 2% of CYP</div>
+        </div>
+        <div class="card">
+          <div class="card-title">CYP2C9</div>
+          <div class="card-value" style="font-size: 20px">20%</div>
+          <div class="card-desc">warfarin, NSAIDs</div>
+        </div>
+        <div class="card">
+          <div class="card-title">CYP1A2</div>
+          <div class="card-value" style="font-size: 20px">13%</div>
+          <div class="card-desc">caffeine, theophylline</div>
+        </div>
+        <div class="card">
+          <div class="card-title">CYP2E1</div>
+          <div class="card-value" style="font-size: 20px">7%</div>
+          <div class="card-desc">paracetamol → NAPQI</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 5: SAFETY ════════════ -->
+    <div class="slide" id="slide-4">
+      <div class="section-label">Safety Assessment</div>
+      <div class="feature-title">Multi-Layer Toxicity Prediction</div>
+      <div class="feature-desc">
+        <span class="highlight-red">7 cardiac ion channels</span> for TdP risk.
+        <span class="highlight-orange">Liver zonation</span> for hepatotoxicity.
+        <span class="highlight-purple">Renal tubular model</span> for
+        nephrotoxicity. <span class="highlight">Clinical symptoms</span> mapped
+        to organ concentrations.
+      </div>
+      <div class="card-grid fade-in-seq" style="margin-top: 30px">
+        <div class="card">
+          <div class="card-icon">💓</div>
+          <div class="card-title">Cardiac AP</div>
+          <div class="card-desc">
+            7 ion channels (INa, ICaL, IKr, IKs...)<br />QTc prediction, CiPA
+            TdP score
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔬</div>
+          <div class="card-title">Liver Zones</div>
+          <div class="card-desc">
+            Zone 1/2/3 differential metabolism<br />GSH depletion, ALT
+            prediction
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🫘</div>
+          <div class="card-title">Kidney Model</div>
+          <div class="card-desc">
+            GFR filtration + OAT/OCT secretion<br />pH-dependent reabsorption
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧠</div>
+          <div class="card-title">Neurotoxicity</div>
+          <div class="card-desc">
+            5 NT systems (DA, 5-HT, NE, GABA, Glu)<br />Seizure threshold, CNS
+            depression
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 6: DDI ════════════ -->
+    <div class="slide" id="slide-5">
+      <div class="section-label">Drug Interactions</div>
+      <div class="feature-title">Simulate Two Drugs Together</div>
+      <div class="feature-desc">
+        Enter Drug A + Drug B with a <span class="highlight">time gap</span>.
+        NeoGen checks CYP competition, protein displacement, and combined
+        toxicity. Shows
+        <span class="highlight-red">real-time interaction effects</span> on the
+        3D body.
+      </div>
+      <table class="data-table" style="margin-top: 20px; max-width: 700px">
+        <tr>
+          <th>Interaction</th>
+          <th>Mechanism</th>
+          <th>Clinical Effect</th>
+        </tr>
+        <tr>
+          <td>Caffeine + Alcohol</td>
+          <td>CYP1A2 inhibition</td>
+          <td>Caffeine lasts 3x longer</td>
+        </tr>
+        <tr>
+          <td>Warfarin + Aspirin</td>
+          <td>Protein displacement + COX</td>
+          <td>Doubled bleeding risk</td>
+        </tr>
+        <tr>
+          <td>Simvastatin + Grapefruit</td>
+          <td>CYP3A4 blocked</td>
+          <td>Rhabdomyolysis risk</td>
+        </tr>
+        <tr>
+          <td>Omeprazole + Clopidogrel</td>
+          <td>CYP2C19 inhibited</td>
+          <td>Blood thinner stops working</td>
+        </tr>
+        <tr>
+          <td>Fluoxetine + Codeine</td>
+          <td>CYP2D6 blocked (90%)</td>
+          <td>Zero pain relief</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- ════════════ SLIDE 7: DISEASE STATES ════════════ -->
+    <div class="slide" id="slide-6">
+      <div class="section-label">Patient Modeling</div>
+      <div class="feature-title">57 Disease States + Custom Parameters</div>
+      <div class="feature-desc">
+        Select liver cirrhosis, kidney failure, heart disease, HIV, cancer —
+        watch organs <span class="highlight-red">change visually</span> on the
+        3D body. Enter custom clinical labs. The simulation adjusts
+        automatically.
+      </div>
+      <div
+        class="card-grid fade-in-seq"
+        style="grid-template-columns: repeat(4, 1fr)"
+      >
+        <div class="card">
+          <div class="card-icon">🫁</div>
+          <div class="card-title">Liver</div>
+          <div class="card-value" style="font-size: 16px">13</div>
+          <div class="card-desc">Cirrhosis A/B/C, Hepatitis, NAFLD, NASH</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🫘</div>
+          <div class="card-title">Kidney</div>
+          <div class="card-value" style="font-size: 16px">9</div>
+          <div class="card-desc">CKD 1-5, AKI 1-3</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🫀</div>
+          <div class="card-title">Heart</div>
+          <div class="card-value" style="font-size: 16px">7</div>
+          <div class="card-desc">NYHA I-IV, Hypertension</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧬</div>
+          <div class="card-title">Special</div>
+          <div class="card-value" style="font-size: 16px">28</div>
+          <div class="card-desc">Pregnancy, Pediatric, Cancer, Burns...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 8: ADVANCED SYSTEMS ════════════ -->
+    <div class="slide" id="slide-7">
+      <div class="section-label">Advanced Physiology</div>
+      <div class="feature-title">12 Body Systems Modeled</div>
+      <div class="feature-desc fade-in-seq">
+        <div>
+          🩸 <span class="highlight-red">Blood Coagulation</span> — 13 clotting
+          factors, INR/aPTT, platelet function, bleeding risk
+        </div>
+        <div>
+          🫀 <span class="highlight-red">RAAS</span> —
+          Renin-Angiotensin-Aldosterone + baroreceptor reflex, 13
+          antihypertensives
+        </div>
+        <div>
+          🛡️ <span class="highlight-green">Immune System</span> — Innate +
+          adaptive, cytokines (IL-6, TNF-α), infection risk scoring
+        </div>
+        <div>
+          🦠 <span class="highlight-green">Gut Microbiome</span> — 9
+          drug-bacteria interactions, antibiotic impact modeling
+        </div>
+        <div>
+          🫁 <span class="highlight">Pulmonary</span> — Inhaled drug deposition,
+          MMAD, alveolar absorption, 6 inhaler profiles
+        </div>
+        <div>
+          💊 <span class="highlight-orange">Multi-Dose</span> — Steady-state,
+          accumulation ratio, trough levels, 13 regimens
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 9: VS SIMCYP ════════════ -->
+    <div class="slide" id="slide-8">
+      <div class="section-label">Competition</div>
+      <div class="feature-title">NeoGen vs Simcyp ($50K/year)</div>
+      <div class="compare">
+        <div class="compare-col us">
+          <div class="compare-name">NEOGEN</div>
+          <div style="font-size: 14px; color: #88aacc; line-height: 2">
+            12 body systems<br />
+            30+ simulation modules<br />
+            57 disease states<br />
+            3D holographic visualization<br />
+            AI-powered predictions<br />
+            &lt;1 second per simulation<br />
+            <span class="highlight" style="font-size: 18px">FREE</span>
+          </div>
+        </div>
+        <div class="compare-col them">
+          <div class="compare-name">SIMCYP</div>
+          <div style="font-size: 14px; color: #aa8888; line-height: 2">
+            5 body systems<br />
+            8 simulation modules<br />
+            ~15 disease states<br />
+            Tables and 2D graphs only<br />
+            Manual data entry<br />
+            Minutes per simulation<br />
+            <span class="highlight-red" style="font-size: 18px"
+              >$50,000/year</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 10: ACCURACY ════════════ -->
+    <div class="slide" id="slide-9">
+      <div class="section-label">Validation</div>
+      <div class="feature-title">
+        Clinically Validated Against Published Data
+      </div>
+      <div class="feature-desc">
+        Compared against <span class="highlight">19 drugs</span> from
+        peer-reviewed literature. Property-dependent calibration with PK
+        first-principles derivation.
+      </div>
+      <div
+        class="card-grid fade-in-seq"
+        style="grid-template-columns: repeat(5, 1fr); margin-top: 20px"
+      >
+        <div class="card">
+          <div class="card-title">Cmax</div>
+          <div class="card-value" style="color: #00d4ff">47%</div>
+          <div class="card-desc">within 2-fold</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Vd</div>
+          <div class="card-value" style="color: #aa66ff">47%</div>
+          <div class="card-desc">within 2-fold</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Half-life</div>
+          <div class="card-value" style="color: #ffaa00">42%</div>
+          <div class="card-desc">within 2-fold</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Clearance</div>
+          <div class="card-value" style="color: #ff6644">37%</div>
+          <div class="card-desc">within 2-fold</div>
+        </div>
+        <div class="card">
+          <div class="card-title">AUC</div>
+          <div class="card-value" style="color: #00ff88">16%</div>
+          <div class="card-desc">within 2-fold</div>
+        </div>
+      </div>
+      <div
+        style="
+          margin-top: 20px;
+          font-size: 14px;
+          color: #556677;
+          text-align: center;
+        "
+      >
+        Star drugs: Paracetamol (100% accuracy) • Amoxicillin (80%) • Ibuprofen
+        (60%) • Propranolol (60%)
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 11: LIVE DEMO ════════════ -->
+    <div class="slide" id="slide-10">
+      <div class="section-label">Live Demo</div>
+      <div class="feature-title" style="font-size: 28px; margin-bottom: 10px">
+        NeoGen Running Live
+      </div>
+      <div class="live-demo">
+        <iframe
+          src="http://localhost:8000"
+          allow="accelerometer; autoplay"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- ════════════ SLIDE 12: STATS ════════════ -->
+    <div class="slide" id="slide-11">
+      <div class="section-label">By The Numbers</div>
+      <div class="feature-title">Built in 10 Sessions. Zero Hardware Cost.</div>
+      <div class="stat-row fade-in-seq">
+        <div class="stat">
+          <div class="stat-number">40K</div>
+          <div class="stat-label">Lines of Code</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">24</div>
+          <div class="stat-label">API Endpoints</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">200+</div>
+          <div class="stat-label">Drug Profiles</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">57</div>
+          <div class="stat-label">Disease Models</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">15</div>
+          <div class="stat-label">CYP Enzymes</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">7</div>
+          <div class="stat-label">Cardiac Channels</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">$0</div>
+          <div class="stat-label">Infrastructure Cost</div>
+        </div>
+      </div>
+      <div style="margin-top: 50px">
+        <div class="title-mega" style="font-size: 48px">NEOGEN</div>
+        <div class="subtitle">The Future of Drug Simulation</div>
+      </div>
+    </div>
+
+    <!-- ── Progress Bar ── -->
+    <div class="progress-container">
+      <div class="progress-bar" id="progress"></div>
+    </div>
+    <div class="slide-counter" id="counter">1 / 12</div>
+    <div class="nav-hint">
+      Press → or click to advance • Press ← to go back • Press Space for
+      auto-play
+    </div>
+
+    <script>
+      const totalSlides = 12;
+      let current = 0;
+      let autoPlayInterval = null;
+
+      function goToSlide(n) {
+        if (n < 0 || n >= totalSlides) return;
+        document
+          .querySelectorAll(".slide")
+          .forEach((s) => s.classList.remove("active"));
+        document.getElementById("slide-" + n).classList.add("active");
+        current = n;
+        document.getElementById("progress").style.width =
+          ((n + 1) / totalSlides) * 100 + "%";
+        document.getElementById("counter").textContent =
+          n + 1 + " / " + totalSlides;
+      }
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight" || e.key === "Enter") goToSlide(current + 1);
+        if (e.key === "ArrowLeft") goToSlide(current - 1);
+        if (e.key === " ") {
+          e.preventDefault();
+          if (autoPlayInterval) {
+            clearInterval(autoPlayInterval);
+            autoPlayInterval = null;
+          } else {
+            autoPlayInterval = setInterval(() => {
+              if (current < totalSlides - 1) goToSlide(current + 1);
+              else {
+                clearInterval(autoPlayInterval);
+                autoPlayInterval = null;
+              }
+            }, 5000);
+          }
+        }
+      });
+
+      document.addEventListener("click", (e) => {
+        if (e.target.closest(".live-demo")) return;
+        if (e.clientX > window.innerWidth / 2) goToSlide(current + 1);
+        else goToSlide(current - 1);
+      });
+    </script>
+  </body>
+</html>

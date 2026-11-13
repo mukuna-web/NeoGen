@@ -1,0 +1,30 @@
+{
+  "alternates": {
+    "stereo_2d_v1_clearance": {
+      "endpoint": "clearance",
+      "feature_schema_version": "stereo_2d_v1",
+      "metadata_path": "models/stereo_2d_v1/clearance/metadata.json",
+      "model_path": "models/stereo_2d_v1/clearance/model.pkl",
+      "registered_as": "alternate"
+    },
+    "stereo_2d_v1_cyp": {
+      "endpoint": "cyp",
+      "feature_schema_version": "stereo_2d_v1",
+      "metadata_path": "models/stereo_2d_v1/cyp/metadata.json",
+      "model_path": "models/stereo_2d_v1/cyp/model.pkl",
+      "registered_as": "alternate"
+    },
+    "stereo_2d_v1_half_life": {
+      "endpoint": "half_life",
+      "feature_schema_version": "stereo_2d_v1",
+      "metadata_path": "models/stereo_2d_v1/half_life/metadata.json",
+      "model_path": "models/stereo_2d_v1/half_life/model.pkl",
+      "registered_as": "alternate"
+    }
+  },
+  "auc": "chemprop",
+  "clearance": "v3",
+  "cmax": "v3",
+  "half_life": "v1",
+  "vd": "v1"
+}

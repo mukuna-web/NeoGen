@@ -1,0 +1,186 @@
+{
+  "cycle": "V41-c2",
+  "generated_at": "2026-05-29T11:34:53Z",
+  "results": {
+    "amiodarone": {
+      "candidates": 25,
+      "selected": {
+        "klass": "systemic",
+        "score": 163,
+        "set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+        "title": "Pacerone"
+      },
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+      "top3": [
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 9,
+          "score": 163,
+          "set_id": "02f4a736-63ed-4ad4-a1f1-b21a71e928bd",
+          "title": "Pacerone"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 9,
+          "score": 163,
+          "set_id": "0a28ae25-7cc4-4ac0-a2ba-7820fb93e25c",
+          "title": "Amiodarone Hydrochloride"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 9,
+          "score": 163,
+          "set_id": "0c9ee15a-5741-4aaa-8d80-c7bd2e45822e",
+          "title": "AMIODARONE HYDROCHLORIDE"
+        }
+      ]
+    },
+    "clarithromycin": {
+      "candidates": 25,
+      "selected": {
+        "klass": "systemic",
+        "score": 165,
+        "set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+        "title": "Clarithromycin"
+      },
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+      "top3": [
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 16,
+          "score": 165,
+          "set_id": "0be243c6-de02-45dd-8210-cab1bbc8dfa7",
+          "title": "Clarithromycin"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 16,
+          "score": 165,
+          "set_id": "0c4db97f-f4c9-4cac-9f12-9db1d967ebeb",
+          "title": "Clarithromycin"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 16,
+          "score": 165,
+          "set_id": "0c7d8391-50ef-4827-abe6-e0fc0c2f1636",
+          "title": "Clarithromycin"
+        }
+      ]
+    },
+    "ketoconazole": {
+      "candidates": 25,
+      "selected": {
+        "klass": "systemic",
+        "score": 165,
+        "set_id": "4baebcab-a237-42c0-9183-6f447a44e371",
+        "title": "Ketoconazole"
+      },
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371",
+      "top3": [
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 10,
+          "score": 165,
+          "set_id": "4baebcab-a237-42c0-9183-6f447a44e371",
+          "title": "Ketoconazole"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 2,
+          "score": 149,
+          "set_id": "369f31da-d3c3-49b8-956f-f70598760164",
+          "title": "Ketoconazole"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 2,
+          "score": 149,
+          "set_id": "3ea8a22b-cd61-4623-a11f-43e3396b50fa",
+          "title": "KETOCONAZOLE"
+        }
+      ]
+    },
+    "rifampin": {
+      "candidates": 13,
+      "selected": {
+        "klass": "systemic",
+        "score": 165,
+        "set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+        "title": "Rifadin IV"
+      },
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+      "top3": [
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 12,
+          "score": 165,
+          "set_id": "036ab68e-5085-4edc-bd83-784b43d64eab",
+          "title": "Rifadin IV"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 12,
+          "score": 165,
+          "set_id": "0391f1e1-70d4-4b15-8b58-055bb6a385b8",
+          "title": "RIFAMPIN"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 12,
+          "score": 165,
+          "set_id": "28109dee-3e5e-492b-b7d9-9ba46c0b5324",
+          "title": "RIFAMPIN"
+        }
+      ]
+    },
+    "warfarin": {
+      "candidates": 25,
+      "selected": {
+        "klass": "systemic",
+        "score": 165,
+        "set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+        "title": "Warfarin Sodium"
+      },
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cbce382-9c88-4f58-ae0f-532a841e8f95",
+      "top3": [
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 14,
+          "score": 165,
+          "set_id": "0cbce382-9c88-4f58-ae0f-532a841e8f95",
+          "title": "Warfarin Sodium"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 14,
+          "score": 165,
+          "set_id": "1244c338-9140-425a-bf2a-9da6b4ac0287",
+          "title": "Warfarin Sodium"
+        },
+        {
+          "ddi": true,
+          "klass": "systemic",
+          "partners": 14,
+          "score": 165,
+          "set_id": "19a69a72-ac5d-45d5-a94d-a5aaecbe4730",
+          "title": "Jantoven"
+        }
+      ]
+    }
+  }
+}

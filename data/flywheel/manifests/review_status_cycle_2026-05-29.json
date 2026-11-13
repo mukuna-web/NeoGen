@@ -1,0 +1,13 @@
+{
+  "blocked_ambiguity": 2,
+  "completed_at": "2026-05-29T12:24:47Z",
+  "cycle_id": "moat-next5-adversarial-2026-05-29-c5",
+  "human_reviewed": 0,
+  "machine_checked": 74,
+  "next_action": "Human reviewer promotes a small batch; build dedicated terminal Data Flywheel pane (GAP-016).",
+  "note": "no fake human review; append-only; cited-only promotion",
+  "review_events": 76,
+  "started_at": "2026-05-29T12:24:47Z",
+  "tool_used": "review_workflow+flywheel_status",
+  "vortext_endpoint": "/api/vortext/flywheel"
+}

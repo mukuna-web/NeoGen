@@ -1,0 +1,54 @@
+# ===== NeoGen Configuration =====
+
+project:
+  name: NeoGen
+  version: 0.1.0
+  description: AI-powered PBPK prediction platform
+
+# Data paths
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  splits_dir: data/splits
+
+# Database
+database:
+  host: localhost
+  port: 5432
+  name: neogen
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+
+# PK parameters we predict
+pk_params:
+  - cmax # Peak plasma concentration
+  - auc # Area under the curve
+  - half_life # Elimination half-life
+  - clearance # Systemic clearance
+  - vd # Volume of distribution
+
+# Feature engineering
+features:
+  morgan_radius: 2
+  morgan_bits: 2048
+  descriptors:
+    - MolWt
+    - LogP
+    - TPSA
+    - HBD
+    - HBA
+    - NumRotatableBonds
+
+# Model defaults
+model:
+  random_seed: 42
+  test_size: 0.1
+  val_size: 0.1
+  batch_size: 64
+  learning_rate: 0.001
+  epochs: 100
+
+# Model checkpoints
+checkpoints:
+  dir: models/checkpoints
+  exports_dir: models/exports

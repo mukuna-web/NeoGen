@@ -1,0 +1,20 @@
+{
+  "category": "drug_identity_spine",
+  "content_sha256": "524b9833cf0a449547ee4e25ef7a02d0169afcc82ae24e14149d460bebc50bcf",
+  "description": "Large-scale non-redundant database of pointers between chemical structures and chemistry resources.",
+  "discovered_links": [],
+  "http_status": 200,
+  "ingestion_priority": "P0",
+  "license_status": "open",
+  "link_count": 0,
+  "markdown_char_count": 1316,
+  "note": "metadata-only extraction; full page body intentionally not stored",
+  "retrieved_at": "2026-05-29T01:13:11Z",
+  "robots_tos_status": "EBI terms of use; open",
+  "snippet": "UniChem is large-scale non-redundant database of pointers between chemical structures and EMBL-EBI chemistry resources. Its purpose is to optimise the efficiency with which structure-based hyperlinks may be built and maintained between chemistry-based resources, and is particularly suitable for creating such links 'on the fly' (by use of REST web services).   Primarily, this service has been desig",
+  "source_id": "unichem",
+  "source_name": "UniChem (EBI)",
+  "title": "UniChem",
+  "tool_used": "firecrawl_cloud",
+  "url": "https://www.ebi.ac.uk/unichem/"
+}

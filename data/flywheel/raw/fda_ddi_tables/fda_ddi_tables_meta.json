@@ -1,0 +1,35 @@
+{
+  "cycle_id": "fda-structured-ddi-table-cycle-2026-05-29",
+  "license_status": "open-us-gov-data",
+  "note": "FDA pages are public-domain US-government data. Mechanistic classification resource, not severity labels.",
+  "retrieved_at": "2026-05-29T23:56:43Z",
+  "sources": [
+    {
+      "byte_count": 108228,
+      "content_sha256": "ba8c2f07871fe65bf395bff16fd1f3040161d40035d7a1307cd3bdff7771393d",
+      "http_status": 200,
+      "license_status": "open-us-gov-data",
+      "page_title": "Healthcare Professionals: FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems",
+      "retrieved_at": "2026-05-29T23:56:43Z",
+      "source_id": "fda_clinical_examples_matrix",
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "table_name": "CYP/Transporter Clinical Substrates, Inhibitors, or Inducers"
+    },
+    {
+      "byte_count": 55125,
+      "content_sha256": "cdbe08983dad5ec96f376786ca62bfa0a2af4a27690378ec2f5e2b8e5f48135e",
+      "http_status": 200,
+      "license_status": "open-us-gov-data",
+      "page_title": "Drug Development and Drug Interactions | Table of Substrates, Inhibitors and Inducers | FDA",
+      "retrieved_at": "2026-05-29T23:56:43Z",
+      "source_id": "fda_design_substrate_inhibitor_inducer_tables",
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers",
+      "table_name": "In vitro selective inhibitors for CYP-mediated metabolism"
+    }
+  ],
+  "table_headings": [
+    "CYP/Transporter Clinical Substrates, Inhibitors, or Inducers (per-drug matrix)",
+    "In vitro marker reactions (CYP-mediated metabolism)",
+    "In vitro selective inhibitors for CYP-mediated metabolism"
+  ]
+}

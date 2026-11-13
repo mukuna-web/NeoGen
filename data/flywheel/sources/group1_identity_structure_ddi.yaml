@@ -1,0 +1,581 @@
+# Source registry group 1 — identity spine, structure/isomerism, DDI evidence
+sources:
+  # ── 1. DRUG IDENTITY SPINE ─────────────────────────────────────────────────
+  - source_id: rxnorm
+    name: RxNorm (NLM)
+    category: drug_identity_spine
+    source_url: https://www.nlm.nih.gov/research/umls/rxnorm/index.html
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data; UMLS license for some content
+    update_frequency: weekly+monthly
+    expected_data_types:
+      [rxcui, ingredient, brand, ndc_crosswalk, tty, relationships]
+    key_identifiers: [rxcui, ndc, name]
+    joins_to_identity_spine: primary_normalized_name_and_rxcui
+    value_for_moat: canonical drug naming + crosswalk backbone
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "~100s MB bulk"
+    notes: Use RxNav API + RRF bulk; some UMLS-sourced fields need UMLS license.
+    first_ingestion_status: not_started
+
+  - source_id: dailymed_spl
+    name: DailyMed SPL (NLM)
+    category: drug_identity_spine
+    source_url: https://dailymed.nlm.nih.gov/dailymed/spl-resources.cfm
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: daily
+    expected_data_types:
+      [spl_xml, label_sections, ndc, set_id, interaction_sections]
+    key_identifiers: [set_id, ndc, unii]
+    joins_to_identity_spine: ndc_and_unii_join
+    value_for_moat: authoritative label text incl. DDI + PK sections (citable)
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "10s GB full SPL"
+    notes: SPL XML is the citable backbone for label-derived DDI evidence.
+    first_ingestion_status: not_started
+
+  - source_id: openfda_labels
+    name: openFDA Drug Labels
+    category: drug_identity_spine
+    source_url: https://open.fda.gov/apis/drug/label/
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data; openFDA terms
+    update_frequency: weekly
+    expected_data_types:
+      [label_json, drug_interactions, clinical_pharmacology, spl_id]
+    key_identifiers: [spl_id, set_id, unii, ndc]
+    joins_to_identity_spine: spl_set_id_join
+    value_for_moat: JSON-structured label DDI + clin-pharm sections
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "GBs"
+    notes: API key optional (raises rate limit). Bulk download files also available.
+    first_ingestion_status: not_started
+
+  - source_id: openfda_ndc
+    name: openFDA NDC Directory
+    category: drug_identity_spine
+    source_url: https://open.fda.gov/apis/drug/ndc/
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: weekly
+    expected_data_types:
+      [ndc, product_type, dosage_form, route, marketing_status]
+    key_identifiers: [ndc, product_id]
+    joins_to_identity_spine: ndc_join
+    value_for_moat: product-level NDC resolution
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: Pairs with RxNorm + DailyMed for product resolution.
+    first_ingestion_status: not_started
+
+  - source_id: drugs_at_fda
+    name: Drugs@FDA
+    category: drug_identity_spine
+    source_url: https://www.accessdata.fda.gov/scripts/cder/daf/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: weekly
+    expected_data_types: [application_number, approval_dates, sponsor, products]
+    key_identifiers: [appl_no, ndc]
+    joins_to_identity_spine: appl_to_product
+    value_for_moat: approval + sponsor provenance
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "10s MB"
+    notes: Bulk download files preferred over scraping.
+    first_ingestion_status: not_started
+
+  - source_id: drugcentral
+    name: DrugCentral
+    category: drug_identity_spine
+    source_url: https://drugcentral.org/download
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-BY-SA for DB; verify at download
+    update_frequency: periodic releases
+    expected_data_types: [struct_id, identifiers, targets, atc, pharmacology]
+    key_identifiers: [drugcentral_id, inchikey, cas, unii]
+    joins_to_identity_spine: drugcentral_id_join
+    value_for_moat: rich curated drug-target-identity crosswalk
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB Postgres dump"
+    notes: Postgres dump is the canonical bulk artifact.
+    first_ingestion_status: not_started
+
+  - source_id: unichem
+    name: UniChem (EBI)
+    category: drug_identity_spine
+    source_url: https://www.ebi.ac.uk/unichem/
+    access_method: api
+    license_status: open
+    robots_tos_status: EBI terms of use; open
+    update_frequency: periodic
+    expected_data_types: [src_compound_id_crosswalk, inchikey_map]
+    key_identifiers: [inchikey, chembl_id, pubchem_cid, drugbank_id]
+    joins_to_identity_spine: inchikey_universal_crosswalk
+    value_for_moat: structure-id crosswalk hub across 40+ sources
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "GBs (mapping)"
+    notes: Key bridge between identity spine and structure caches.
+    first_ingestion_status: not_started
+
+  - source_id: umls
+    name: UMLS Metathesaurus (NLM)
+    category: drug_identity_spine
+    source_url: https://www.nlm.nih.gov/research/umls/index.html
+    access_method: licensed
+    license_status: restricted
+    robots_tos_status: requires UMLS license agreement
+    update_frequency: biannual
+    expected_data_types: [cui, atom, semantic_type, source_vocabs]
+    key_identifiers: [cui, rxcui]
+    joins_to_identity_spine: cui_concept_join
+    value_for_moat: concept-level normalization across vocabularies
+    ingestion_priority: P2
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: "10s GB"
+    notes: Requires UMLS license; human review before ingestion.
+    first_ingestion_status: blocked
+
+  - source_id: who_atc
+    name: WHO ATC/DDD
+    category: drug_identity_spine
+    source_url: https://www.whocc.no/atc_ddd_index/
+    access_method: manual
+    license_status: requires_review
+    robots_tos_status: WHOCC reuse terms restrict redistribution
+    update_frequency: annual
+    expected_data_types: [atc_code, ddd, classification]
+    key_identifiers: [atc_code]
+    joins_to_identity_spine: atc_class_join
+    value_for_moat: therapeutic classification spine
+    ingestion_priority: P2
+    crawl_allowed: false
+    requires_api_key: false
+    estimated_size: small
+    notes: Redistribution restricted; use DrugCentral/RxNorm ATC mirror where licensed.
+    first_ingestion_status: blocked
+
+  # ── 2. STRUCTURE + ISOMERISM ──────────────────────────────────────────────
+  - source_id: pubchem
+    name: PubChem (NCBI)
+    category: structure_isomerism
+    source_url: https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access
+    access_method: api
+    license_status: open
+    robots_tos_status: open; PUG-REST rate limits (~5 req/s)
+    update_frequency: daily
+    expected_data_types: [cid, smiles, inchi, inchikey, descriptors, synonyms]
+    key_identifiers: [pubchem_cid, inchikey]
+    joins_to_identity_spine: cid_inchikey_join
+    value_for_moat: canonical structure + identity at scale
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s GB full; targeted use only"
+    notes: Use PUG-REST/PUG-View with rate limiting; bulk FTP for large sets.
+    first_ingestion_status: not_started
+
+  - source_id: pubchem3d
+    name: PubChem3D Conformers
+    category: structure_isomerism
+    source_url: https://pubchem.ncbi.nlm.nih.gov/docs/3d
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: open
+    update_frequency: periodic
+    expected_data_types: [conformer_sdf, 3d_coordinates]
+    key_identifiers: [pubchem_cid]
+    joins_to_identity_spine: cid_join
+    value_for_moat: seed 3D conformers for conformer_3d_v1 tier
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s GB; targeted subset only"
+    notes: NeoGen still generates deterministic conformers; PubChem3D is a seed/check.
+    first_ingestion_status: not_started
+
+  - source_id: chembl
+    name: ChEMBL (EBI)
+    category: structure_isomerism
+    source_url: https://www.ebi.ac.uk/chembl/downloads
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-BY-SA 3.0
+    update_frequency: 2-3 releases/yr
+    expected_data_types:
+      [chembl_id, structures, bioactivity, targets, mechanisms]
+    key_identifiers: [chembl_id, inchikey]
+    joins_to_identity_spine: chembl_id_join
+    value_for_moat: bioactivity + mechanism + structure in one DB
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "~25 GB sqlite/postgres"
+    notes: Bulk DB dump is canonical; also has REST API.
+    first_ingestion_status: not_started
+
+  - source_id: chebi
+    name: ChEBI (EBI)
+    category: structure_isomerism
+    source_url: https://www.ebi.ac.uk/chebi/downloadsForward.do
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-BY 4.0
+    update_frequency: monthly
+    expected_data_types: [chebi_id, ontology, structure, roles]
+    key_identifiers: [chebi_id, inchikey]
+    joins_to_identity_spine: chebi_id_join
+    value_for_moat: chemical ontology + role classification
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: Useful for chemical role/ontology tagging.
+    first_ingestion_status: not_started
+
+  - source_id: geom
+    name: GEOM (conformer ensembles)
+    category: structure_isomerism
+    source_url: https://github.com/learningmatter-mit/geom
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC0/MIT-style; verify
+    update_frequency: static
+    expected_data_types: [conformer_ensembles, energies]
+    key_identifiers: [smiles, inchikey]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: ML-grade conformer ensembles for 3D features
+    ingestion_priority: P2
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "10s GB"
+    notes: Large; targeted subset for benchmarking conformer determinism.
+    first_ingestion_status: not_started
+
+  - source_id: openff_qcarchive
+    name: OpenFF / QCArchive
+    category: structure_isomerism
+    source_url: https://qcarchive.molssi.org/
+    access_method: api
+    license_status: open
+    robots_tos_status: open MolSSI terms
+    update_frequency: continuous
+    expected_data_types: [qm_geometries, energies, forcefield_data]
+    key_identifiers: [smiles, inchikey]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: QM-quality geometry/energy reference
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: large
+    notes: Reference-grade; deferred until conformer tier promoted.
+    first_ingestion_status: not_started
+
+  - source_id: moleculenet
+    name: MoleculeNet
+    category: structure_isomerism
+    source_url: https://moleculenet.org/datasets-1
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: MIT-style; verify per dataset
+    update_frequency: static
+    expected_data_types: [benchmark_tasks, smiles, labels]
+    key_identifiers: [smiles, inchikey]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: standardized ML benchmark tasks
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "100s MB"
+    notes: For model benchmarking, not identity.
+    first_ingestion_status: not_started
+
+  - source_id: zinc
+    name: ZINC
+    category: structure_isomerism
+    source_url: https://zinc.docking.org/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: free for research; verify
+    update_frequency: periodic
+    expected_data_types: [purchasable_compounds, 3d_ready_structures]
+    key_identifiers: [zinc_id, smiles, inchikey]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: large purchasable chemical space
+    ingestion_priority: P3
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "very large"
+    notes: Targeted subsets only.
+    first_ingestion_status: not_started
+
+  - source_id: enamine_emolecules
+    name: Enamine / eMolecules
+    category: structure_isomerism
+    source_url: https://enamine.net/
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: commercial catalog terms
+    update_frequency: vendor
+    expected_data_types: [catalog_structures]
+    key_identifiers: [vendor_id, smiles]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: synthesizability/availability signal
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: large
+    notes: Licensing required; human review.
+    first_ingestion_status: blocked
+
+  - source_id: csd
+    name: Cambridge Structural Database (CSD)
+    category: structure_isomerism
+    source_url: https://www.ccdc.cam.ac.uk/
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: CCDC license required
+    update_frequency: periodic
+    expected_data_types: [experimental_crystal_structures]
+    key_identifiers: [csd_refcode, inchikey]
+    joins_to_identity_spine: inchikey_join
+    value_for_moat: experimental 3D conformer ground truth
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: large
+    notes: Optional/licensed; high-value 3D ground truth if acquired.
+    first_ingestion_status: blocked
+
+  # ── 3. DDI EVIDENCE ───────────────────────────────────────────────────────
+  - source_id: fda_cyp_transporter_tables
+    name: FDA CYP/Transporter Substrate/Inhibitor/Inducer Tables
+    category: ddi_evidence
+    source_url: https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers
+    access_method: scrape
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: periodic
+    expected_data_types:
+      [cyp_substrate, cyp_inhibitor, cyp_inducer, transporter_roles]
+    key_identifiers: [drug_name, cyp_enzyme, transporter]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: authoritative mechanism role assignments (citable)
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: small
+    notes: Primary mechanism-role evidence; cite exact table + retrieval date.
+    first_ingestion_status: not_started
+
+  - source_id: fda_ddi_guidance
+    name: FDA DDI Guidance / Resource Pages
+    category: ddi_evidence
+    source_url: https://www.fda.gov/drugs/drug-interactions-labeling/drug-interactions-relevant-regulatory-guidance-and-policy-documents
+    access_method: scrape
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: periodic
+    expected_data_types: [guidance_links, methodology, thresholds]
+    key_identifiers: [guidance_title]
+    joins_to_identity_spine: none
+    value_for_moat: methodology grounding for R-values/AUC-ratio thresholds
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: small
+    notes: Methodology reference, not drug-pair data.
+    first_ingestion_status: not_started
+
+  - source_id: dailymed_ddi_sections
+    name: DailyMed Drug Interaction Sections
+    category: ddi_evidence
+    source_url: https://dailymed.nlm.nih.gov/dailymed/spl-resources.cfm
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: daily
+    expected_data_types: [interaction_section_text, contraindications]
+    key_identifiers: [set_id, ndc]
+    joins_to_identity_spine: set_id_join
+    value_for_moat: per-label DDI text spans (citable evidence)
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "subset of SPL"
+    notes: Extract interaction LOINC sections; store citation span + set_id.
+    first_ingestion_status: not_started
+
+  - source_id: fda_clin_pharm_sections
+    name: FDA Clinical Pharmacology Label Sections
+    category: ddi_evidence
+    source_url: https://open.fda.gov/apis/drug/label/
+    access_method: api
+    license_status: open
+    robots_tos_status: open-us-gov-data
+    update_frequency: weekly
+    expected_data_types:
+      [clinical_pharmacology, pk_parameters, ddi_study_results]
+    key_identifiers: [spl_id, set_id]
+    joins_to_identity_spine: spl_set_id_join
+    value_for_moat: quantitative DDI study outcomes from labels
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: subset
+    notes: AUC/Cmax ratio statements appear here; cite exact span.
+    first_ingestion_status: not_started
+
+  - source_id: ddinter
+    name: DDInter
+    category: ddi_evidence
+    source_url: http://ddinter.scbdd.com/
+    access_method: bulk_download
+    license_status: requires_review
+    robots_tos_status: academic use; verify redistribution
+    update_frequency: periodic
+    expected_data_types: [ddi_pairs, mechanism, severity, management]
+    key_identifiers: [drug_name, ddinter_id]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: structured DDI pairs with mechanism/severity (cited)
+    ingestion_priority: P0
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "10s MB"
+    notes: Verify academic license terms before redistribution; cite source rows.
+    first_ingestion_status: not_started
+
+  - source_id: drugbank
+    name: DrugBank
+    category: ddi_evidence
+    source_url: https://go.drugbank.com/releases/latest
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: academic free / commercial license required
+    update_frequency: periodic
+    expected_data_types: [ddi_pairs, mechanism, targets, identifiers]
+    key_identifiers: [drugbank_id, inchikey]
+    joins_to_identity_spine: drugbank_id_join
+    value_for_moat: comprehensive DDI + identity (if licensed)
+    ingestion_priority: P1
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: GBs
+    notes: License required; do not ingest without cleared agreement.
+    first_ingestion_status: blocked
+
+  - source_id: certara_didb
+    name: Certara Drug Interaction Database (DIDB)
+    category: ddi_evidence
+    source_url: https://www.certara.com/software/drug-interaction-database/
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: commercial license required
+    update_frequency: vendor
+    expected_data_types: [curated_ddi_studies, dme_ti_data]
+    key_identifiers: [drug_name]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: gold-standard curated DDI study database
+    ingestion_priority: P2
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: vendor
+    notes: High value, commercial. Human review + contract required.
+    first_ingestion_status: blocked
+
+  - source_id: micromedex
+    name: Micromedex
+    category: ddi_evidence
+    source_url: https://www.merative.com/clinical-decision-support
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: commercial license required
+    update_frequency: vendor
+    expected_data_types: [ddi_severity, management]
+    key_identifiers: [drug_name]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: clinical reference DDI severity (if licensed)
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: vendor
+    notes: Commercial; do not scrape.
+    first_ingestion_status: blocked
+
+  - source_id: lexidrug_lexicomp
+    name: Lexidrug / Lexicomp
+    category: ddi_evidence
+    source_url: https://www.wolterskluwer.com/en/solutions/lexicomp
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: commercial license required
+    update_frequency: vendor
+    expected_data_types: [ddi_severity, monographs]
+    key_identifiers: [drug_name]
+    joins_to_identity_spine: name_to_rxcui
+    value_for_moat: clinical DDI reference (if licensed)
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: vendor
+    notes: Commercial; do not scrape.
+    first_ingestion_status: blocked
+
+  - source_id: fdb
+    name: First Databank (FDB)
+    category: ddi_evidence
+    source_url: https://www.fdbhealth.com/
+    access_method: licensed
+    license_status: commercial
+    robots_tos_status: commercial license required
+    update_frequency: vendor
+    expected_data_types: [ddi_screening_data]
+    key_identifiers: [drug_name, ndc]
+    joins_to_identity_spine: ndc_join
+    value_for_moat: clinical DDI screening (if licensed)
+    ingestion_priority: P3
+    crawl_allowed: false
+    requires_api_key: true
+    estimated_size: vendor
+    notes: Commercial; do not scrape.
+    first_ingestion_status: blocked
+
+  - source_id: twosides_nsides
+    name: TwoSIDES / nSIDES (OFFSIDES family)
+    category: ddi_evidence
+    source_url: https://tatonettilab.org/resources/nsides/
+    access_method: bulk_download
+    license_status: open
+    robots_tos_status: CC-style academic; verify
+    update_frequency: static
+    expected_data_types: [ddi_adverse_event_associations, statistics]
+    key_identifiers: [rxnorm, meddra_pt]
+    joins_to_identity_spine: rxnorm_join
+    value_for_moat: pharmacovigilance-derived DDI signals (statistical, not causal)
+    ingestion_priority: P1
+    crawl_allowed: true
+    requires_api_key: false
+    estimated_size: "GBs"
+    notes: Statistical associations only; never treat as confirmed causal/clinical.
+    first_ingestion_status: not_started

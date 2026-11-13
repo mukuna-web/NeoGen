@@ -1,0 +1,49 @@
+# NeoGen Moat / Data-Flywheel Source Registry — INDEX
+# =====================================================
+# This is the registry INDEX. Actual source entries live in the per-group
+# files under data/flywheel/sources/ and are merged by the loader
+# (neogen/data_flywheel/source_registry.py).
+#
+# SAFETY + COMPLIANCE (read before any crawl):
+#   - This registry catalogs sources; it does NOT authorize bulk download.
+#   - Prefer official APIs and public bulk dumps over page scraping.
+#   - Respect robots.txt, Terms of Service, copyright, paywalls, rate limits.
+#   - `crawl_allowed: false` => do NOT scrape rendered pages (API/bulk/manual only).
+#   - `license_status: requires_review` MUST be cleared by a human before ingestion.
+#   - No DDI severity may be assigned without a cited source.
+#   - robots_tos_status is best-effort and MUST be re-verified at crawl time.
+#
+# Per-source field schema (validated by the loader):
+#   source_id, name, category, source_url, access_method, license_status,
+#   robots_tos_status, update_frequency, expected_data_types, key_identifiers,
+#   joins_to_identity_spine, value_for_moat, ingestion_priority, crawl_allowed,
+#   requires_api_key, estimated_size, notes, first_ingestion_status
+
+registry_version: "0.1.0"
+created_at: "2026-05-28"
+task_id: "moat-data-flywheel-2026-05-28"
+
+categories:
+  - drug_identity_spine
+  - structure_isomerism
+  - ddi_evidence
+  - mechanism_target
+  - pk_pbpk
+  - safety_signals
+  - rwe_clinical
+  - pharmacogenomics
+  - literature_trials_patents
+  - drug_combination_synergy
+
+# Loader merges `sources:` from each of these include files (relative to sources/).
+includes:
+  - sources/group1_identity_structure_ddi.yaml
+  - sources/group2_mechanism_pk_safety_rwe.yaml
+  - sources/group3_pgx_literature_combination.yaml
+
+# Enumerated values (loader uses these for validation).
+enums:
+  access_method: [api, bulk_download, scrape, browser, manual, licensed]
+  license_status: [open, restricted, commercial, unknown, requires_review]
+  ingestion_priority: [P0, P1, P2, P3]
+  first_ingestion_status: [not_started, tested, partial, complete, blocked]

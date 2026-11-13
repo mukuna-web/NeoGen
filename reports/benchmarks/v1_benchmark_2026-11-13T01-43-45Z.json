@@ -1,0 +1,1355 @@
+{
+  "metadata": {
+    "timestamp_utc": "2026-11-13T01:43:45+00:00",
+    "engine_version": "v1.2.0",
+    "host": "mukundagarwal@Mukunds-MacBook-Air-8.local",
+    "git_sha": null,
+    "notes": ""
+  },
+  "headline": {
+    "total_scored": 102,
+    "total_within_tolerance": 80,
+    "combined_pct_within_tolerance": 78.43137254901961,
+    "passes_v1_gate": true
+  },
+  "pk": {
+    "engine_version": "v1.2.0",
+    "n_cases": 30,
+    "n_successful": 30,
+    "total_scored": 72,
+    "total_within_tolerance": 56,
+    "overall_pct_within_tolerance": 77.77777777777777,
+    "overall_gmfe": 1.5516229021283268,
+    "passes_v1_gate": true,
+    "per_metric": {
+      "cmax": {
+        "name": "Cmax",
+        "n_scored": 24,
+        "n_within_tolerance": 19,
+        "pct_within_tolerance": 79.16666666666667,
+        "gmfe": 1.505738629455413
+      },
+      "auc": {
+        "name": "AUC",
+        "n_scored": 24,
+        "n_within_tolerance": 20,
+        "pct_within_tolerance": 83.33333333333333,
+        "gmfe": 1.4689072816381619
+      },
+      "half_life": {
+        "name": "t\u00bd",
+        "n_scored": 24,
+        "n_within_tolerance": 17,
+        "pct_within_tolerance": 70.83333333333333,
+        "gmfe": 1.6889413463455345
+      }
+    },
+    "cases": [
+      {
+        "name": "midazolam-iv-5mg",
+        "drug": "midazolam",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.08,
+          "predicted": 0.145022,
+          "fold_error": 1.812775,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.22,
+          "predicted": 0.2389,
+          "fold_error": 1.085909090909091,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.5,
+          "predicted": 4.8579,
+          "fold_error": 1.94316,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "midazolam-oral-7.5mg",
+        "drug": "midazolam",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.04,
+          "predicted": 0.099843,
+          "fold_error": 2.496075,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.14,
+          "predicted": 0.1682,
+          "fold_error": 1.2014285714285713,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 3.0,
+          "predicted": 4.8577,
+          "fold_error": 1.6192333333333335,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "caffeine-oral-200mg",
+        "drug": "caffeine",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 4.0,
+          "predicted": 3.758338,
+          "fold_error": 1.0643002305806448,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 30.0,
+          "predicted": 33.0267,
+          "fold_error": 1.10089,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 5.0,
+          "predicted": 6.279,
+          "fold_error": 1.2558,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "caffeine-iv-200mg",
+        "drug": "caffeine",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 5.0,
+          "predicted": 7.210884,
+          "fold_error": 1.4421768,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 27.0,
+          "predicted": 36.5804,
+          "fold_error": 1.3548296296296296,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 5.0,
+          "predicted": 6.279,
+          "fold_error": 1.2558,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "theophylline-oral-200mg",
+        "drug": "theophylline",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 4.5,
+          "predicted": 3.708364,
+          "fold_error": 1.2134731110538233,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 60.0,
+          "predicted": 12.1176,
+          "fold_error": 4.951475539710834,
+          "within_tolerance": false
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 8.0,
+          "predicted": 1.8994,
+          "fold_error": 4.211856375697589,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "theophylline-iv-400mg",
+        "drug": "theophylline",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 14.0,
+          "predicted": 17.52381,
+          "fold_error": 1.2517007142857144,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 95.0,
+          "predicted": 29.5595,
+          "fold_error": 3.2138567973071264,
+          "within_tolerance": false
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 8.0,
+          "predicted": 1.8991,
+          "fold_error": 4.212521720815123,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "paracetamol-oral-1000mg",
+        "drug": "paracetamol",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 15.0,
+          "predicted": 13.486122,
+          "fold_error": 1.1122545087461022,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 50.0,
+          "predicted": 52.2861,
+          "fold_error": 1.045722,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.3,
+          "predicted": 3.0734,
+          "fold_error": 1.3362608695652174,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "paracetamol-oral-500mg",
+        "drug": "paracetamol",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 8.0,
+          "predicted": 6.742681,
+          "fold_error": 1.186471672024822,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 25.0,
+          "predicted": 26.143,
+          "fold_error": 1.04572,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.3,
+          "predicted": 3.0734,
+          "fold_error": 1.3362608695652174,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "paracetamol-iv-1000mg",
+        "drug": "paracetamol",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 30.0,
+          "predicted": 31.746032,
+          "fold_error": 1.0582010666666666,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 55.0,
+          "predicted": 64.6973,
+          "fold_error": 1.1763145454545454,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.2,
+          "predicted": 3.0734,
+          "fold_error": 1.3969999999999998,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "ibuprofen-oral-400mg",
+        "drug": "ibuprofen",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 35.0,
+          "predicted": 25.394509,
+          "fold_error": 1.3782507076628259,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 90.0,
+          "predicted": 87.9727,
+          "fold_error": 1.0230446490786345,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.0,
+          "predicted": 1.822,
+          "fold_error": 1.097694840834248,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "ibuprofen-oral-600mg",
+        "drug": "ibuprofen",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 50.0,
+          "predicted": 37.591467,
+          "fold_error": 1.3300890864408137,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 130.0,
+          "predicted": 131.6599,
+          "fold_error": 1.0127684615384616,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.0,
+          "predicted": 1.833,
+          "fold_error": 1.0911074740861975,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "aspirin-oral-650mg",
+        "drug": "aspirin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 8.0,
+          "predicted": 13.082086,
+          "fold_error": 1.63526075,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 13.0,
+          "predicted": 16.3308,
+          "fold_error": 1.2562153846153845,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": null,
+          "predicted": 0.9632,
+          "fold_error": null,
+          "within_tolerance": null
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "metformin-oral-500mg",
+        "drug": "metformin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 1.0,
+          "predicted": 1.755453,
+          "fold_error": 1.755453,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 7.0,
+          "predicted": 14.6803,
+          "fold_error": 2.097185714285714,
+          "within_tolerance": false
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 6.2,
+          "predicted": 5.3672,
+          "fold_error": 1.1551647041287822,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "metformin-oral-1000mg",
+        "drug": "metformin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 2.4,
+          "predicted": 3.510905,
+          "fold_error": 1.4628770833333335,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 17.0,
+          "predicted": 29.3606,
+          "fold_error": 1.727094117647059,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 5.0,
+          "predicted": 5.3672,
+          "fold_error": 1.0734400000000002,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "digoxin-oral-0.5mg",
+        "drug": "digoxin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.0015,
+          "predicted": 0.002206,
+          "fold_error": 1.4706666666666666,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.02,
+          "predicted": 0.0343,
+          "fold_error": 1.7149999999999999,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 40.0,
+          "predicted": 20.5736,
+          "fold_error": 1.9442392191935296,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "digoxin-iv-0.5mg",
+        "drug": "digoxin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.006,
+          "predicted": 0.009263,
+          "fold_error": 1.5438333333333334,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.025,
+          "predicted": 0.0528,
+          "fold_error": 2.1119999999999997,
+          "within_tolerance": false
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 38.0,
+          "predicted": 39.7817,
+          "fold_error": 1.0468868421052633,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "atorvastatin-oral-40mg",
+        "drug": "atorvastatin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.028,
+          "predicted": 0.0689235,
+          "fold_error": 2.4615535714285715,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.15,
+          "predicted": 0.19841999999999999,
+          "fold_error": 1.3228,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 14.0,
+          "predicted": 19.6143,
+          "fold_error": 1.4010214285714286,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "simvastatin-oral-40mg",
+        "drug": "simvastatin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.01,
+          "predicted": 0.009686549999999999,
+          "fold_error": 1.0323593023315836,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.055,
+          "predicted": 0.039194999999999994,
+          "fold_error": 1.4032402092103586,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.0,
+          "predicted": 5.0041,
+          "fold_error": 2.50205,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "metoprolol-oral-100mg",
+        "drug": "metoprolol",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.15,
+          "predicted": 0.456897,
+          "fold_error": 3.04598,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.6,
+          "predicted": 1.0425,
+          "fold_error": 1.7375,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 3.5,
+          "predicted": 8.861,
+          "fold_error": 2.531714285714286,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "metoprolol-iv-5mg",
+        "drug": "metoprolol",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.08,
+          "predicted": 0.09949,
+          "fold_error": 1.243625,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.15,
+          "predicted": 0.1121,
+          "fold_error": 1.3380909901873326,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 3.2,
+          "predicted": 10.5326,
+          "fold_error": 3.2914375,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "nifedipine-oral-10mg",
+        "drug": "nifedipine",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.04,
+          "predicted": 0.035307,
+          "fold_error": 1.1329198175999093,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.17,
+          "predicted": 0.1296,
+          "fold_error": 1.3117283950617287,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.0,
+          "predicted": 3.9741,
+          "fold_error": 1.98705,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "diazepam-oral-10mg",
+        "drug": "diazepam",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.35,
+          "predicted": 0.36945,
+          "fold_error": 1.0555714285714286,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 6.5,
+          "predicted": 7.0804,
+          "fold_error": 1.0892923076923078,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 43.0,
+          "predicted": 41.6538,
+          "fold_error": 1.0323187800392761,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": true
+      },
+      {
+        "name": "diazepam-iv-10mg",
+        "drug": "diazepam",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.8,
+          "predicted": 0.290043,
+          "fold_error": 2.7582117134355943,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 7.0,
+          "predicted": 7.5951,
+          "fold_error": 1.0850142857142857,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 43.0,
+          "predicted": 41.6538,
+          "fold_error": 1.0323187800392761,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "warfarin-oral-10mg",
+        "drug": "warfarin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 1.5,
+          "predicted": 0.874437,
+          "fold_error": 1.715389444865668,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 85.0,
+          "predicted": 120.7468,
+          "fold_error": 1.420550588235294,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 40.0,
+          "predicted": 95.046,
+          "fold_error": 2.37615,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "fluoxetine-oral-40mg",
+        "drug": "fluoxetine",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.04,
+          "predicted": 0.096502,
+          "fold_error": 2.41255,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 0.95,
+          "predicted": 1.5743,
+          "fold_error": 1.6571578947368422,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 53.0,
+          "predicted": 32.7698,
+          "fold_error": 1.6173427973316896,
+          "within_tolerance": true
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "omeprazole-oral-20mg",
+        "drug": "omeprazole",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.7,
+          "predicted": 0.325392,
+          "fold_error": 2.1512514136795002,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 1.1,
+          "predicted": 0.5559,
+          "fold_error": 1.9787731606404035,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 0.7,
+          "predicted": 2.0822,
+          "fold_error": 2.9745714285714286,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "ketoconazole-oral-200mg",
+        "drug": "ketoconazole",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 3.5,
+          "predicted": 10.78469,
+          "fold_error": 3.08134,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 15.0,
+          "predicted": 239.8438,
+          "fold_error": 15.989586666666666,
+          "within_tolerance": false
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 2.0,
+          "predicted": 23.7142,
+          "fold_error": 11.8571,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "itraconazole-oral-100mg",
+        "drug": "itraconazole",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 0.15,
+          "predicted": 0.772989,
+          "fold_error": 5.15326,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 1.0,
+          "predicted": 945.3951,
+          "fold_error": 945.3951,
+          "within_tolerance": false
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 22.0,
+          "predicted": 500.0,
+          "fold_error": 22.727272727272727,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "rifampicin-oral-600mg",
+        "drug": "rifampicin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 10.0,
+          "predicted": 3.37173,
+          "fold_error": 2.9658365290221935,
+          "within_tolerance": false
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 57.0,
+          "predicted": 23.0572,
+          "fold_error": 2.47211283243412,
+          "within_tolerance": false
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 3.0,
+          "predicted": 9.0424,
+          "fold_error": 3.0141333333333336,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      },
+      {
+        "name": "clarithromycin-oral-500mg",
+        "drug": "clarithromycin",
+        "success": true,
+        "error": null,
+        "cmax": {
+          "name": "Cmax",
+          "observed": 3.0,
+          "predicted": 5.047017,
+          "fold_error": 1.682339,
+          "within_tolerance": true
+        },
+        "auc": {
+          "name": "AUC",
+          "observed": 18.0,
+          "predicted": 11.6453,
+          "fold_error": 1.5456879599495075,
+          "within_tolerance": true
+        },
+        "half_life": {
+          "name": "t\u00bd",
+          "observed": 4.0,
+          "predicted": 13.6642,
+          "fold_error": 3.41605,
+          "within_tolerance": false
+        },
+        "all_within_tolerance": false
+      }
+    ]
+  },
+  "ddi": {
+    "engine_version": "v1.2.0",
+    "n_cases": 30,
+    "n_successful": 30,
+    "passes_v1_gate": true,
+    "aucr_summary": {
+      "name": "AUCR",
+      "n_scored": 30,
+      "n_within_tolerance": 24,
+      "pct_within_tolerance": 80.0,
+      "gmfe": 1.488164655835721
+    },
+    "cases": [
+      {
+        "name": "ketoconazole+midazolam-iv-5mg",
+        "victim": "midazolam",
+        "perpetrator": "ketoconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 5.0,
+          "predicted": 7.668480535789033,
+          "fold_error": 1.5336961071578066,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "ketoconazole+midazolam-oral-7.5mg",
+        "victim": "midazolam",
+        "perpetrator": "ketoconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 15.0,
+          "predicted": 9.795481569560048,
+          "fold_error": 1.531318281136198,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "ketoconazole+simvastatin-oral-40mg",
+        "victim": "simvastatin",
+        "perpetrator": "ketoconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 10.0,
+          "predicted": 5.4309223115193275,
+          "fold_error": 1.8413078711859627,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "ketoconazole+atorvastatin-oral-40mg",
+        "victim": "atorvastatin",
+        "perpetrator": "ketoconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 2.3,
+          "predicted": 1.906864227396432,
+          "fold_error": 1.2061687281953692,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "ketoconazole+nifedipine-oral-10mg",
+        "victim": "nifedipine",
+        "perpetrator": "ketoconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 1.8,
+          "predicted": 2.2021604938271606,
+          "fold_error": 1.2234224965706448,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "ketoconazole+diazepam-iv-10mg",
+        "victim": "diazepam",
+        "perpetrator": "ketoconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 1.35,
+          "predicted": 1.3422206422561915,
+          "fold_error": 1.0057958859362586,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "itraconazole+midazolam-iv-5mg",
+        "victim": "midazolam",
+        "perpetrator": "itraconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 2.4,
+          "predicted": 6.039765592298033,
+          "fold_error": 2.516568996790847,
+          "within_tolerance": false
+        },
+        "within_tolerance": false
+      },
+      {
+        "name": "itraconazole+midazolam-oral-7.5mg",
+        "victim": "midazolam",
+        "perpetrator": "itraconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 6.6,
+          "predicted": 7.647443519619501,
+          "fold_error": 1.1587035635787124,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "itraconazole+simvastatin-oral-40mg",
+        "victim": "simvastatin",
+        "perpetrator": "itraconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 19.0,
+          "predicted": 4.4102564102564115,
+          "fold_error": 4.30813953488372,
+          "within_tolerance": false
+        },
+        "within_tolerance": false
+      },
+      {
+        "name": "itraconazole+atorvastatin-oral-40mg",
+        "victim": "atorvastatin",
+        "perpetrator": "itraconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 3.3,
+          "predicted": 1.8466888418506202,
+          "fold_error": 1.7869821516292774,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "itraconazole+nifedipine-oral-10mg",
+        "victim": "nifedipine",
+        "perpetrator": "itraconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 2.0,
+          "predicted": 2.121141975308642,
+          "fold_error": 1.060570987654321,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "itraconazole+diazepam-oral-10mg",
+        "victim": "diazepam",
+        "perpetrator": "itraconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 1.5,
+          "predicted": 1.3466047115982147,
+          "fold_error": 1.1139126330693798,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "clarithromycin+midazolam-iv-5mg",
+        "victim": "midazolam",
+        "perpetrator": "clarithromycin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 3.5,
+          "predicted": 5.9928840519045625,
+          "fold_error": 1.7122525862584463,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "clarithromycin+midazolam-oral-7.5mg",
+        "victim": "midazolam",
+        "perpetrator": "clarithromycin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 7.0,
+          "predicted": 15.218192627824019,
+          "fold_error": 2.174027518260574,
+          "within_tolerance": false
+        },
+        "within_tolerance": false
+      },
+      {
+        "name": "clarithromycin+simvastatin-oral-40mg",
+        "victim": "simvastatin",
+        "perpetrator": "clarithromycin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 10.0,
+          "predicted": 10.121699196326064,
+          "fold_error": 1.0121699196326064,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "clarithromycin+atorvastatin-oral-40mg",
+        "victim": "atorvastatin",
+        "perpetrator": "clarithromycin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 4.5,
+          "predicted": 2.239945570003024,
+          "fold_error": 2.008977387782653,
+          "within_tolerance": false
+        },
+        "within_tolerance": false
+      },
+      {
+        "name": "clarithromycin+nifedipine-oral-10mg",
+        "victim": "nifedipine",
+        "perpetrator": "clarithromycin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 2.5,
+          "predicted": 3.148148148148148,
+          "fold_error": 1.259259259259259,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "clarithromycin+diazepam-iv-10mg",
+        "victim": "diazepam",
+        "perpetrator": "clarithromycin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 1.5,
+          "predicted": 1.6051533225368988,
+          "fold_error": 1.0701022150245991,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "rifampicin+midazolam-iv-5mg",
+        "victim": "midazolam",
+        "perpetrator": "rifampicin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 0.4,
+          "predicted": 0.5789033068229384,
+          "fold_error": 1.447258267057346,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "rifampicin+midazolam-oral-7.5mg",
+        "victim": "midazolam",
+        "perpetrator": "rifampicin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 0.04,
+          "predicted": 0.10225921521997623,
+          "fold_error": 2.556480380499406,
+          "within_tolerance": false
+        },
+        "within_tolerance": false
+      },
+      {
+        "name": "rifampicin+simvastatin-oral-40mg",
+        "victim": "simvastatin",
+        "perpetrator": "rifampicin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 0.1,
+          "predicted": 0.3164944508228091,
+          "fold_error": 3.1649445082280905,
+          "within_tolerance": false
+        },
+        "within_tolerance": false
+      },
+      {
+        "name": "rifampicin+atorvastatin-oral-40mg",
+        "victim": "atorvastatin",
+        "perpetrator": "rifampicin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 0.2,
+          "predicted": 0.3480495917750227,
+          "fold_error": 1.7402479588751134,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "rifampicin+nifedipine-oral-10mg",
+        "victim": "nifedipine",
+        "perpetrator": "rifampicin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 0.3,
+          "predicted": 0.24459876543209877,
+          "fold_error": 1.2264984227129339,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "rifampicin+diazepam-oral-10mg",
+        "victim": "diazepam",
+        "perpetrator": "rifampicin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 0.3,
+          "predicted": 0.3654454550590362,
+          "fold_error": 1.218151516863454,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "rifampicin+warfarin-oral-10mg",
+        "victim": "warfarin",
+        "perpetrator": "rifampicin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 0.4,
+          "predicted": 0.4684687296060848,
+          "fold_error": 1.171171824015212,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "rifampicin+ibuprofen-oral-400mg",
+        "victim": "ibuprofen",
+        "perpetrator": "rifampicin",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 0.6,
+          "predicted": 0.7050846455775485,
+          "fold_error": 1.1751410759625809,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "fluoxetine+metoprolol-oral-100mg",
+        "victim": "metoprolol",
+        "perpetrator": "fluoxetine",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 2.5,
+          "predicted": 1.3773621103117506,
+          "fold_error": 1.8150637231004945,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "omeprazole+diazepam-oral-10mg",
+        "victim": "diazepam",
+        "perpetrator": "omeprazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 1.3,
+          "predicted": 1.2602536579854244,
+          "fold_error": 1.0315383667111206,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "ketoconazole+warfarin-oral-10mg",
+        "victim": "warfarin",
+        "perpetrator": "ketoconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 1.1,
+          "predicted": 1.0405890673707296,
+          "fold_error": 1.057093558343242,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      },
+      {
+        "name": "ketoconazole+ibuprofen-oral-400mg",
+        "victim": "ibuprofen",
+        "perpetrator": "ketoconazole",
+        "success": true,
+        "error": null,
+        "aucr": {
+          "name": "AUCR",
+          "observed": 1.05,
+          "predicted": 1.0000102304464908,
+          "fold_error": 1.0499892581410786,
+          "within_tolerance": true
+        },
+        "within_tolerance": true
+      }
+    ]
+  }
+}
